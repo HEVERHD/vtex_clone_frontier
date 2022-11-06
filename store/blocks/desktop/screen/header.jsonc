@@ -1,0 +1,43 @@
+{
+    "header-layout.desktop#desktop__header": {
+        "title": "header full",
+        "children": [
+
+            "sticky-layout#desktop__header"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //===================== //header_content//===========================================
+             //header__info
+        
+            // "flex-layout.col#header__info",
+
+            // //header_upper
+            // "flex-layout.row#desktop__header--main-purple2"
+          
+
+
+        //     //home-main__top-info
+        //     "flex-layout.row#desktop__header--main-orange"
+          ]
+
+     
+    }
+
+
+     
+}
+
+

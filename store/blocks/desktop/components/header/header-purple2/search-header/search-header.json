@@ -1,0 +1,10 @@
+{
+    "search-bar#header_search":{
+        "props": {
+            "maxWidth": "100%",
+            "displayMode":"search-button",
+            "placeholder": "Buscar tu producto"
+
+        }
+    }
+}

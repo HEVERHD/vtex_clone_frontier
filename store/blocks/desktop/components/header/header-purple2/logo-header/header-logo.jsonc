@@ -1,0 +1,9 @@
+{
+    "logo#header_logo":{
+        "title": "Logo header princiapl",
+        "props": {
+            "url": "assets/img/logopr/logoWhite.png",
+            "href": "/"
+        }
+    }
+}

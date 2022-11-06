@@ -1,0 +1,77 @@
+{
+
+    // "drawer": {
+    //     "children": [
+    //       "menu#drawer1"
+    //     ]
+    //   }
+    //   "menu#drawer1": {
+    //     "children": [
+    //       "menu-item#category-clothing",
+    //       "menu-item#category-decoration",
+    //       "menu-item#custom-sale"
+    //     ],
+    //     "props": {
+    //       "orientation": "vertical"
+    //     }
+    // },
+     
+    "menu-item#menu-item--categoria": {
+        "props": {
+            "type": "custom",
+            "text": "Categorias",
+            "id": "menu-item-categoria",
+            "noFollow": false
+        }
+    },
+    "menu-item#menu-item--marcas": {
+        "props": {
+            "type": "custom",
+            "text": "Marcas",
+            "id": "menu-item-categoria",
+            "noFollow": false
+        }
+    },
+    "image#menu-item--bot": {
+        "props": {
+            "src": "assets/barra1/bot.svg"
+        }
+    },
+    "menu-item#menu-item--fronty": {
+        "props": {
+            "type": "custom",
+            "text": "Fronty",
+            "id": "menu-item-categoria",
+            "noFollow": false
+        }
+    },
+    "menu-item#menu-item--ofertas": {
+        "props": {
+            "type": "custom",
+            "text": "Ofertas",
+            "id": "menu-item-categoria",
+            "noFollow": false
+        }
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "Ingresar",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true,
+          "iconLabel": "Ingresa"
+        }
+    },
+
+    "minicart.v2#header__desktop--minicart": {
+        "children": [
+           "minicart.v2"
+        ]
+
+    }
+
+
+}
+      

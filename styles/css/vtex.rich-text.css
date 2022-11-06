@@ -1,0 +1,48 @@
+.container--home__one--title {
+  background: #ff6900;
+  color: aliceblue;
+}
+
+.paragraph--home__one--title-azul {
+  color: #fff;
+  margin: 5px;
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  display: block;
+}
+
+.paragraph--parrafo {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #7d7d7d;
+}
+
+.strong--parrafo {
+  color: #332e80;
+}
+
+/* PRUPLE 1  */
+
+.heading {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 7px 0;
+}
+
+.heading--header__content {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper--title--venta {
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+}

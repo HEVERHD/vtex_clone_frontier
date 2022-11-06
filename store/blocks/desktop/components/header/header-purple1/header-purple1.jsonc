@@ -1,0 +1,52 @@
+//HEADER PRUPLE 1
+{
+  // MENU INFO
+  "flex-layout.col#header__info": {
+    "children": ["flex-layout.row#header__info-main"],
+    "props": {
+      "blockClass": "header__info"
+    }
+  },
+  "flex-layout.row#header__info-main": {
+    "children": [
+      "flex-layout.row#header_info_blog",
+      "rich-text#title--venta",
+      "rich-text#title--cambiar"
+    ],
+    "props": {
+      "blockClass": "header__info-main",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#header_info_blog": {
+    "children": ["image#peso", "rich-text#title--blog"],
+    "props": {
+      "blockClass": "header_blog"
+    }
+  },
+  "image#peso": {
+    "props": {
+      "blockClass": "header__item",
+      "src": "assets/barra1/peso.png",
+      "maxHeight": 24
+    }
+  },
+  "rich-text#title--blog": {
+    "props": {
+      "text": "### Blog ",
+      "blockClass": "header__item"
+    }
+  },
+  "rich-text#title--venta": {
+    "props": {
+      "text": "###  Venta telefonica 314 223 34 52",
+      "blockClass": "title--venta"
+    }
+  },
+  "rich-text#title--cambiar": {
+    "props": {
+      "text": "### Cambiar a Personas",
+      "blockClass": "title--cambiar"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.flexRow {
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+  grid-gap: 10px;
+}
+
+.flexRow--header_main-purple--upper,
+.flexRow--header_main-purple--info {
+  background: #332e80;
+}
+
+.flexRow--main_header-orange {
+  background-color: #ff6900;
+}
+
+.flexRow--header__info {
+  font-size: 13px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.flexRow--title__category-- {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.flexRowContent--home__section--portatil {
+  grid-gap: 10px;
+}
+
+.flexCol--header__info {
+    font-family: 'Roboto';
+  height: auto;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flexRowContent--header__info-main {
+  margin-right: 25px;
+  margin-left: auto;
+  width: auto;
+  margin-top: 5px;
+}

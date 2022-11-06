@@ -1,0 +1,79 @@
+{
+  "store.home": {
+    "blocks": [
+      // "rich-text",
+
+      // //barra naranja escritorio
+      // "responsive-layout.desktop#home__section--one",
+
+      // //barra azul para mobile
+      // "responsive-layout.mobile#home__section--one",
+     
+      //slider
+      "flex-layout.row#home__section--one",
+
+      //parrafo y title frontier
+      "flex-layout.row#home__paragraph",
+    
+
+      //title categoria PORTATIL
+      "flex-layout.row#home__paragraph-title-category-portatil",
+
+      //fila categoria portatil
+
+      "flex-layout.row#home__section--two"
+
+      //titulo categoria IMPRESION
+      // "flex-layout.row#home__paragraph-title-category-impresion",
+
+     
+
+      // //fila categoria impesoras
+
+      // "flex-layout.row#home__section--tree",
+
+      // // banner ofertas
+      // "flex-layout.row#section__2--image4",
+
+      //  //titulo categoria ACCESORIOS
+      //  "flex-layout.row#home__paragraph-title-category-acce"
+
+      //fila de categoria ACCESORIOS
+      // "flex-layout.row#home__section--4"
+    ]
+  },
+
+  //definicion de Parrafo
+
+  "flex-layout.row#home__paragraph": {
+    "title": "Parrafo frontier",
+    "children": ["rich-text#section__one--paragraph"]
+  },
+
+  //definiendo parrafo y title
+
+
+  "rich-text#section__one--paragraph": {
+    "props": {
+      "text": " Todo lo que buscas en tecnología \n lo encuentras aquí en **Frontier**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "parrafo"
+    }
+  }
+
+  // "rich-text#section__one--title": {
+  //   "props": {
+  //     "text": "Bienvenidos a VTEX U"
+  //   }
+  // },
+  // "rich-text#section__one--paragraph": {
+  //   "props": {
+  //     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec porta turpis. Praesent sit amet orci ac tellus cursus vulputate. Praesent venenatis, felis et tempor tempus, massa tellus commodo ipsum, id congue tellus tortor eget augue. Integer et lorem aliquet."
+  //   }
+  // },
+
+  //texto pricipal VTEX io
+
+
+}

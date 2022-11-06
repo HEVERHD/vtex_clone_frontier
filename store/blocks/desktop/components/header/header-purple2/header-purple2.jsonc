@@ -1,0 +1,29 @@
+{
+  "flex-layout.col#desktop__header--upper": {
+    "children": ["flex-layout.row#upper-one", "flex-layout.row#upper-two"],
+    "props": {
+      "blockClass": "main_header-purple2"
+    }
+  },
+
+  "flex-layout.row#upper-one": {
+    "children": ["logo#header_logo", "search-bar#header_search"]
+  },
+
+  "flex-layout.row#upper-two": {
+    "title": "Menu item categorias",
+    "children": [
+      // "menu#drawer1",
+      "menu-item#menu-item--categoria",
+      "menu-item#menu-item--marcas",
+      "image#menu-item--bot",
+      "menu-item#menu-item--fronty",
+      "menu-item#menu-item--ofertas",
+      "login",
+      "minicart.v2#header__desktop--minicart"
+    ],
+    "props": {
+      "blockClass": "main_header-purple3"
+    }
+  }
+}

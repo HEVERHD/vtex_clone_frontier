@@ -1,0 +1,35 @@
+{
+    "sticky-layout#desktop__header": {
+       "children": [
+        "flex-layout.row#desktop__header--info",
+        "flex-layout.row#desktop__header--upper",
+        "flex-layout.row#desktop__header--orange"
+       ]
+    },
+
+    "flex-layout.row#desktop__header--info":{
+        "children": [
+            "flex-layout.col#header__info"
+        ],
+          
+        "props": {
+            "fullWidth": true,
+         "blockClass":"header_main-purple--info"
+        }
+
+   
+    },
+
+    "flex-layout.row#desktop__header--upper":{
+        "children": [
+
+            "flex-layout.col#desktop__header--upper"
+        ],
+          
+        "props": {
+         "blockClass":"header_main-purple--upper"
+        }
+    }
+}
+
+   
