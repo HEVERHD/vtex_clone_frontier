@@ -4,7 +4,7 @@
     //     "children": [
     //       "menu#drawer1"
     //     ]
-    //   }
+    //   },
     //   "menu#drawer1": {
     //     "children": [
     //       "menu-item#category-clothing",
@@ -38,6 +38,9 @@
         }
     },
     "menu-item#menu-item--fronty": {
+        "children":[
+            "modal-trigger#modal-fronty"
+        ],
         "props": {
             "type": "custom",
             "text": "Fronty",
@@ -45,6 +48,34 @@
             "noFollow": false
         }
     },
+
+    "modal-trigger#modal-fronty":{
+        "children":[
+            "rich-text#home__modal--trigger",
+            "modal-layout#modal--layout"
+        ]
+    },
+
+    "rich-text#home__modal--trigger":{
+        "props": {
+            "text": "Terminos y condiciones"
+        }
+    },
+
+    "modal-layout#modal--layout":{
+        "children":[
+            "rich-text#home__modal--contenido"
+        ]
+    },
+
+    "rich-text#home__modal--contenido":{
+        "props": {
+            "text": "# terminos y contenido y masssss"
+        }
+    },
+
+
+
     "menu-item#menu-item--ofertas": {
         "props": {
             "type": "custom",
