@@ -46,3 +46,20 @@
     display: inline-flex;
     align-items: center;
 }
+
+.paragraph--texto-35{
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  font-size: .8rem;
+  letter-spacing: 5px;
+  display: block;
+}
+
+
+.wrapper--texto-item{
+  color: #fff;
+  padding-left: 20px;
+    text-align: left;
+    font-size: 12px;
+}

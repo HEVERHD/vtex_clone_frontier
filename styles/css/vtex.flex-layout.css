@@ -47,3 +47,13 @@
   width: auto;
   margin-top: 5px;
 }
+
+.flexColChild--header_orange-item1{
+
+}
+
+.stretchChildrenWidth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

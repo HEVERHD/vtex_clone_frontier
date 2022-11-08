@@ -13,7 +13,7 @@
   "flex-layout.row#upper-two": {
     "title": "Menu item categorias",
     "children": [
-      // "menu#drawer1",
+      "drawer#menu-drawer",
       "menu-item#menu-item--categoria",
       "menu-item#menu-item--marcas",
       "image#menu-item--bot",

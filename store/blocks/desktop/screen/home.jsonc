@@ -6,8 +6,8 @@
       // //barra naranja escritorio
       // "responsive-layout.desktop#home__section--one",
 
-      // //barra azul para mobile
-      // "responsive-layout.mobile#home__section--one",
+       //barra azul para mobile
+       "responsive-layout.mobile#home__section--one",
      
       //slider
       "flex-layout.row#home__section--one",

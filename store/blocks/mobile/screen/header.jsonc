@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#home__section--one":{
+        "title":"Header mobile",
+        "children":[
+            "header-row#header__middle"
+        ]
+    }
+}
