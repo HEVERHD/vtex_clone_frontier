@@ -75,3 +75,8 @@
 .flexRowContent--main_header-purple3{
   margin-left: -16px;
 }
+
+.flexCol--header_orange-item1{
+  border-right: 1px solid;
+  color: white;
+}

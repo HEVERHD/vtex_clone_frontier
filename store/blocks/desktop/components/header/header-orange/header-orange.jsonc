@@ -29,21 +29,23 @@
   "flex-layout.row#item-main1": {
     "children": ["image#logo-envio","rich-text#item-1"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "envio-header-orange"
     }
   },
   
     "image#logo-envio": {
       "props": {
         "src": "assets/barra1/envioS.svg",
-        "maxHeight": 40
+        "maxHeight": 35,
+        "blockClass":"image-item-orange"
       }
     },
     
     "rich-text#item-1": {
       "props": {
         "text": "**Envíos GRATIS a todo el país** *  \n por pedidos superiores a **$300.000**",
-        "blockClass":"texto-item"
+        "blockClass":"texto-item1"
       }
     },
 
@@ -68,14 +70,15 @@
       "image#logo-garantia": {
         "props": {
           "src": "assets/barra1/garantia.png",
-          "maxHeight": 40
+          "maxHeight": 35,
+          "blockClass":"image-item-orange2"
         }
       },
       
       "rich-text#item-2": {
         "props": {
           "text": "**Garantía** \n *Recibirás apoyo para gestionar tu garantía.",
-          "blockClass":"texto-item"
+          "blockClass":"texto-item1"
         }
       },
 
@@ -101,7 +104,8 @@
       "image#logo-precio": {
         "props": {
           "src": "assets/barra1/precio.png",
-          "maxHeight": 40
+          "maxHeight": 35,
+          "blockClass":"image-item-orange2"
         }
       },
       
