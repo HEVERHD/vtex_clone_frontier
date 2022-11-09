@@ -1,10 +1,15 @@
 {
     "search-bar#header_search":{
+        "blocks": ["autocomplete-result-list.v2"],
         "props": {
+            "openAutocompleteOnFocus": true,
             "maxWidth": "100%",
             "displayMode":"search-button",
-            "placeholder": "Buscar tu producto"
-
+            "placeholder": "Busca tu producto"
         }
-    }
+    },
+
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary"]
+      }
 }
