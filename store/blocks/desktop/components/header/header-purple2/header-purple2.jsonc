@@ -1,6 +1,10 @@
 {
   "flex-layout.col#desktop__header--upper": {
-    "children": ["flex-layout.row#upper-one", "flex-layout.row#upper-two"],
+    "children": [
+      "flex-layout.row#upper-one",
+      "flex-layout.row#upper-two",
+      "flex-layout.row#login-cart"
+    ],
     "props": {
       "blockClass": "main_header-purple2"
     }
@@ -19,11 +23,37 @@
       "image#menu-item--bot",
       "menu-item#menu-item--fronty",
       "menu-item#menu-item--ofertas",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
       "login",
       "minicart.v2#header__desktop--minicart"
     ],
     "props": {
       "blockClass": "main_header-purple3",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#login-cart": {
+    "title": "Login-Cart",
+    "children": [],
+    "props": {
+      "blockClass": "login-cart",
       "colSizing": "auto"
     }
   }
