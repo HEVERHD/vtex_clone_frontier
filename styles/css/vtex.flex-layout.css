@@ -57,3 +57,12 @@
   align-items: center;
   justify-content: center;
 }
+.flexRow--header_main-purple--upper{
+  max-width: 1120px;
+}
+
+.flexRowContent--main_header-orange {
+  max-width: 1070px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
