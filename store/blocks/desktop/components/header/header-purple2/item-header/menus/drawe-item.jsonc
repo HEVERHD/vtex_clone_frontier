@@ -1,0 +1,267 @@
+{
+    "drawer#menu-drawer": {
+      "title":"Menu principal",
+        "children": [
+          "vtex.menu@2.x:menu#menu__one"
+        ],
+        "blocks":[
+          "drawer-trigger"
+        ]
+      },
+
+      "vtex.menu@2.x:menu#menu__one":{
+        "children":[
+          "menu-item#department__celulares",
+          "menu-item#department__computadores",
+          "menu-item#department__televisores",
+          "menu-item#department__audios",
+          "menu-item#department__software",
+          "menu-item#department__servidores",
+          "menu-item#department__almacenamiento",
+          "menu-item#department__redes",
+          "menu-item#department__impresoras",
+          "menu-item#department__gamer",
+          "menu-item#department__potencia",
+          "menu-item#department__partes",
+          "menu-item#department__accesorios"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+
+
+    "drawer-trigger":{
+
+      "children":[
+        "image#menu_ham"
+      ]
+  
+    },
+    "image#menu_ham": {
+      "props": {
+        "src": "assets/barra1/menu_ham.svg",
+        "maxHeight": 20
+      }
+    },
+
+    // DEFNINIENDO MENUS ///////////////////
+
+    
+    "menu-item#department__celulares":{
+      "props": {
+        "id": "department__celular",
+        "type": "custom",
+        "text": "Celulares",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "shop"
+        }
+      },
+      "blocks": [
+        "submenu.accordion#celular"
+      ]
+    },
+    "menu-item#department__computadores":{
+      "props": {
+        "type": "custom",
+        "text": "Computadores",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "shop"
+        }
+      }
+    },
+    // SUBMENUS
+
+    "submenu.accordion#celular":{
+      "children":[
+        "menu#department__celular"
+      ]
+    },
+
+    "menu#department__celular":{
+      "children":[
+        "menu-item#categoria__celular",
+        "menu-item#categoria__computadores"
+      ]
+    },
+
+    "menu-item#categoria__celular":{
+      "props": {
+        "id": "category__celular",
+        "type": "custom",
+        "text": "Marcas",
+        "itemProps": {
+          "type": "external",
+          "noFollow": true,
+          "tagTitle": "Marcas",
+          "text": "Marcas"
+        }
+
+      }
+    },
+
+    "menu-item#categoria__computadores":{
+      "props": {
+        "id": "department__celular",
+        "type": "custom",
+        "text": "Realme",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Marcas",
+          "text": "Realme"
+        }
+
+      }
+    },
+
+
+    "menu-item#department__televisores":{
+        "props": {
+          "type": "custom",
+          "text": "Televisores",
+          "itemProps": {
+            "type": "external",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "shop"
+          }
+        }
+    },
+    "menu-item#department__audios":{
+      "props": {
+        "type": "custom",
+        "text": "Audios",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "shop"
+        }
+      }
+  },
+
+  "menu-item#department__software":{
+    "props": {
+      "type": "custom",
+      "text": "Software",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "shop"
+      }
+    }
+},
+
+"menu-item#department__servidores":{
+  "props": {
+    "type": "custom",
+    "text": "Servidores",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+
+"menu-item#department__almacenamiento":{
+  "props": {
+    "type": "custom",
+    "text": "Almacenamiento",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+
+"menu-item#department__redes":{
+  "props": {
+    "type": "custom",
+    "text": "Redes",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+
+"menu-item#department__impresoras":{
+  "props": {
+    "type": "custom",
+    "text": "Impresoras",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+
+"menu-item#department__gamer":{
+  "props": {
+    "type": "custom",
+    "text": "Gamer",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+
+"menu-item#department__potencia":{
+  "props": {
+    "type": "custom",
+    "text": "Potencia",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+"menu-item#department__partes":{
+  "props": {
+    "type": "custom",
+    "text": "Partes",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+},
+
+"menu-item#department__accesorios":{
+  "props": {
+    "type": "custom",
+    "text": "Accesorios",
+    "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "shop"
+    }
+  }
+}
+
+}

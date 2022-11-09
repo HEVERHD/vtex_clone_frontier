@@ -1,8 +1,10 @@
 {
-    "responsive-layout.mobile#home__section--one":{
+    "header-layout.mobile#mobile__header":{
         "title":"Header mobile",
         "children":[
-            "header-row#header__middle"
+            "sticky-layout#mobile__header"
+        
+            
         ]
     }
 }

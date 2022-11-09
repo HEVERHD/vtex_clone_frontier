@@ -15,13 +15,18 @@
       "noFollow": false
     }
   },
+
+  // "image#menu-item--bot":{
+
+  // },
   "image#menu-item--bot": {
     "props": {
-      "src": "assets/barra1/bot.svg"
+      "src": "assets/barra1/bot.svg",
+      "maxHeight": 20
     }
   },
   "menu-item#menu-item--fronty": {
-    "children": ["modal-trigger#modal-fronty"],
+     
     "props": {
       "type": "custom",
       "text": "Fronty",
@@ -30,25 +35,28 @@
     }
   },
 
-  "modal-trigger#modal-fronty": {
-    "children": ["rich-text#home__modal--trigger", "modal-layout#modal--layout"]
-  },
 
-  "rich-text#home__modal--trigger": {
-    "props": {
-      "text": "Terminos y condiciones"
-    }
-  },
+  // =========================  Modal terminos y condiciones  ==============================================
+  
+  // "modal-trigger#modal-fronty": {
+  //   "children": ["rich-text#home__modal--trigger", "modal-layout#modal--layout"]
+  // },
 
-  "modal-layout#modal--layout": {
-    "children": ["rich-text#home__modal--contenido"]
-  },
+  // "rich-text#home__modal--trigger": {
+  //   "props": {
+  //     "text": "Terminos y condiciones"
+  //   }
+  // },
 
-  "rich-text#home__modal--contenido": {
-    "props": {
-      "text": "# terminos y contenido y masssss"
-    }
-  },
+  // "modal-layout#modal--layout": {
+  //   "children": ["rich-text#home__modal--contenido"]
+  // },
+
+  // "rich-text#home__modal--contenido": {
+  //   "props": {
+  //     "text": "# terminos y contenido y masssss"
+  //   }
+  // },
 
   "menu-item#menu-item--ofertas": {
     "props": {
