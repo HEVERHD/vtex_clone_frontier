@@ -36,7 +36,7 @@
     "image#logo-envio": {
       "props": {
         "src": "assets/barra1/envioS.svg",
-        "maxHeight": 50
+        "maxHeight": 40
       }
     },
     
@@ -68,7 +68,7 @@
       "image#logo-garantia": {
         "props": {
           "src": "assets/barra1/garantia.png",
-          "maxHeight": 50
+          "maxHeight": 40
         }
       },
       
@@ -86,7 +86,7 @@
     "flex-layout.col#item-3": {
       "children": ["flex-layout.row#item-main3"],
       "props": {
-        "blockClass":"header_orange-item1",
+        "blockClass":"header_orange-item3",
         "horizontalAlign": "center"
       }
      
@@ -101,7 +101,7 @@
       "image#logo-precio": {
         "props": {
           "src": "assets/barra1/precio.png",
-          "maxHeight": 50
+          "maxHeight": 40
         }
       },
       
