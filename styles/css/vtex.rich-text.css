@@ -62,4 +62,16 @@
   padding-left: 20px;
     text-align: left;
     font-size: 12px;
+
+    
+}
+
+.heading--title--cambiar{
+  display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #06005b;
+  
+  
+    
 }

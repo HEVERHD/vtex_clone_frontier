@@ -1,6 +1,6 @@
 .flexRow {
   display: grid;
-  margin: 0 auto;
+  margin: -5px auto;
   width: 100%;
   grid-gap: 10px;
 }
@@ -48,7 +48,7 @@
   margin-top: 5px;
 }
 
-.flexColChild--header_orange-item1{
+.flexRowContent{
 
 }
 
@@ -56,6 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+ width: 100%;
 }
 .flexRow--header_main-purple--upper{
   max-width: 1120px;
@@ -69,4 +70,8 @@
 
 .flexColChild--header_orange-item3{
   margin-top: 10px;
+}
+
+.flexRowContent--main_header-purple3{
+  margin-left: -16px;
 }
