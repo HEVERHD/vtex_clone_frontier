@@ -66,3 +66,7 @@
   margin: 0 auto;
   white-space: nowrap;
 }
+
+.flexColChild--header_orange-item3{
+  margin-top: 10px;
+}
