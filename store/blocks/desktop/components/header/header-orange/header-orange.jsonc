@@ -10,7 +10,8 @@
       "flex-layout.col#item-3"
     ],
     "props": {
-      "blockClass": "main_header-orange"
+      "blockClass": "main_header-orange",
+      "fullWidth": true
     }
   },
 

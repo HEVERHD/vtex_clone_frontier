@@ -23,7 +23,8 @@
       "minicart.v2#header__desktop--minicart"
     ],
     "props": {
-      "blockClass": "main_header-purple3"
+      "blockClass": "main_header-purple3",
+      "colSizing": "auto"
     }
   }
 }
