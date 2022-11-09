@@ -7,3 +7,17 @@
   
 }
 
+.logoImage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* .searchBarContainer{
+    width: 100%;
+    color: yellow;
+} */
+
+.logoContainer--logo-header-main{
+    width:20%;
+}

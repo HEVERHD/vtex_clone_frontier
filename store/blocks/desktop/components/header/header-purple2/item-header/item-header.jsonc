@@ -2,7 +2,7 @@
   "menu-item#menu-item--categoria": {
     "props": {
       "type": "custom",
-      "text": "Categorias",
+      "text": "Categorías",
       "id": "menu-item-categoria",
       "noFollow": false,
       "blockClass": "text-item-menu"
@@ -69,20 +69,7 @@
       "noFollow": false,
       "blockClass": "text-item-menu"
     }
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "Ingresar",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "iconLabel": "Ingresa"
-    }
-  },
 
-  "minicart.v2#header__desktop--minicart": {
-    "children": ["minicart.v2"]
+
   }
 }

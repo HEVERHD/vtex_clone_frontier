@@ -1,0 +1,23 @@
+ // ==================BLOQUE 2 ITEM LOGIN Y CARRITO ================
+
+{
+
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "Ingresa",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true,
+          "iconLabel": "Ingresa",
+          "labelClasses": [
+
+          ]
+        }
+      },
+      
+      "minicart.v2#header__desktop--minicart": {
+        "children": ["minicart.v2"]
+      }
+}
