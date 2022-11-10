@@ -31,7 +31,6 @@
   font-size: 13px;
   width: 100%;
   justify-content: flex-end;
-  margin: 7px 0;
 }
 
 .heading--header__content {
@@ -42,45 +41,60 @@
 }
 
 .wrapper--title--venta {
-    padding: 0 10px;
-    display: inline-flex;
-    align-items: center;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.paragraph--texto-35{
+.paragraph--texto-35 {
   color: #fff;
   text-align: center;
   margin: 5px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 5px;
   display: block;
 }
 
-
-.wrapper--texto-item{
+.wrapper--texto-item {
   color: #fff;
   padding-left: 20px;
-    text-align: left;
-    font-size: 12px;
-    margin-left: -60px;
-
-
+  text-align: left;
+  font-size: 12px;
+  margin-left: -60px;
 }
 
-.heading--title--cambiar{
+.heading--title--cambiar {
   display: block;
-    padding: 3px 5px;
-    border-radius: 5px;
-    background-color: #06005b;
-  
-  
-    
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: #06005b;
+}
+
+.paragraph--texto-item1 {
+  color: #fff;
+  text-align: left;
+  font-size: 12px;
+  margin-left: -75px;
+}
+
+.paragraph--spacer {
+  min-width: 328px;
 }
 
 
-.paragraph--texto-item1{
-  color: #fff;
-    text-align: left;
-    font-size: 12px;
-    margin-left: -75px;
+/*================================= VENTA */
+
+.heading--title--venta{
+  padding: 0 10px;
+    border-right: 1px solid #fff;
+    display: inline-flex;
+    align-items: center;
+}
+
+.heading--header__item{
+  padding: 0 10px;
+    border-right: 1px solid #fff;
+    display: inline-flex;
+    align-items: center;
+    margin-left: -5px;
 }

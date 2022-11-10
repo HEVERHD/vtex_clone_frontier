@@ -1,16 +1,13 @@
-.searchBarContainer{
-  
+.searchBarContainer {
 }
 
-.container{
-  
-  
+.container {
 }
 
-.logoImage{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.logoImage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /* .searchBarContainer{
@@ -18,21 +15,14 @@
     color: yellow;
 } */
 
-.logoContainer--logo-header-main{
-    width:20%;
+.logoContainer--logo-header-main {
+  width: 100%;
 }
 
-.imageElement--image-item-orange{
-     margin-left: -70px;
+.imageElement--image-item-orange {
+  margin-left: -70px;
 }
 
-.imageElement--image-item-orange2{
-  
-    margin-left: -115px;
+.imageElement--image-item-orange2 {
+  margin-left: -115px;
 }
-
-
-
-
-
-

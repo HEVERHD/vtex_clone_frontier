@@ -14,6 +14,16 @@
 
       //parrafo y title frontier
       "flex-layout.row#home__paragraph",
+
+
+
+
+
+      
+      // ===================PRODUCTOS POR DEFECTO ======================================
+
+      "search-result-layout.customQuery#home",
+
     
 
       //title categoria PORTATIL
@@ -27,6 +37,8 @@
       // "flex-layout.row#home__paragraph-title-category-impresion",
 
      
+
+
 
       // //fila categoria impesoras
 
@@ -60,7 +72,7 @@
       "textPosition": "CENTER",
       "blockClass": "parrafo"
     }
-  }
+  },
 
   // "rich-text#section__one--title": {
   //   "props": {
@@ -75,5 +87,42 @@
 
   //texto pricipal VTEX io
 
-
+  "search-result-layout.customQuery#home":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop"
+      // "search-layout.mobile#home__search--mobile",
+      // "search-no-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop":{
+    "children":[
+      "flex-layout.row#home__result"
+    ]
+  },
+  "flex-layout.row#home__result":{
+    "children": [
+      "flex-layout.col#home__result--search"
+    ]
+  },
+  "flex-layout.col#home__result--search":{
+    "children": [
+      "search-content#home__results--search"
+    ]
+  },
+  "search-content#home__results--search":{
+    "blocks":[
+      "gallery", "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  }
 }
