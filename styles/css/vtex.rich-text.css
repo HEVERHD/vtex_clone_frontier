@@ -44,6 +44,7 @@
   padding: 0 10px;
   display: inline-flex;
   align-items: center;
+  font-weight: 100;
 }
 
 .paragraph--texto-35 {
@@ -68,6 +69,7 @@
   padding: 3px 5px;
   border-radius: 5px;
   background-color: #06005b;
+  font-weight: 100;
 }
 
 .paragraph--texto-item1 {
@@ -89,6 +91,7 @@
     border-right: 1px solid #fff;
     display: inline-flex;
     align-items: center;
+    font-weight: 100;
 }
 
 .heading--header__item{
@@ -97,4 +100,5 @@
     display: inline-flex;
     align-items: center;
     margin-left: -5px;
+    font-weight: 100;
 }

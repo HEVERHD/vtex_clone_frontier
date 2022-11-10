@@ -5,7 +5,7 @@
       "text": "Categorías",
       "id": "menu-item-categoria",
       "noFollow": false,
-      "blockClass": "text-item-menu"
+      "blockClass": "text-item-categoria"
     }
   },
   "menu-item#menu-item--marcas": {
@@ -14,7 +14,7 @@
       "text": "Marcas",
       "id": "menu-item-categoria",
       "noFollow": false,
-      "blockClass": "text-item-menu"
+      "blockClass": "text-item-marca"
     }
   },
 
@@ -24,7 +24,8 @@
   "image#menu-item--bot": {
     "props": {
       "src": "assets/barra1/bot.svg",
-      "maxHeight": 20
+      "maxHeight": 50,
+      "blockClass": "text-item-bot"
     }
   },
   "menu-item#menu-item--fronty": {
@@ -34,7 +35,7 @@
       "text": "Fronty",
       "id": "menu-item-categoria",
       "noFollow": false,
-      "blockClass": "text-item-menu"
+      "blockClass": "text-item-fronty"
     }
   },
 
@@ -67,7 +68,7 @@
       "text": "Ofertas",
       "id": "menu-item-categoria",
       "noFollow": false,
-      "blockClass": "text-item-menu"
+      "blockClass": "text-item-ofertas"
     }
 
 
