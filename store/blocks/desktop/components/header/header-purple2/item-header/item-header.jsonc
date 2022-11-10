@@ -1,12 +1,69 @@
 {
+
+  "drawer#menu-drawer": {
+    "title":"Menu principal",
+      "children": [
+        "vtex.menu@2.x:menu#menu__one"
+      ],
+      "blocks":[
+        "drawer-trigger"
+      ]
+    },
+
+    "vtex.menu@2.x:menu#menu__one":{
+      "children":[
+        "menu-item#department__celulares",
+        "menu-item#department__computadores",
+        "menu-item#department__televisores",
+        "menu-item#department__audios",
+        "menu-item#department__software",
+        "menu-item#department__servidores",
+        "menu-item#department__almacenamiento",
+        "menu-item#department__redes",
+        "menu-item#department__impresoras",
+        "menu-item#department__gamer",
+        "menu-item#department__potencia",
+        "menu-item#department__partes",
+        "menu-item#department__accesorios"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+
+
+  "drawer-trigger":{
+
+    "children":[
+      "image#menu_ham"
+    ]
+
+  },
+  "image#menu_ham": {
+    "props": {
+      "src": "assets/barra1/menu_ham.svg",
+      "maxHeight": 20
+    }
+  },
+
+
+
+
+
   "menu-item#menu-item--categoria": {
+    "children":[
+     
+    ],
     "props": {
       "type": "custom",
       "text": "Categorías",
       "id": "menu-item-categoria",
       "noFollow": false,
       "blockClass": "text-item-categoria"
-    }
+    },
+    "blocks": [
+  
+    ]
   },
   "menu-item#menu-item--marcas": {
     "props": {

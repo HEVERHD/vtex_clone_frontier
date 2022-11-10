@@ -1,3 +1,21 @@
 .cartIcon{
    color: #ff6900;
 }
+
+.popupChildrenContainer{
+   background-color: #464099;
+}
+
+.minicartTitle--main-carrito{
+   color: white;
+   background-color: #3e388f;
+   justify-content: center;
+   display: flex;
+
+}
+
+.minicartEmptyStateContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
