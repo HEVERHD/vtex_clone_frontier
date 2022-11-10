@@ -28,7 +28,7 @@
     "props": {
       "blockClass": "header__item",
       "src": "assets/barra1/peso.png",
-      "maxHeight": 24
+      "maxHeight": 15
     }
   },
   "rich-text#title--blog": {

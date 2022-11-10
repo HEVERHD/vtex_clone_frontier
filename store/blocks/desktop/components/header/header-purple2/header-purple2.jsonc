@@ -11,7 +11,11 @@
   },
 
   "flex-layout.row#upper-one": {
-    "children": ["logo#header_logo", "search-bar#header_search"]
+    "children": ["logo#header_logo", "search-bar#header_search"],
+    "props": {
+      //"colSizing": "auto",
+      "blockClass": "upper-one"
+    }
   },
 
   "flex-layout.row#upper-two": {
@@ -23,23 +27,7 @@
       "image#menu-item--bot",
       "menu-item#menu-item--fronty",
       "menu-item#menu-item--ofertas",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
+      "flex-layout.col#navbar-spacer",
       "login",
       "minicart.v2#header__desktop--minicart"
     ],
@@ -55,6 +43,20 @@
     "props": {
       "blockClass": "login-cart",
       "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#navbar-spacer": {
+    "children": ["rich-text#spacer"],
+    "props": {
+      "blockClass": "navbar-spacer"
+    }
+  },
+  
+  "rich-text#spacer": {
+    "props": {
+      "text": "&nbsp;",
+      "blockClass": "spacer"
     }
   }
 }

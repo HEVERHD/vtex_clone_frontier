@@ -5,7 +5,8 @@
             "openAutocompleteOnFocus": true,
             "maxWidth": "100%",
             "displayMode":"search-button",
-            "placeholder": "Busca tu producto"
+            "placeholder": "Busca tu producto",
+            "width": "75%"
         }
     },
 

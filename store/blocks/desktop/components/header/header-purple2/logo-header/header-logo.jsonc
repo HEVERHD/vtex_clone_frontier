@@ -5,6 +5,7 @@
             "url": "assets/img/logopr/logoWhite.png",
             "href": "/",
             "blockClass": "logo-header-main"
+            //"width": "25%"
             
         }
     }
