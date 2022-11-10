@@ -4,6 +4,7 @@
       "flex-layout.row#upper-one",
       "flex-layout.row#upper-two",
       "flex-layout.row#login-cart"
+     
     ],
     "props": {
       "blockClass": "main_header-purple2"
@@ -62,4 +63,7 @@
       "blockClass": "spacer"
     }
   }
+
+
+
 }
