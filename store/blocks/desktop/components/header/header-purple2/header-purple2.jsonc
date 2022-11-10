@@ -27,7 +27,10 @@
       "image#menu-item--bot",
       "menu-item#menu-item--fronty",
       "menu-item#menu-item--ofertas",
-      "flex-layout.col#navbar-spacer",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
+      "flex-layout.row#navbar-spacer",
       "login",
       "minicart.v2#header__desktop--minicart"
     ],
@@ -46,7 +49,7 @@
     }
   },
 
-  "flex-layout.col#navbar-spacer": {
+  "flex-layout.row#navbar-spacer": {
     "children": ["rich-text#spacer"],
     "props": {
       "blockClass": "navbar-spacer"

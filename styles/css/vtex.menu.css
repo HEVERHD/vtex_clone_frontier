@@ -1,6 +1,41 @@
 .styledLinkContent--text-item-menu{
-    color: aliceblue;
+    /* color: aliceblue;
     font-size: 1.4em;
+    margin-left: -50px; */
+    display: flex;
+    font-size: 1.4em;
+    color: white;
+}
+
+.styledLinkContent--text-item-categoria{
+    font-size: 1.4em;
+    color: white;
+    margin-left: -38px;
+}
+
+.styledLinkContent--text-item-marca{
+    font-size: 1.4em;
+    color: white;
+    margin-left: -38px;
+}
+
+.styledLinkContent--text-item-bot{
+    font-size: 1.4em;
+    color: white;
+    margin-left: -38px;
+    margin-top: -4px;
+}
+
+.styledLinkContent--text-item-fronty{
+    font-size: 1.4em;
+    color: white;
+    margin-left: -38px;
+}
+
+.styledLinkContent--text-item-ofertas{
+    font-size: 1.4em;
+    color: white;
+    margin-left: -38px;
 }
 
 .styledLinkContent--text-item-menu2{

@@ -1,4 +1,11 @@
 .searchBarContainer {
+
+  border-radius: 0 17px 17px 0;
+    border: 1px;
+}
+
+.searchIcon{
+  color: #b7b2b2
 }
 
 .container {
@@ -25,4 +32,9 @@
 
 .imageElement--image-item-orange2 {
   margin-left: -115px;
+}
+
+.imageElement--text-item-bot{
+  margin-left: -38px;
+  
 }
