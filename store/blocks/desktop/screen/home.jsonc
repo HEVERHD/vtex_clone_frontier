@@ -1,6 +1,6 @@
 {
-  "store.home": {
-    "blocks": [
+  "responsive-layout.desktop#home__desktop": {
+    "children": [
       // "rich-text",
 
       // //barra naranja escritorio
@@ -55,24 +55,7 @@
     ]
   },
 
-  //definicion de Parrafo
 
-  "flex-layout.row#home__paragraph": {
-    "title": "Parrafo frontier",
-    "children": ["rich-text#section__one--paragraph"]
-  },
-
-  //definiendo parrafo y title
-
-
-  "rich-text#section__one--paragraph": {
-    "props": {
-      "text": " Todo lo que buscas en tecnología \n lo encuentras aquí en **Frontier**",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "parrafo"
-    }
-  },
 
   // "rich-text#section__one--title": {
   //   "props": {

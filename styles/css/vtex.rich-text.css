@@ -106,3 +106,11 @@
     margin-left: -5px;
     font-weight: 100;
 }
+
+.paragraph--footer-block-informacion{
+  font-weight: bold;
+    font-size: 20px;
+    line-height: 15.2px;
+    text-align: left;
+    color: #332e80;
+}
