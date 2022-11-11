@@ -1,0 +1,10 @@
+{
+    "header-row#mobile__header--search": {
+        "children": [
+      
+       "search-bar#header_search"
+        ]
+      }
+    
+ 
+}

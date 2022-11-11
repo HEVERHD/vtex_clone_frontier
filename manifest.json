@@ -26,6 +26,7 @@
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
@@ -48,7 +49,9 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-image": "0.x",
     "vtex.store-link": "0.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

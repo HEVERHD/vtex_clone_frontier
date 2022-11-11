@@ -1,0 +1,113 @@
+{
+  "footer": {
+    "title":"Footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  // "footer-layout.desktop": { 
+  //   "children": [
+  //     "flex-layout.row#footer__container"
+  //   ]
+  // },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // "flex-layout.row#footer__container":{
+  //   "children": [
+  //     "flex-layout.col#footer__container--col-1",
+  //     "flex-layout.col#footer__container--col-2",
+  //     "flex-layout.col#footer__container--col-3",
+  //     "flex-layout.col#footer__container--col-4"
+  //   ],
+  //   "props": {
+  //     "blockClass": "footer-container-main"
+  //   }
+  // },
+
+  // "flex-layout.col#footer__container--col-1":{
+  //   "children": [
+  //     "image#logos-footer"
+  //   ],
+  //   "props": {
+  //     "blockClass":"contenedor-img-footer"
+  //   }
+  // },
+  //     "flex-layout.col#footer__container--col-2":{
+  //       "children": [
+  //         "rich-text#menu-informacion",
+  //         "rich-text#menu-content"
+  //       ]
+  //     },
+  //     "flex-layout.col#footer__container--col-3":{
+  //       "children": [
+  //         "rich-text#menu3"
+  //       ]
+  //     },
+  //     "flex-layout.col#footer__container--col-4":{
+  //       "children": [
+  //         "rich-text#menu4"
+  //       ]
+  //     },
+  //     "image#logos-footer":{
+  //       "props": {
+  //         "src": "assets/img/logopr/logosfooter.png"
+  //       }
+  //     },
+  //     "rich-text#menu-informacion":{
+  //       "props": {
+  //         "text": "Información"
+  //       }
+  //     },
+
+  //     "rich-text#menu-content":{
+  //       "props":{
+  //         "text":
+  //           "Sobre nosotros"
+          
+  //       }
+  //     },
+  //     "rich-text#menu3":{
+  //       "props": {
+  //         "text": "texto col 3"
+  //       }
+  //     },
+  //     "rich-text#menu4":{
+  //       "props": {
+  //         "text": "texto col 4"
+  //       }
+  //     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ============================== MOBILE FOOTER =============================
+
+  "footer-layout.mobile": { 
+    "children": [
+      "disclosure-layout-group#group"
+    ],
+    "props":{
+      "blockClass":"footer-upper"
+    }
+  }
+
+}

@@ -1,77 +1,133 @@
 {
 
-    // "drawer": {
-    //     "children": [
-    //       "menu#drawer1"
-    //     ]
-    //   }
-    //   "menu#drawer1": {
-    //     "children": [
-    //       "menu-item#category-clothing",
-    //       "menu-item#category-decoration",
-    //       "menu-item#custom-sale"
-    //     ],
-    //     "props": {
-    //       "orientation": "vertical"
-    //     }
-    // },
+  "drawer#menu-drawer": {
+    "title":"Menu principal",
+      "children": [
+        "vtex.menu@2.x:menu#menu__one"
+      ],
+      "blocks":[
+        "drawer-trigger"
+      ]
+    },
+
+    "vtex.menu@2.x:menu#menu__one":{
+      "children":[
+        "menu-item#department__celulares",
+        "menu-item#department__computadores",
+        "menu-item#department__televisores",
+        "menu-item#department__audios",
+        "menu-item#department__software",
+        "menu-item#department__servidores",
+        "menu-item#department__almacenamiento",
+        "menu-item#department__redes",
+        "menu-item#department__impresoras",
+        "menu-item#department__gamer",
+        "menu-item#department__potencia",
+        "menu-item#department__partes",
+        "menu-item#department__accesorios"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+
+
+  "drawer-trigger":{
+
+    "children":[
+      "image#menu_ham"
+    ]
+
+  },
+  "image#menu_ham": {
+    "props": {
+      "src": "assets/barra1/menu_ham.svg",
+      "maxHeight": 20
+    }
+  },
+
+
+
+
+
+  "menu-item#menu-item--categoria": {
+    "children":[
      
-    "menu-item#menu-item--categoria": {
-        "props": {
-            "type": "custom",
-            "text": "Categorias",
-            "id": "menu-item-categoria",
-            "noFollow": false
-        }
+    ],
+    "props": {
+      "type": "custom",
+      "text": "Categorías",
+      "id": "menu-item-categoria",
+      "noFollow": false,
+      "blockClass": "text-item-categoria"
     },
-    "menu-item#menu-item--marcas": {
-        "props": {
-            "type": "custom",
-            "text": "Marcas",
-            "id": "menu-item-categoria",
-            "noFollow": false
-        }
-    },
-    "image#menu-item--bot": {
-        "props": {
-            "src": "assets/barra1/bot.svg"
-        }
-    },
-    "menu-item#menu-item--fronty": {
-        "props": {
-            "type": "custom",
-            "text": "Fronty",
-            "id": "menu-item-categoria",
-            "noFollow": false
-        }
-    },
-    "menu-item#menu-item--ofertas": {
-        "props": {
-            "type": "custom",
-            "text": "Ofertas",
-            "id": "menu-item-categoria",
-            "noFollow": false
-        }
-    },
-    "login": {
-        "props": {
-            "emailAndPasswordTitle": "Ingresar",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "iconLabel": "Ingresa"
-        }
-    },
+    "blocks": [
+  
+    ]
+  },
+  "menu-item#menu-item--marcas": {
+    "props": {
+      "type": "custom",
+      "text": "Marcas",
+      "id": "menu-item-categoria",
+      "noFollow": false,
+      "blockClass": "text-item-marca"
+    }
+  },
 
-    "minicart.v2#header__desktop--minicart": {
-        "children": [
-           "minicart.v2"
-        ]
+  // "image#menu-item--bot":{
 
+  // },
+  "image#menu-item--bot": {
+    "props": {
+      "src": "assets/barra1/bot.svg",
+      "maxHeight": 50,
+      "blockClass": "text-item-bot"
+    }
+  },
+  "menu-item#menu-item--fronty": {
+     
+    "props": {
+      "type": "custom",
+      "text": "Fronty",
+      "id": "menu-item-categoria",
+      "noFollow": false,
+      "blockClass": "text-item-fronty"
+    }
+  },
+
+
+  // =========================  Modal terminos y condiciones  ==============================================
+  
+  // "modal-trigger#modal-fronty": {
+  //   "children": ["rich-text#home__modal--trigger", "modal-layout#modal--layout"]
+  // },
+
+  // "rich-text#home__modal--trigger": {
+  //   "props": {
+  //     "text": "Terminos y condiciones"
+  //   }
+  // },
+
+  // "modal-layout#modal--layout": {
+  //   "children": ["rich-text#home__modal--contenido"]
+  // },
+
+  // "rich-text#home__modal--contenido": {
+  //   "props": {
+  //     "text": "# terminos y contenido y masssss"
+  //   }
+  // },
+
+  "menu-item#menu-item--ofertas": {
+    "props": {
+      "type": "custom",
+      "text": "Ofertas",
+      "id": "menu-item-categoria",
+      "noFollow": false,
+      "blockClass": "text-item-ofertas"
     }
 
 
+  }
 }
-      

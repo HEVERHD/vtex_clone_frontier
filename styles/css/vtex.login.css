@@ -1,0 +1,15 @@
+.container{
+    margin-left: auto;
+    width: auto;
+}
+
+.profileIcon{
+    color: #ff6900
+}
+
+.label{
+   color: white;
+   padding: 0 5px;
+    text-transform: none;
+    border-right: 1px solid;
+}
