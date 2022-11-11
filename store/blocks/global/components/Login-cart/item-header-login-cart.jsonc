@@ -1,0 +1,88 @@
+ // ==================BLOQUE 2 ITEM LOGIN Y CARRITO ================
+
+{
+
+ 
+
+
+    // ==================LOGIN================================
+
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "Ingresa",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true,
+          "iconLabel": "Ingresa",
+          "labelClasses": [
+
+          ]
+        }
+      },
+          // ==================MINI CART ================================
+      "minicart.v2#header__desktop--minicart": {
+        "props": {
+          "variation": "popup",
+          "itemCountMode": "total",
+          "quantityDisplay": "always"
+        },
+        "children": ["minicart-base-content"]
+      },
+      "minicart-base-content":{
+        "blocks":["minicart-empty-state"],
+        "children":["minicart-product-list","flex-layout.row#minicart__footer"],
+        
+         "props": {
+          "blockClass": "main-carrito"
+         }
+      },
+        "minicart-empty-state":{
+          "children":[
+            "flex-layout.row#minicart-empty"
+          ]
+        },
+        "flex-layout.row#minicart-empty":{
+         "children":[
+
+           "flex-layout.col#minicart-empty"
+         ]
+         
+        },
+
+        "flex-layout.col#minicart-empty":{
+            "children":[
+              "icon#cart-empty",
+              "rich-text#empty"
+            ],
+            "props": {
+              "horizontalAlign": "center"
+            }
+        },
+
+    
+        "icon#cart-empty":{
+          "props": {
+            "id": "cart-hd",
+            "size": 70,
+            "activeClassName": ""
+         
+          }
+        },
+
+
+        "rich-text#empty":{
+          "props": {
+            "text": "Tu carrito esta vacio!",
+            "blockClass":"carrito vacio"
+          }
+        },
+        "flex-layout.row#minicart__footer":{
+          "children":[
+            "minicart-summary",
+            "minicart-checkout-button"
+          ]
+        }
+      
+}
