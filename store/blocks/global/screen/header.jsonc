@@ -5,7 +5,7 @@
     "title": "header Global",
     "blocks": [
       "header-layout.desktop#desktop__header",
-       "header-layout.mobile#mobile__header"
+      "header-layout.mobile#mobile__header"
     ]
   }
 }

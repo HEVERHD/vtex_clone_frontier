@@ -1,8 +1,0 @@
-{
-    "sticky-layout#mobile__header":{
-       "children": [
-        
-        "header-row#header__middle"
-       ]
-    }
-}

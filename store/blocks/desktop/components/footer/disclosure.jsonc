@@ -1,0 +1,81 @@
+{
+  "disclosure-layout-group#group": {
+    "children": ["disclosure-layout#first"]
+  },
+
+  "disclosure-layout#first": {
+    "children": ["disclosure-trigger#first", "disclosure-content#first"],
+    "props": {
+      "initialVisibility": "hidden"
+    }
+  },
+
+
+
+
+
+//   "disclosure-state-indicator": {
+//     "props": {
+//       "Show": "icon-angle--down",
+//       "Hide": "icon-angle--up"
+//     }
+//   },
+
+
+
+
+
+  "disclosure-trigger#first": {
+    "children": ["rich-text#informacion","disclosure-state-indicator"]
+  },
+  "disclosure-content#first": {
+    "children": [
+      "rich-text#answer1",
+      "rich-text#answer2",
+      "rich-text#answer3",
+      "rich-text#answer4",
+      "rich-text#answer5"
+    ]
+  },
+
+  //TITULO INFORMACION
+  "rich-text#informacion": {
+    "title": "TEXTO-ITEM 1 - footer",
+    "props": {
+      "text": "Información",
+    "blockClass": "footer-block-informacion"
+    }
+
+  },
+
+  //SUBTITULOS
+  "rich-text#answer1": {
+    "props": {
+      "text": "Sobre Nosotros"
+    }
+  },
+
+  "rich-text#answer2": {
+    "props": {
+      "text": "Envios y Devoluciones"
+    }
+  },
+
+  "rich-text#answer3": {
+    "props": {
+      "text": "Politica de Privacidad"
+    }
+  },
+
+  "rich-text#answer4": {
+    "props": {
+      "text": "Condiciones de Uso"
+    }
+  },
+
+  "rich-text#answer5": {
+    "props": {
+      "text": "Preguntas Pagos Electrónicos"
+    }
+  }
+}

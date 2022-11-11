@@ -1,0 +1,13 @@
+.trigger--hidden{
+    background: none;
+    border: none;
+}
+.trigger{
+    background: none;
+    border: none;
+}
+
+.content--visible{
+    margin: 0 0 20px;
+    padding: 10px 15px;
+}
