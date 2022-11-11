@@ -91,3 +91,6 @@
     align-items: center;
     border: 1px solid red;
 }
+.imageElement--home__slider{
+  padding-top: 5px;
+}
