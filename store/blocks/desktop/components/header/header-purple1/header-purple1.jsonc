@@ -28,18 +28,18 @@
     "props": {
       "blockClass": "header__item",
       "src": "assets/barra1/peso.png",
-      "maxHeight": 24
+      "maxHeight": 15
     }
   },
   "rich-text#title--blog": {
     "props": {
-      "text": "### Blog ",
+      "text": "### Blog",
       "blockClass": "header__item"
     }
   },
   "rich-text#title--venta": {
     "props": {
-      "text": "###  Venta telefonica 314 223 34 52",
+      "text": "###  Venta telefonica 314 223 34 52  ",
       "blockClass": "title--venta"
     }
   },

@@ -1,0 +1,6 @@
+{
+  "header-layout.mobile#mobile__header": {
+    "title": "Header mobile",
+    "children": ["sticky-layout#mobile__header"]
+  }
+}

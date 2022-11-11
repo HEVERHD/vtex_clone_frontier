@@ -1,11 +1,11 @@
 {
-  //Global
+  //Global screen
 
   "header.full": {
     "title": "header Global",
     "blocks": [
-      "header-layout.desktop#desktop__header"
-      //   "header-layout.mobile#desktop__header"
+      "header-layout.desktop#desktop__header",
+      "header-layout.mobile#mobile__header"
     ]
   }
 }

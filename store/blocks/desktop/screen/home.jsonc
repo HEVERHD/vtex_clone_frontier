@@ -1,19 +1,29 @@
 {
-  "store.home": {
-    "blocks": [
+  "responsive-layout.desktop#home__desktop": {
+    "children": [
       // "rich-text",
 
       // //barra naranja escritorio
       // "responsive-layout.desktop#home__section--one",
 
-      // //barra azul para mobile
-      // "responsive-layout.mobile#home__section--one",
+       //barra azul para mobile
+      //  "responsive-layout.mobile#home__section--one",
      
       //slider
       "flex-layout.row#home__section--one",
 
       //parrafo y title frontier
       "flex-layout.row#home__paragraph",
+
+
+
+
+
+      
+      // ===================PRODUCTOS POR DEFECTO ======================================
+
+      "search-result-layout.customQuery#home",
+
     
 
       //title categoria PORTATIL
@@ -27,6 +37,8 @@
       // "flex-layout.row#home__paragraph-title-category-impresion",
 
      
+
+
 
       // //fila categoria impesoras
 
@@ -43,24 +55,7 @@
     ]
   },
 
-  //definicion de Parrafo
 
-  "flex-layout.row#home__paragraph": {
-    "title": "Parrafo frontier",
-    "children": ["rich-text#section__one--paragraph"]
-  },
-
-  //definiendo parrafo y title
-
-
-  "rich-text#section__one--paragraph": {
-    "props": {
-      "text": " Todo lo que buscas en tecnología \n lo encuentras aquí en **Frontier**",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "parrafo"
-    }
-  }
 
   // "rich-text#section__one--title": {
   //   "props": {
@@ -75,5 +70,42 @@
 
   //texto pricipal VTEX io
 
-
+  "search-result-layout.customQuery#home":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop"
+      // "search-layout.mobile#home__search--mobile",
+      // "search-no-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop":{
+    "children":[
+      "flex-layout.row#home__result"
+    ]
+  },
+  "flex-layout.row#home__result":{
+    "children": [
+      "flex-layout.col#home__result--search"
+    ]
+  },
+  "flex-layout.col#home__result--search":{
+    "children": [
+      "search-content#home__results--search"
+    ]
+  },
+  "search-content#home__results--search":{
+    "blocks":[
+      "gallery", "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  }
 }

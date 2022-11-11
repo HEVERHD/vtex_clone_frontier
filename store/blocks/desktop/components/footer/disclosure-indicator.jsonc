@@ -1,0 +1,26 @@
+{
+  "disclosure-state-indicator": {
+ 
+    "props": {
+      "Show":  "icon#angle-down",
+      "Hide":  "icon#angle-up",
+      "blockClass":""
+    }
+  },
+
+  "icon#angle-down":{
+    "props": {
+      "id": "mpa-angle--down",
+      "activeClassName": ""
+   
+    }
+  },
+
+  "icon#angle-up":{
+    "props": {
+      "id": "mpa-angle--up",
+      "activeClassName": ""
+   
+    }
+  }
+}

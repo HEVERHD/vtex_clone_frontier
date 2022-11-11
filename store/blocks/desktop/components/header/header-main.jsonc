@@ -4,6 +4,8 @@
         "flex-layout.row#desktop__header--info",
         "flex-layout.row#desktop__header--upper",
         "flex-layout.row#desktop__header--orange"
+       
+    
        ]
     },
 
@@ -27,7 +29,8 @@
         ],
           
         "props": {
-         "blockClass":"header_main-purple--upper"
+         "blockClass":"header_main-purple--upper",
+         "fullWidth": true
         }
     }
 }

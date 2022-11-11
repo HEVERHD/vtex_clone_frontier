@@ -31,7 +31,6 @@
   font-size: 13px;
   width: 100%;
   justify-content: flex-end;
-  margin: 7px 0;
 }
 
 .heading--header__content {
@@ -42,7 +41,76 @@
 }
 
 .wrapper--title--venta {
-    padding: 0 10px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 100;
+}
+
+.paragraph--texto-35 {
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  display: block;
+}
+
+.wrapper--texto-item {
+  color: #fff;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 12px;
+  margin-left: -60px;
+}
+
+.heading--title--cambiar {
+  display: block;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: #06005b;
+  font-weight: 100;
+}
+
+.paragraph--texto-item1 {
+  color: #fff;
+  text-align: left;
+  font-size: 12px;
+  margin-left: -75px;
+}
+
+.paragraph--spacer {
+  min-width: 328px;
+}
+
+.paragraph{
+
+}
+
+
+/*================================= VENTA */
+
+.heading--title--venta{
+  padding: 0 10px;
+    border-right: 1px solid #fff;
     display: inline-flex;
     align-items: center;
+    font-weight: 100;
+}
+
+.heading--header__item{
+  padding: 0 10px;
+    border-right: 1px solid #fff;
+    display: inline-flex;
+    align-items: center;
+    margin-left: -5px;
+    font-weight: 100;
+}
+
+.paragraph--footer-block-informacion{
+  font-weight: bold;
+    font-size: 20px;
+    line-height: 15.2px;
+    text-align: left;
+    color: #332e80;
 }

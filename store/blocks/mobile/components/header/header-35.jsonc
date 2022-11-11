@@ -1,0 +1,24 @@
+{
+    "header-row#header__middle":{
+        "children":[
+            "header-layout#header-35"
+           
+        ],
+        "props":{
+            "blockClass":"header__35"
+           
+        }
+    },
+    "header-layout#header-35":{
+      "children":[
+        "rich-text#35"
+      ]
+    },
+    "rich-text#35":{
+        "title": "35 años",
+        "props": {
+            "blockClass":"texto-35",
+           "text": " 35 años de experiencia"
+        }
+    }
+}

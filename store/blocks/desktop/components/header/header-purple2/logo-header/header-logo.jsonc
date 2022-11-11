@@ -3,7 +3,10 @@
         "title": "Logo header princiapl",
         "props": {
             "url": "assets/img/logopr/logoWhite.png",
-            "href": "/"
+            "href": "/",
+            "blockClass": "logo-header-main"
+            //"width": "25%"
+            
         }
     }
 }

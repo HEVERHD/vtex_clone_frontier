@@ -1,0 +1,12 @@
+{
+    "sticky-layout#mobile__header":{
+        "children": [
+         "header-row#mobile__header--upper",
+
+        "header-row#mobile__header--search",
+        "header-row#header__middle"
+        ]
+     }
+
+
+}
