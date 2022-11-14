@@ -1,0 +1,21 @@
+{
+    
+  // //Banner oferta
+
+
+  "flex-layout.row#section__2--image4": {
+    "children": ["image#category__image4"],
+    "props": {
+  
+    }
+   
+  },
+
+  "image#category__image4": {
+    "props": {
+        "blockClass": "home__section--ofertas",
+      "src": "assets/img/category/banner_ofertas.jpg"
+    }
+  }
+
+}
