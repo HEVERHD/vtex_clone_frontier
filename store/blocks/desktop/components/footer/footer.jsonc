@@ -3,8 +3,20 @@
   "footer-layout.desktop": { 
     "children": [
       "newsletter-form",
-      "flex-layout.row#footer__container"
+      "flex-layout.row#footer__container",
+      "flex-layout.row#footer__container2"
+      
+      
      
+    
+
+     
+    ]
+  },
+
+  "flex-layout.row#footer__container2":{
+    "children": [
+      "rich-text#info-footer"
     ]
   },
 
@@ -21,6 +33,12 @@
     }
   },
 
+  "newsletter-submit":{
+    "props": {
+      "submitButtonLabel": "Enviar."
+    }
+  },
+
 
   "rich-text#info-noticias":{
     "title": "Recibe las ultimas noticias",
@@ -34,12 +52,12 @@
 
   "flex-layout.row#footer__container":{
     "children": [
+
+      "flex-layout.col#footer-main1"
     
-      "flex-layout.col#footer__container--col-1",
-      "flex-layout.col#footer__container--col-2",
-      "flex-layout.col#footer__container--col-3",
-      "flex-layout.col#footer__container--col-4",
-      "rich-text#info-footer"
+      // "flex-layout.col#footer-main2",
+    
+    
     
      
     ],
@@ -48,6 +66,32 @@
       "blockClass": "footer-container-main"
     }
   },
+
+  "flex-layout.col#footer-main1":{
+    "children": [
+      "flex-layout.row#footer-main1"
+    ]
+  },
+  // "flex-layout.col#footer-main2":{
+  //   "children": [
+  //     "flex-layout.col#footer-main3"
+      
+      
+  //   ]
+  // },
+
+  "flex-layout.row#footer-main1":{
+    "children": [
+      "flex-layout.col#footer__container--col-1",
+      "flex-layout.col#footer__container--col-2",
+      "flex-layout.col#footer__container--col-3",
+      "flex-layout.col#footer__container--col-4"
+    
+    ]
+  },
+
+
+
 
   "flex-layout.col#footer__container--col-1":{
     "children": [

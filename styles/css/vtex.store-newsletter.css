@@ -18,3 +18,17 @@
 .formSubmitContainer{
 
 }
+
+.newletter-submit{
+    background: yellow;
+}
+
+
+.formSubmitContainer :global(.vtex-button){
+    background: #ff6900;
+    border: 1px solid #ff6900;
+    color: #fff;
+    margin-left: 5px;
+    font-size: .9em;
+    padding: 5px;
+}
