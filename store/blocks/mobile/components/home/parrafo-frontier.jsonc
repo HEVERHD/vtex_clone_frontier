@@ -1,0 +1,19 @@
+{
+ //parrafo y title frontier
+
+ "flex-layout.row#home__paragraph": {
+    "title": "Parrafo frontier",
+    "children": ["rich-text#section__one--paragraph"]
+  },
+
+
+
+  "rich-text#section__one--paragraph": {
+    "props": {
+      "text": " Todo lo que buscas en tecnología \n lo encuentras aquí en **Frontier**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "parrafo-mobile"
+    }
+  }
+}

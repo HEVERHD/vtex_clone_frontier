@@ -1,0 +1,13 @@
+{
+    
+// ============================== MOBILE FOOTER =============================
+
+  "footer-layout.mobile": { 
+    "children": [
+      "disclosure-layout-group#group"
+    ],
+    "props":{
+      "blockClass":"footer-upper"
+    }
+  }
+}
