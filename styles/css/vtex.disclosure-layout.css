@@ -1,10 +1,15 @@
 .trigger--hidden{
     background: none;
     border: none;
+    align-items: center;
+    display: flex;
+    border: 1px red solid
 }
 .trigger{
     background: none;
     border: none;
+    margin-top: -11px;
+  
 }
 
 .content--visible{
