@@ -1,8 +1,15 @@
 {
   "disclosure-layout-group#group": {
-    "children": ["disclosure-layout#first"]
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#two",
+      "disclosure-layout#tree",
+      "image#logos-footer-mobil",
+      "rich-text#info-footer"
+    ]
   },
 
+  //INFORMACION
   "disclosure-layout#first": {
     "children": ["disclosure-trigger#first", "disclosure-content#first"],
     "props": {
@@ -10,23 +17,34 @@
     }
   },
 
+  // SERVICIO AL CLIENTE
 
+  "disclosure-layout#two": {
+    "children": ["disclosure-trigger#two", "disclosure-content#two"],
+    "props": {
+      "initialVisibility": "hidden"
+    }
+  },
 
+  // SERVICIO AL CLIENTE
 
+  "disclosure-layout#tree": {
+    "children": ["disclosure-trigger#tree", "disclosure-content#tree"],
+    "props": {
+      "initialVisibility": "hidden"
+    }
+  },
 
-//   "disclosure-state-indicator": {
-//     "props": {
-//       "Show": "icon-angle--down",
-//       "Hide": "icon-angle--up"
-//     }
-//   },
+  //   "disclosure-state-indicator": {
+  //     "props": {
+  //       "Show": "icon-angle--down",
+  //       "Hide": "icon-angle--up"
+  //     }
+  //   },
 
-
-
-
-
+  //INFORMACION
   "disclosure-trigger#first": {
-    "children": ["rich-text#informacion","disclosure-state-indicator"]
+    "children": ["rich-text#informacion", "disclosure-state-indicator"]
   },
   "disclosure-content#first": {
     "children": [
@@ -43,9 +61,8 @@
     "title": "TEXTO-ITEM 1 - footer",
     "props": {
       "text": "Información",
-    "blockClass": "footer-block-informacion"
+      "blockClass": "footer-block-informacion"
     }
-
   },
 
   //SUBTITULOS
@@ -76,6 +93,107 @@
   "rich-text#answer5": {
     "props": {
       "text": "Preguntas Pagos Electrónicos"
+    }
+  },
+
+  //SERVICIO AL CLIENTE
+  "disclosure-trigger#two": {
+    "children": ["rich-text#cliente", "disclosure-state-indicator"]
+  },
+  "disclosure-content#two": {
+    "children": [
+      "rich-text#answer1cliente",
+      "rich-text#answer2cliente",
+      "rich-text#answer3cliente",
+      "rich-text#answer4cliente"
+    ]
+  },
+
+  //TITULO SERIVICIO AL CLIENTE
+  "rich-text#cliente": {
+    "title": "TEXTO-ITEM 2 - footer",
+    "props": {
+      "text": "Servicio al cliente",
+      "blockClass": "footer-block-informacion"
+    }
+  },
+
+  //SUBTITULOS
+  "rich-text#answer1cliente": {
+    "props": {
+      "text": "Fronty - Asistente Virtual"
+    }
+  },
+
+  "rich-text#answer2cliente": {
+    "props": {
+      "text": "Como Comprar"
+    }
+  },
+
+  "rich-text#answer3cliente": {
+    "props": {
+      "text": "Contactanos"
+    }
+  },
+
+  "rich-text#answer4cliente": {
+    "props": {
+      "text": "SIC - Proteccion al consumidor"
+    }
+  },
+
+  //Mi Cuenta // ========================================
+  "disclosure-trigger#tree": {
+    "children": ["rich-text#cuenta", "disclosure-state-indicator"]
+  },
+  "disclosure-content#tree": {
+    "children": [
+      "rich-text#answer1cuenta",
+      "rich-text#answer2cuenta",
+      "rich-text#answer3cuenta"
+    ]
+  },
+
+  //TITULO Mi cuenta
+  "rich-text#cuenta": {
+    "title": "TEXTO-ITEM 3 - footer",
+    "props": {
+      "text": "Mi Cuenta",
+      "blockClass": "footer-block-informacion"
+    }
+  },
+
+  //SUBTITULOS
+  "rich-text#answer1cuenta": {
+    "props": {
+      "text": "Mi Perfil"
+    }
+  },
+
+  "rich-text#answer2cuenta": {
+    "props": {
+      "text": "Mis Pedidos"
+    }
+  },
+
+  "rich-text#answer3cuenta": {
+    "props": {
+      "text": "Direcciones de envio"
+    }
+  },
+
+  "image#logos-footer-mobil": {
+    "props": {
+      "src": "assets/img/logopr/logosfooter-mobile.png"
+    }
+  },
+
+  "rich-text#info-footer": {
+    "title": "Informacion footer nit ext",
+    "props": {
+      "blockClass":"texto-footer",
+      "text": "NIT : 800015163-1 Teléfono: (4) 448 5100 / Dirección: Calle 10 Sur No. 48A-55, Medellín, Colombia / © 2021 Derechos Reservados Compurent S.A.S Powered by **nopCommerce**"
     }
   }
 }

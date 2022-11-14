@@ -4,22 +4,22 @@
     "props": {
       "Show":  "icon#angle-down",
       "Hide":  "icon#angle-up",
-      "blockClass":""
+      "blockClass":"flechas-disclosure"
     }
   },
 
   "icon#angle-down":{
     "props": {
-      "id": "mpa-angle--down",
-      "activeClassName": ""
+      "id": "mpa-angle--down"
+    
    
     }
   },
 
   "icon#angle-up":{
     "props": {
-      "id": "mpa-angle--up",
-      "activeClassName": ""
+      "id": "mpa-angle--up"
+    
    
     }
   }
