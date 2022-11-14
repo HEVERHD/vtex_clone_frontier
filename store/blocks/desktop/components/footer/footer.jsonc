@@ -1,27 +1,16 @@
 {
-  
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
       "newsletter-form",
       "flex-layout.row#footer__container",
       "flex-layout.row#footer__container2"
-      
-      
-     
-    
-
-     
     ]
   },
 
-  "flex-layout.row#footer__container2":{
-    "children": [
-      "rich-text#info-footer"
-    ]
+  "flex-layout.row#footer__container2": {
+    "children": ["rich-text#info-footer"]
   },
 
-
-  
   "newsletter-form": {
     "children": [
       "rich-text#info-noticias",
@@ -29,143 +18,84 @@
       "newsletter-submit"
     ],
     "props": {
-      "blockClass":"subscrib"
+      "blockClass": "subscrib"
     }
   },
 
-  "newsletter-submit":{
+  "newsletter-submit": {
     "props": {
       "submitButtonLabel": "Enviar."
     }
   },
 
-
-  "rich-text#info-noticias":{
+  "rich-text#info-noticias": {
     "title": "Recibe las ultimas noticias",
     "props": {
       "text": "Recibe las últimas noticias sobre **tecnología**",
-      "blockClass":"info-recibe"
-     
+      "blockClass": "info-recibe"
     }
   },
 
-
-  "flex-layout.row#footer__container":{
-    "children": [
-
-      "flex-layout.col#footer-main1"
-    
-      // "flex-layout.col#footer-main2",
-    
-    
-    
-     
-    ],
+  "flex-layout.row#footer__container": {
+    "children": ["flex-layout.col#footer-main1"],
     "props": {
-      "marginTop":5,
+      "marginTop": 5,
       "blockClass": "footer-container-main"
     }
   },
 
-  "flex-layout.col#footer-main1":{
-    "children": [
-      "flex-layout.row#footer-main1"
-    ]
+  "flex-layout.col#footer-main1": {
+    "children": ["flex-layout.row#footer-main1"]
   },
-  // "flex-layout.col#footer-main2":{
-  //   "children": [
-  //     "flex-layout.col#footer-main3"
-      
-      
-  //   ]
-  // },
 
-  "flex-layout.row#footer-main1":{
+  "flex-layout.row#footer-main1": {
     "children": [
       "flex-layout.col#footer__container--col-1",
       "flex-layout.col#footer__container--col-2",
       "flex-layout.col#footer__container--col-3",
       "flex-layout.col#footer__container--col-4"
-    
     ]
   },
 
-
-
-
-  "flex-layout.col#footer__container--col-1":{
-    "children": [
-      "image#logos-footer"
-    ],
+  "flex-layout.col#footer__container--col-1": {
+    "children": ["image#logos-footer"],
     "props": {
-      "blockClass":"contenedor-img-footer"
+      "blockClass": "contenedor-img-footer"
     }
   },
-      "flex-layout.col#footer__container--col-2":{
-        "children": [
-          "rich-text#informacion",
-          "rich-text#answer1",
-          "rich-text#answer2",
-          "rich-text#answer3",
-          "rich-text#answer4",
-          "rich-text#answer5"
-        
-        ]
-      },
-      "flex-layout.col#footer__container--col-3":{
-        "children": [
-          "rich-text#cliente",
-          "rich-text#answer1cliente",
-          "rich-text#answer2cliente",
-          "rich-text#answer3cliente",
-          "rich-text#answer4cliente"
-        ],
-        "props": {
-          "blockClass":"info-servicio"
-          
-        }
-      },
-      "flex-layout.col#footer__container--col-4":{
-        "children": [
-          "rich-text#cuenta",
-          "rich-text#answer1cuenta",
-          "rich-text#answer2cuenta",
-          "rich-text#answer3cuenta"
-         
-        ]
-      },
-      "image#logos-footer":{
-        "props": {
-          "src": "assets/img/logopr/logosfooter.png"
-        }
-      },
-
-
-
-    
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ============================== MOBILE FOOTER =============================
-
-  "footer-layout.mobile": { 
+  "flex-layout.col#footer__container--col-2": {
     "children": [
-      "disclosure-layout-group#group"
+      "rich-text#informacion",
+      "rich-text#answer1",
+      "rich-text#answer2",
+      "rich-text#answer3",
+      "rich-text#answer4",
+      "rich-text#answer5"
+    ]
+  },
+  "flex-layout.col#footer__container--col-3": {
+    "children": [
+      "rich-text#cliente",
+      "rich-text#answer1cliente",
+      "rich-text#answer2cliente",
+      "rich-text#answer3cliente",
+      "rich-text#answer4cliente"
     ],
-    "props":{
-      "blockClass":"footer-upper"
+    "props": {
+      "blockClass": "info-servicio"
+    }
+  },
+  "flex-layout.col#footer__container--col-4": {
+    "children": [
+      "rich-text#cuenta",
+      "rich-text#answer1cuenta",
+      "rich-text#answer2cuenta",
+      "rich-text#answer3cuenta"
+    ]
+  },
+  "image#logos-footer": {
+    "props": {
+      "src": "assets/img/logopr/logosfooter.png"
     }
   }
-
 }
