@@ -31,10 +31,10 @@
 
       //fila categoria portatil
 
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--two",
 
       //titulo categoria IMPRESION
-      // "flex-layout.row#home__paragraph-title-category-impresion",
+      "flex-layout.row#home__paragraph-title-category-impresion",
 
      
 
@@ -42,10 +42,10 @@
 
       // //fila categoria impesoras
 
-      // "flex-layout.row#home__section--tree",
+      "flex-layout.row#home__section--tree",
 
       // // banner ofertas
-      // "flex-layout.row#section__2--image4",
+      "flex-layout.row#section__2--image4"
 
       //  //titulo categoria ACCESORIOS
       //  "flex-layout.row#home__paragraph-title-category-acce"
