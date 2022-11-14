@@ -1,91 +1,105 @@
 {
-  "footer": {
-    "title":"Footer",
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  
+  "footer-layout.desktop": { 
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#footer__container"
+     
+    ]
   },
-  // "footer-layout.desktop": { 
-  //   "children": [
-  //     "flex-layout.row#footer__container"
-  //   ]
-  // },
 
 
+  
+  "newsletter-form": {
+    "children": [
+      "rich-text#info-noticias",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass":"subscrib"
+    }
+  },
 
 
+  "rich-text#info-noticias":{
+    "title": "Recibe las ultimas noticias",
+    "props": {
+      "text": "Recibe las últimas noticias sobre **tecnología**",
+      "blockClass":"info-recibe"
+     
+    }
+  },
 
 
+  "flex-layout.row#footer__container":{
+    "children": [
+    
+      "flex-layout.col#footer__container--col-1",
+      "flex-layout.col#footer__container--col-2",
+      "flex-layout.col#footer__container--col-3",
+      "flex-layout.col#footer__container--col-4",
+      "rich-text#info-footer"
+    
+     
+    ],
+    "props": {
+      "marginTop":5,
+      "blockClass": "footer-container-main"
+    }
+  },
 
-
-
-
-
-
-
-
-  // "flex-layout.row#footer__container":{
-  //   "children": [
-  //     "flex-layout.col#footer__container--col-1",
-  //     "flex-layout.col#footer__container--col-2",
-  //     "flex-layout.col#footer__container--col-3",
-  //     "flex-layout.col#footer__container--col-4"
-  //   ],
-  //   "props": {
-  //     "blockClass": "footer-container-main"
-  //   }
-  // },
-
-  // "flex-layout.col#footer__container--col-1":{
-  //   "children": [
-  //     "image#logos-footer"
-  //   ],
-  //   "props": {
-  //     "blockClass":"contenedor-img-footer"
-  //   }
-  // },
-  //     "flex-layout.col#footer__container--col-2":{
-  //       "children": [
-  //         "rich-text#menu-informacion",
-  //         "rich-text#menu-content"
-  //       ]
-  //     },
-  //     "flex-layout.col#footer__container--col-3":{
-  //       "children": [
-  //         "rich-text#menu3"
-  //       ]
-  //     },
-  //     "flex-layout.col#footer__container--col-4":{
-  //       "children": [
-  //         "rich-text#menu4"
-  //       ]
-  //     },
-  //     "image#logos-footer":{
-  //       "props": {
-  //         "src": "assets/img/logopr/logosfooter.png"
-  //       }
-  //     },
-  //     "rich-text#menu-informacion":{
-  //       "props": {
-  //         "text": "Información"
-  //       }
-  //     },
-
-  //     "rich-text#menu-content":{
-  //       "props":{
-  //         "text":
-  //           "Sobre nosotros"
+  "flex-layout.col#footer__container--col-1":{
+    "children": [
+      "image#logos-footer"
+    ],
+    "props": {
+      "blockClass":"contenedor-img-footer"
+    }
+  },
+      "flex-layout.col#footer__container--col-2":{
+        "children": [
+          "rich-text#informacion",
+          "rich-text#answer1",
+          "rich-text#answer2",
+          "rich-text#answer3",
+          "rich-text#answer4",
+          "rich-text#answer5"
+        
+        ]
+      },
+      "flex-layout.col#footer__container--col-3":{
+        "children": [
+          "rich-text#cliente",
+          "rich-text#answer1cliente",
+          "rich-text#answer2cliente",
+          "rich-text#answer3cliente",
+          "rich-text#answer4cliente"
+        ],
+        "props": {
+          "blockClass":"info-servicio"
           
-  //       }
-  //     },
-  //     "rich-text#menu3":{
-  //       "props": {
-  //         "text": "texto col 3"
-  //       }
-  //     },
-  //     "rich-text#menu4":{
-  //       "props": {
-  //         "text": "texto col 4"
-  //       }
-  //     },
+        }
+      },
+      "flex-layout.col#footer__container--col-4":{
+        "children": [
+          "rich-text#cuenta",
+          "rich-text#answer1cuenta",
+          "rich-text#answer2cuenta",
+          "rich-text#answer3cuenta"
+         
+        ]
+      },
+      "image#logos-footer":{
+        "props": {
+          "src": "assets/img/logopr/logosfooter.png"
+        }
+      },
+
+
+
+    
+ 
 
 
 

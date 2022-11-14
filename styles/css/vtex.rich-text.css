@@ -22,6 +22,12 @@
   color: #332e80;
 }
 
+.strong--texto-footer{
+  font-weight: bold;
+  color: #4ab2f1;
+  
+}
+
 /* PRUPLE 1  */
 
 .heading {
@@ -114,3 +120,19 @@
     text-align: left;
     color: #332e80;
 }
+
+
+
+.container--info-recibe{
+  
+}
+
+.wrapper--info-recibe{
+  color: #fff;
+  font-size: 20px
+}
+
+.strong--info-recibe{
+  color: #ff6900;
+}
+

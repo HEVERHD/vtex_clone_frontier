@@ -80,17 +80,15 @@
   color: white;
 }
 
-.flexRow--footer-container-main{
+.flexRow--footer-container-main {
   background-color: #fff;
-    text-align: center;
-    border-top: 1px solid #c1c1c1;
+  text-align: center;
+  border-top: 1px solid #c1c1c1;
 }
-.flexRowContent--footer-container-main{
+.flexRowContent--footer-container-main {
   display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid red;
+  flex-direction: row;
 }
-.imageElement--home__slider{
+.imageElement--home__slider {
   padding-top: 5px;
 }
