@@ -11,14 +11,14 @@
   display: block;
 }
 
-.paragraph--parrafo {
+.paragraph--parrafo-desktop {
   text-align: center;
   font-size: 1.5rem;
   margin: 20px 0;
   color: #7d7d7d;
 }
 
-.strong--parrafo {
+.strong--parrafo-desktop {
   color: #332e80;
 }
 

@@ -1,7 +1,7 @@
 {
  //parrafo y title frontier
 
- "flex-layout.row#home__paragraph": {
+ "flex-layout.row#home__paragraph-mobile": {
     "title": "Parrafo frontier",
     "children": ["rich-text#section__one--paragraph"]
   },
