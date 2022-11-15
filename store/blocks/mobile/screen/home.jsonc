@@ -1,11 +1,5 @@
 {
-
-    "responsive-layout.mobile#home__mobile": {
-        "children": [
-            "flex-layout.row#home__section--one-mobile"
-        ]
-    
-}
-
-
+  "responsive-layout.mobile#home__mobile": {
+    "children": ["flex-layout.row#home__section--one-mobile"]
+  }
 }

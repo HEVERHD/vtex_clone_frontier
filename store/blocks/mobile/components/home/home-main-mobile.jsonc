@@ -1,9 +1,9 @@
 {
   "flex-layout.row#home__section--one-mobile": {
-      "children": [
-          "list-context.image-list#home__slider--list-mobile",
-          "flex-layout.row#home__paragraph",
-            //title categoria PORTATIL
+    "children": [
+      "list-context.image-list#home__slider--list-mobile",
+      "flex-layout.row#home__paragraph-mobile",
+      //title categoria PORTATIL
       "flex-layout.row#home__paragraph-title-category-portatil",
 
       //fila categoria portatil
@@ -19,17 +19,9 @@
 
       // // banner ofertas
       "flex-layout.row#section__2--image4"
-
-       
-       
-      ],
-      "props": {
-          "fullWidth": true
-         
-      }
+    ],
+    "props": {
+      "fullWidth": true
+    }
   }
-
-
-
-
 }
