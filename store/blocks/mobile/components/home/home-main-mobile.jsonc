@@ -3,6 +3,9 @@
     "children": [
       "list-context.image-list#home__slider--list-mobile",
       "flex-layout.row#home__paragraph-mobile",
+
+      //products por defecto
+      "search-result-layout.customQuery#home",
       //title categoria PORTATIL
       "flex-layout.row#home__paragraph-title-category-portatil",
 

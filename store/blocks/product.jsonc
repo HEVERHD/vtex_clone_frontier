@@ -1,7 +1,12 @@
 {
   "store.product": {
     "children": [
-      
+      "rich-text#product"
     ]
+  },
+  "rich-text#product":{
+    "props": {
+      "text": "Esta es una pagina de producto"
+    }
   }
 }
