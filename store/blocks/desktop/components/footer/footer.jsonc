@@ -8,7 +8,7 @@
   },
 
   "flex-layout.row#footer__container2": {
-    "children": ["rich-text#info-footer"]
+    "children": ["rich-text#info-footer-desktop"]
   },
 
   "newsletter-form": {

@@ -1,7 +1,7 @@
 {
     "list-context.image-list#home__slider--list-mobile": {
         "title": "lista de imagenes",
-        "children": ["slider-layout#home__slider--list"],
+        "children": ["slider-layout#home__slider--list-mobile"],
         "props": {
           "height": 475,
           "images": [
@@ -17,7 +17,7 @@
         
         }
       },
-      "slider-layout#home__slider--list": {
+      "slider-layout#home__slider--list-mobile": {
         "title": "Slider con lista",
         "props": {
           "itemsPerPage": {
