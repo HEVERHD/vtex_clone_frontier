@@ -1,0 +1,82 @@
+{
+    "product-summary.shelf": {
+        "title": "Product Summary Shelf",
+        "props": {
+            "blockClass": "product-summary-shelf"
+        },
+        "children": [
+            "flex-layout.row#product__shelf"
+        ]
+    },
+    
+    
+    //////////////////// DEFINICION PRODUCT///////////////////////////
+    "flex-layout.row#product__shelf": {
+        "title": "Product Summary Shelf Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "product__shelf"
+        },
+        "children": [
+            "flex-layout.col#product__shelf--image",
+            "flex-layout.col#product__shelf--description"
+        ]
+    },
+    
+    
+    ///////////////////////////////////////////////
+    "flex-layout.col#product__shelf--image": {
+        "title": "Product Summary Image Container",
+        "props": {
+            "width": "58%",
+            "blockClass": "product__shelf--image"
+        },
+        "children": [
+            "product-summary-image"
+        ]
+    },
+    "flex-layout.col#product__shelf--description": {
+        "title": "Product Summary Description Container",
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "blockClass": "product__shelf--description"
+        },
+        "children": [
+            "product-selling-price",
+            "product-summary-name",
+            "product-summary-sku-selector",
+            "add-to-cart-button"
+        ]
+    },
+    
+    
+    ///////////////////////////////////////////////
+    "product-summary-name": {
+        "props": {
+            "tag": "h3"
+        }
+    },
+    "product-selling-price": {
+        "props": {
+          "markers": [
+            "highlight"
+          ],
+          "blockClass": "summary",
+          "message": "{sellingPriceValue}"
+        }
+    },
+    "product-summary-sku-selector": {
+        "props": {
+            "displayMode": "select"
+        }  
+    },
+    "add-to-cart-button": {
+        "props": {
+            "text": "Añadir",
+            "blockClass": "add-to-cart-button"
+        }
+    }
+    
+}
