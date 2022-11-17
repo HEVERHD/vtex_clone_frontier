@@ -93,8 +93,8 @@
 
 .flexRowContent--product__shelf:hover{
   transition:all .5s ease-in-out;
-  border: 2px solid #ff6900;
-  /* -webkit-transform:scale(1.05);transform:scale(1.05); */
+  border-bottom: 1px solid #ff6900;
+  -webkit-transform:scale(1.01);transform:scale(1.01);
 }
 
 .flexColChild--title_category--portatil {
