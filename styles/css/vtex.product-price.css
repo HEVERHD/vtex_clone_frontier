@@ -2,3 +2,9 @@
    font-weight: bold;
     color: #ff6900;
 }
+
+.sellingPrice--summary{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
