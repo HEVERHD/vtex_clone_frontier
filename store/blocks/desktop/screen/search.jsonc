@@ -94,7 +94,9 @@
         "blockClass": "search-not-found-layout"
     },
     "children": [
-        "rich-text#search__not-found--text"
+        "rich-text#search__not-found--text",
+        "image#nofound"
+
     ]
 },
 
@@ -113,10 +115,19 @@
 "rich-text#search__not-found--text": {
     "title": "Search Not Found Message",
     "props": {
-        "text": "Lo sentimos su busqueda no coincide con ningun producto",
+        "text": "No hay Productos que coincidan con tu búsqueda.",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass": "search__not-found--text"
+    }
+},
+
+
+"image#nofound":{
+    "props": {
+        "src": "https://i.pinimg.com/originals/0e/c0/db/0ec0dbf1e9a008acb9955d3246970e15.gif",
+        "blockClass":"image-nofound"
+       
     }
 },
 
