@@ -47,7 +47,7 @@
     ///////////////////////////////////////////////
     "product-summary-name": {
         "props": {
-            "tag": "h2"
+            "tag": "h3"
         }
     },
     "product-selling-price": {
