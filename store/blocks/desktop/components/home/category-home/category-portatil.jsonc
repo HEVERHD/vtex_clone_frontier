@@ -1,11 +1,9 @@
 {
-      //definicion TITLE CATEGORIA PORTATIL
+  //definicion TITLE CATEGORIA PORTATIL
 
   "flex-layout.row#home__paragraph-title-category-portatil": {
     "title": "title category",
-    "children": ["rich-text#section__one--title-portatil"
-  
-  ],
+    "children": ["rich-text#section__one--title-portatil"],
     "props": {
       "blockClass": "title_category--portatil"
     }
@@ -14,7 +12,7 @@
   "rich-text#section__one--title-portatil": {
     "props": {
       "text": "PORTATILES",
-      "blockClass":"texto-portatil"
+      "blockClass": "texto-portatil"
     }
   },
 
@@ -28,18 +26,12 @@
       "flex-layout.col#section__one--image-portatil3"
     ],
     "props": {
-      "blockClass": "home__section--portatil" 
-      // "horizontalAlign": "center",
-      // "colGap" : 4
+      "blockClass": "home__section--portatil"
     }
   },
 
   "flex-layout.col#section__one--image-porttatil": {
-    "children": ["image#category__image-port"],
-    "props": {
-      
-      //  "horizontalAlign": "center"
-    }
+    "children": ["image#category__image-port"]
   },
 
   "image#category__image-port": {
@@ -49,12 +41,7 @@
   },
 
   "flex-layout.col#section__one--image-porttatil2": {
-    "children": ["image#category__image-port2"],
-    "props": {
-     
-      // "horizontalAlign": "center"
-      // "verticalAlign": "middle"
-    }
+    "children": ["image#category__image-port2"]
   },
 
   "image#category__image-port2": {
@@ -65,10 +52,7 @@
 
   "flex-layout.col#section__one--image-portatil3": {
     "children": ["image#category__port3"],
-    "props": {
-      
-
-    }
+    "props": {}
   },
 
   "image#category__port3": {

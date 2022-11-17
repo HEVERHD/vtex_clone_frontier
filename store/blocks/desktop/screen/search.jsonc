@@ -6,7 +6,7 @@
     ],
     "props": {
         "context": {
-            "skusFilter": "ALL_AVAILABLE",
+            "skusFilter": "ALL",
             "simulationBehavior": "default"
         }
     }
