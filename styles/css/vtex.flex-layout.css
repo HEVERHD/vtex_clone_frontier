@@ -93,3 +93,18 @@
   padding-top: 5px;
 }
 
+.flexRowContent--product__shelf:hover{
+  transition:all .5s ease-in-out;
+  -webkit-transform:scale(1.05);transform:scale(1.05);
+}
+
+.flexColChild--title_category--portatil {
+ 
+  width: 100%;
+}
+
+.flexRowContent--product__shelf{
+
+  justify-content: center;
+
+}

@@ -13,3 +13,7 @@
     height:200px;
     border: 1px solid #ff6900;
 }
+
+.image:hover{
+    background-color: #ff6900;
+}

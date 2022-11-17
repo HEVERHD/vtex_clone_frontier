@@ -29,8 +29,9 @@
     },
     "children": [
       "product-summary-image",
-      "product-selling-price",
       "product-summary-name",
+      "product-selling-price",
+      "product-rating-inline",
       "add-to-cart-button",
       "modal-trigger#global__view"
     ]
@@ -80,9 +81,9 @@
   },
   "modal-layout#global__view": {
     "children": [
-      "product-list-price",
+      "add-to-list-btn",
       "product-summary-image",
-
+      "product-rating-inline",
       "product-summary-name",
       "product-selling-price",
       "product-quantity",
