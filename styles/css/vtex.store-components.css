@@ -1,11 +1,10 @@
 .searchBarContainer {
-
   border-radius: 0 17px 17px 0;
-    border: 1px;
+  border: 1px;
 }
 
-.searchIcon{
-  color: #b7b2b2
+.searchIcon {
+  color: #b7b2b2;
 }
 
 .container {
@@ -34,42 +33,34 @@
   margin-left: -115px;
 }
 
-
-.imageElement--home__slider-mobile{
+.imageElement--home__slider-mobile {
   padding-top: 5px;
 }
 
-.imageElement--home__section--ofertas{
+.imageElement--home__section--ofertas {
   height: 168px;
   padding-top: 10px;
 }
 
-
-
-.imageElement--text-item-bot{
+.imageElement--text-item-bot {
   margin-left: -38px;
-  
 }
 
-
-.headerRowContentContainer{
+.headerRowContentContainer {
   background-color: #332e80;
 }
 
-.searchBarContainer{
+.searchBarContainer {
   padding: 0 10px;
 }
 
-.searchBarContainer :global(.vtex-input__suffix){
+.searchBarContainer :global(.vtex-input__suffix) {
   border-right: 1px solid rgb(155, 155, 155);
   margin: -25px;
   background: #fff;
-  
 }
 
-
-
-.searchBarContainer :global(.vtex-input-prefix__group){
+.searchBarContainer :global(.vtex-input-prefix__group) {
   border-radius: 6px;
   width: 100%;
   height: 30px;
@@ -81,22 +72,26 @@
   background-color: #fff;
   font-weight: 300;
   line-height: 28px;
-  letter-spacing: -.7px;
+  letter-spacing: -0.7px;
   text-align: left;
   color: #899a9e;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 
 /* .imageElement--home__slider{
   padding-top: 5px;
 } */
 
-.shareContainer{
+.shareContainer {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-
-
+.imageElement--image-nofound {
+  width: 370px;
+  height: 321px;
+  display: block;
+  margin: auto;
+  margin-top: -18px;
+}

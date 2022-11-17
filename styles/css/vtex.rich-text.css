@@ -95,6 +95,16 @@
   color: #ff6900;
 }
 
+
+.paragraph--search__not-found--text{
+  color: #332e80;
+  font-weight: bold;
+    font-size: 20px;
+    line-height: 15.2px;
+    text-align: left;
+}
+
+
 .paragraph--texto-item1 {
   color: #fff;
   text-align: left;
