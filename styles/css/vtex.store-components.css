@@ -67,6 +67,8 @@
   
 }
 
+
+
 .searchBarContainer :global(.vtex-input-prefix__group){
   border-radius: 6px;
   width: 100%;
@@ -90,5 +92,11 @@
   padding-top: 5px;
 } */
 
+.shareContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 
 

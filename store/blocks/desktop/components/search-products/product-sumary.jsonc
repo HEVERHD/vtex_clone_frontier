@@ -28,11 +28,9 @@
       "blockClass": "title_category--portatil"
     },
     "children": [
-      "product-list-price",
       "product-summary-image",
       "product-selling-price",
       "product-summary-name",
-      "product-summary-sku-selector",
       "add-to-cart-button",
       "modal-trigger#global__view"
     ]
@@ -57,9 +55,22 @@
     }
   },
 
+  // ICON VIEW //
+
+  "icon#view-hd": {
+    "props": {
+      "id": "view-hd"
+    }
+  },
+
   // =============== VISTA RAPIDA=========================================
   "modal-trigger#global__view": {
-    "children": ["rich-text#global__view", "modal-layout#global__view"]
+    "children": [
+      "modal-layout#global__view",
+
+      "rich-text#global__view",
+      "icon#view-hd"
+    ]
   },
   "rich-text#global__view": {
     "props": {
@@ -68,6 +79,20 @@
     }
   },
   "modal-layout#global__view": {
-    "children": ["product-summary-image", "product-summary-name","product-summary-sku-selector"]
+    "children": [
+      "product-list-price",
+      "product-summary-image",
+
+      "product-summary-name",
+      "product-selling-price",
+      "product-quantity",
+      "product-summary-sku-selector",
+      "share",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "disableEscapeKeyDown": true,
+      "blockClass": "modal-produc"
+    }
   }
 }
