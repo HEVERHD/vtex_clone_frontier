@@ -1,21 +1,13 @@
 {
-  "store.home": {
-    "blocks": [
-      // "rich-text",
-
-      // //barra naranja escritorio
-      // "responsive-layout.desktop#home__section--one",
-
-       //barra azul para mobile
-      //  "responsive-layout.mobile#home__section--one",
+  "responsive-layout.desktop#home__desktop": {
+    "children": [
+   
      
       //slider
       "flex-layout.row#home__section--one",
 
       //parrafo y title frontier
-      "flex-layout.row#home__paragraph",
-
-
+      "flex-layout.row#home__paragraph-desktop",
 
 
 
@@ -23,6 +15,9 @@
       // ===================PRODUCTOS POR DEFECTO ======================================
 
       "search-result-layout.customQuery#home",
+  
+   
+      
 
     
 
@@ -31,10 +26,10 @@
 
       //fila categoria portatil
 
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--two",
 
       //titulo categoria IMPRESION
-      // "flex-layout.row#home__paragraph-title-category-impresion",
+      "flex-layout.row#home__paragraph-title-category-impresion",
 
      
 
@@ -42,10 +37,10 @@
 
       // //fila categoria impesoras
 
-      // "flex-layout.row#home__section--tree",
+      "flex-layout.row#home__section--tree",
 
       // // banner ofertas
-      // "flex-layout.row#section__2--image4",
+      "flex-layout.row#section__2--image4"
 
       //  //titulo categoria ACCESORIOS
       //  "flex-layout.row#home__paragraph-title-category-acce"
@@ -55,24 +50,7 @@
     ]
   },
 
-  //definicion de Parrafo
 
-  "flex-layout.row#home__paragraph": {
-    "title": "Parrafo frontier",
-    "children": ["rich-text#section__one--paragraph"]
-  },
-
-  //definiendo parrafo y title
-
-
-  "rich-text#section__one--paragraph": {
-    "props": {
-      "text": " Todo lo que buscas en tecnología \n lo encuentras aquí en **Frontier**",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "parrafo"
-    }
-  },
 
   // "rich-text#section__one--title": {
   //   "props": {
@@ -87,19 +65,7 @@
 
   //texto pricipal VTEX io
 
-  "search-result-layout.customQuery#home":{
-    "props": {
-      "querySchema": {
-        "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    },
-    "blocks": [
-      "search-result-layout.desktop#home__search--desktop"
-      // "search-layout.mobile#home__search--mobile",
-      // "search-no-found-layout"
-    ]
-  },
+  
   "search-result-layout.desktop#home__search--desktop":{
     "children":[
       "flex-layout.row#home__result"

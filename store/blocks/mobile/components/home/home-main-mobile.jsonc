@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#home__section--one-mobile": {
+    "children": [
+      "list-context.image-list#home__slider--list-mobile",
+      "flex-layout.row#home__paragraph-mobile",
+
+      //products por defecto
+      "search-result-layout.customQuery#home",
+      //title categoria PORTATIL
+      "flex-layout.row#home__paragraph-title-category-portatil",
+
+      //fila categoria portatil
+
+      "flex-layout.row#home__section--two",
+
+      //titulo categoria IMPRESION
+      "flex-layout.row#home__paragraph-title-category-impresion",
+
+      // //fila categoria impesoras
+
+      "flex-layout.row#home__section--tree",
+
+      // // banner ofertas
+      "flex-layout.row#section__2--image4"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  }
+}

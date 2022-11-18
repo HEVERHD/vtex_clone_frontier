@@ -1,3 +1,21 @@
 .container{
    background-color:  #332e80;
 }
+
+
+.vtex-flex-layout-0-x-flexCol--info-servicio{
+   border: 1px solid red;
+}
+
+.flexColChild--title_category--portatil{
+   border: 2px solid #e7e7e7;
+
+   border-radius: 4px;
+ 
+   padding: 0.5rem;
+}
+
+
+.flexRowContent{
+   justify-content: center;
+}

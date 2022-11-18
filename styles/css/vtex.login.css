@@ -1,10 +1,18 @@
 .container{
     margin-left: auto;
     width: auto;
+   
+
+  
+}
+
+.container :global(.vtex-button__label){
+    /* border-right: 1px solid white */
 }
 
 .profileIcon{
-    color: #ff6900
+    color: #ff6900;
+ 
 }
 
 .label{
@@ -13,3 +21,11 @@
     text-transform: none;
     border-right: 1px solid;
 }
+
+.profile{
+    color: antiquewhite;
+    margin: 3px;
+    border-right: 1px solid white;
+    padding: 0 5px;
+}
+

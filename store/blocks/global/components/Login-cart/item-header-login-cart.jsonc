@@ -46,15 +46,15 @@
         "flex-layout.row#minicart-empty":{
          "children":[
 
-           "flex-layout.col#minicart-empty"
+           "flex-layout.col#minicart-empty-desktop"
          ]
          
         },
 
-        "flex-layout.col#minicart-empty":{
+        "flex-layout.col#minicart-empty-desktop":{
             "children":[
-              "icon#cart-empty",
-              "rich-text#empty"
+              "icon#cart-empty-desktop",
+              "rich-text#empty--desktop"
             ],
             "props": {
               "horizontalAlign": "center"
@@ -62,7 +62,7 @@
         },
 
     
-        "icon#cart-empty":{
+        "icon#cart-empty-desktop":{
           "props": {
             "id": "cart-hd",
             "size": 70,
@@ -72,7 +72,7 @@
         },
 
 
-        "rich-text#empty":{
+        "rich-text#empty--desktop":{
           "props": {
             "text": "Tu carrito esta vacio!",
             "blockClass":"carrito vacio"

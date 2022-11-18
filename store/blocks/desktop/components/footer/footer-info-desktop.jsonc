@@ -1,0 +1,9 @@
+{
+    "rich-text#info-footer-desktop":{
+        "title": "Informacion footer nit ext",
+    "props": {
+      "blockClass":"texto-footer",
+      "text": "NIT : 800015163-1 Teléfono: (4) 448 5100 / Dirección: Calle 10 Sur No. 48A-55, Medellín, Colombia / © 2021 Derechos Reservados Compurent S.A.S Powered by **nopCommerce**"
+    }
+    }
+}
