@@ -1,0 +1,16 @@
+.brandName{
+    font-size: x-large;
+}
+.SKUSelectorContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.image{
+    width:200px;
+    height:200px;
+
+}
+

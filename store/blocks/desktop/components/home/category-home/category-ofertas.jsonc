@@ -13,7 +13,7 @@
 
   "image#category__image4": {
     "props": {
-        "blockClass": "home__section--portatil",
+        "blockClass": "home__section--ofertas",
       "src": "assets/img/category/banner_ofertas.jpg"
     }
   }

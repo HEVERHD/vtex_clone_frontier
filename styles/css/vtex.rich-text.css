@@ -11,14 +11,18 @@
   display: block;
 }
 
-.paragraph--parrafo {
+.paragraph--parrafo-desktop {
   text-align: center;
   font-size: 1.5rem;
   margin: 20px 0;
   color: #7d7d7d;
 }
 
-.strong--parrafo {
+.strong--parrafo-desktop {
+  color: #332e80;
+}
+
+.strong--parrafo-mobile {
   color: #332e80;
 }
 
@@ -27,6 +31,13 @@
   color: #4ab2f1;
   
 }
+
+.strong--texto-footer-mobile{
+  font-weight: bold;
+  color: #4ab2f1;
+  
+}
+
 
 /* PRUPLE 1  */
 
@@ -76,7 +87,23 @@
   border-radius: 5px;
   background-color: #06005b;
   font-weight: 100;
+  cursor: pointer;
+
 }
+
+.heading--title--cambiar:hover{
+  color: #ff6900;
+}
+
+
+.paragraph--search__not-found--text{
+  color: #332e80;
+  font-weight: bold;
+    font-size: 20px;
+    line-height: 15.2px;
+    text-align: left;
+}
+
 
 .paragraph--texto-item1 {
   color: #fff;

@@ -8,9 +8,5 @@
             "placeholder": "Busca tu producto",
             "width": "75%"
         }
-    },
-
-    "autocomplete-result-list.v2": {
-        "blocks": ["product-summary"]
-      }
+    }
 }

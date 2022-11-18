@@ -5,11 +5,13 @@
 
       "logo#header_logo",
 
-      "login",
-      "minicart.v2#header__desktop--minicart"
+      "login#mobile",
+      "minicart.v2#header__mobile--minicart"
     //   "search-bar#header_search"
     ]
   }
+  
+  
 
   // "flex-layout.row#main-elements": {
   //     "children": [

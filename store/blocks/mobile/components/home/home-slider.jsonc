@@ -1,0 +1,37 @@
+{
+    "list-context.image-list#home__slider--list-mobile": {
+        "title": "lista de imagenes",
+        "children": ["slider-layout#home__slider--list-mobile"],
+        "props": {
+          "height": 475,
+          "images": [
+            {
+              "image": "assets/img/banner/banner_principal-mobile.jpg",
+              "description": "Slider 1"
+            },
+            {
+              "image": "assets/img/banner/banner_principal2-mobile.jpg",
+              "description": "Slider 1"
+            }
+          ]
+        
+        }
+      },
+      "slider-layout#home__slider--list-mobile": {
+        "title": "Slider con lista",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "home__slider",
+          "autoplay": {
+            "timeout": 6000,
+            "stopOnHover": true
+          }
+        
+        }
+      }
+}

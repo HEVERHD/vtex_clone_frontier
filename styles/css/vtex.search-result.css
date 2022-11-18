@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.galleryItem {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.galleryItem :global(.vtex-button) {
+  background-color: #332e80;
+}
