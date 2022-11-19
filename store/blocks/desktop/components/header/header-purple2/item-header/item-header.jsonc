@@ -4,11 +4,14 @@
     "title":"Menu principal",
       "children": [
         "vtex.menu@2.x:menu#menu__one"
+     
       ],
       "blocks":[
         "drawer-trigger"
       ]
     },
+
+    
 
     "vtex.menu@2.x:menu#menu__one":{
       "children":[
