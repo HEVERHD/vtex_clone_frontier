@@ -12,7 +12,7 @@
   },
 
   "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"],
+    // "children": ["mega-menu#desktop"],
     "props": {
      "blockClass": "desktop__mega-menu"
     }
