@@ -10,8 +10,10 @@
       "paddingBottom": 7
     },
     "children": [
+    
       "flex-layout.col#product__info--image",
       "flex-layout.col#product__info--data"
+    
     ]
   },
 

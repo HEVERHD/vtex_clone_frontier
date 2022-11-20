@@ -79,7 +79,7 @@
 "search-result-layout.desktop": {
     "title": "Search Result General Layout Desktop",
     "children": [
-        "flex-layout.row#search__results"
+       "flex-layout.row#search__results"
     ]
 },
 "search-result-layout.mobile": {
@@ -101,17 +101,23 @@
 },
 
 
-///////////////////////////////////////////////
+/////////////////////
+
+// RESULTS PRODUCT
+
+//////////////////////////
 "flex-layout.row#search__results": {
     "title": "Search Result Container",
     "props": {
         "blockClass": "search__results"
     },
     "children": [
+        
         "flex-layout.col#search__results--filter",
         "flex-layout.col#search__results--content"
     ]
 },
+
 "rich-text#search__not-found--text": {
     "title": "Search Not Found Message",
     "props": {
