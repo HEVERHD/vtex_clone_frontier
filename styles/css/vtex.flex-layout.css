@@ -111,5 +111,69 @@
 /* product details */
 
 .flexRow--search__results{
-  border: 3px solid red;
+
 }
+
+
+.flexColChild--main-details{
+  margin: 9px 290px;
+  height: 100%;
+  margin: 10px 100px;
+}
+
+
+.flexColChild--main-text{
+  text-align: left;
+  margin-top: -19px;
+}
+
+/* font-size: .8rem;
+    font-weight: 300;
+    letter-spacing: -.2px;
+    width: 100%;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: #fff; */
+
+    .flexRow--content-main-center{
+      
+      padding: 0;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       border: 1px solid #fff;
+   }
+   .flexRowContent--product-essential{
+    /* border: 5px solid red; */
+    font-size: .8rem;
+    font-weight: 300;
+    letter-spacing: -.2px;
+    width: 100%;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: #fff;
+   }
+
+   .flexCol--espesifi-item{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    max-width: 300px;
+    /* border: solid 1px red; */
+ }
+
+
+ 
+ .flexRowContent--cantidad-add{
+   margin-top: 25px;
+  /* border: 3px solid red; */
+ }
+ 
