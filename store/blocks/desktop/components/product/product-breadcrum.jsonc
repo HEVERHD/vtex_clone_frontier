@@ -1,8 +1,8 @@
 {
-  "flex-layout.row#product__breadcrumb": {
+  "flex-layout.row#global__product--breadcrumb": {
     "title": "Miga de pan de producto",
     "props": {
-      "marginTop" :4
+      "blockClass": "bread"
     },
     "children": [
     

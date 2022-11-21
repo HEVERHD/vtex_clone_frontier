@@ -95,3 +95,53 @@
   margin: auto;
   margin-top: -18px;
 }
+
+.productImageTag--main{
+
+  padding: 5px 10px;
+  
+}
+
+.productImage{
+  width: 415px;
+}
+
+.productImagesGallerySwiperContainer{
+
+  width: 350px;
+  position: relative;
+    text-align: center;
+}
+
+
+.productImagesGallerySlide{
+  width: none;
+}
+
+.sellingPriceContainer{
+  border-bottom: 1px solid rgba(77,77,77,.71);
+}
+
+.sellingPrice{
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -1.2px;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #332e80;
+}
+
+.price_sellingPrice{
+  
+}
+
+.imageElement--logo-delivery{
+  margin-left: -150px;
+}
+
+/* COMPONENTES VTEX */
+
+.productBrand--title-main{
+ 
+   white-space: nowrap;
+}

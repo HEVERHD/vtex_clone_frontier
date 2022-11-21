@@ -54,8 +54,7 @@
     "vtex.store-icons": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.store-newsletter": "1.x",
-    "vtex.product-price": "1.x",
-    "vtex.mega-menu": "2.x"
+    "vtex.product-price": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"
