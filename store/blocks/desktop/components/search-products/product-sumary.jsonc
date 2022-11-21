@@ -31,7 +31,7 @@
       "product-summary-image",
       "product-summary-name",
       "product-selling-price",
-      "product-rating-inline",
+      // "product-rating-inline",
       "add-to-cart-button",
       "modal-trigger#global__view"
     ]

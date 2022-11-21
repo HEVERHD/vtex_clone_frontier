@@ -7,8 +7,6 @@
   color: #b7b2b2;
 }
 
-.container {
-}
 
 .logoImage {
   display: flex;
@@ -82,11 +80,8 @@
   padding-top: 5px;
 } */
 
-.shareContainer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.shareLabel {
+  display: none;
 }
 .imageElement--image-nofound {
   width: 370px;
@@ -96,33 +91,26 @@
   margin-top: -18px;
 }
 
-.productImageTag--main{
-
+.productImageTag--main {
   padding: 5px 10px;
-  
 }
 
-.productImage{
+.productImage {
   width: 415px;
 }
 
-.productImagesGallerySwiperContainer{
-
-  width: 350px;
-  position: relative;
-    text-align: center;
+.productImagesGallerySwiperContainer {
 }
 
-
-.productImagesGallerySlide{
+.productImagesGallerySlide {
   width: none;
 }
 
-.sellingPriceContainer{
-  border-bottom: 1px solid rgba(77,77,77,.71);
+.sellingPriceContainer {
+  border-bottom: 1px solid rgba(77, 77, 77, 0.71);
 }
 
-.sellingPrice{
+.sellingPrice {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: -1.2px;
@@ -131,17 +119,35 @@
   color: #332e80;
 }
 
-.price_sellingPrice{
-  
+.price_sellingPrice {
 }
 
-.imageElement--logo-delivery{
+.imageElement--logo-delivery {
   margin-left: -150px;
 }
 
 /* COMPONENTES VTEX */
 
-.productBrand--title-main{
- 
-   white-space: nowrap;
+.productBrand--title-main {
+  white-space: nowrap;
+}
+
+/* SLIDER */
+
+.swiperPaginationClickable {
+  display: none;
+}
+
+.carouselGaleryThumbs {
+  background-color: yellow;
+  display: flex;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.productImagesGallerySwiperContainer {
+  width: 350px;
+  position: relative;
+  text-align: center;
+  display: flex;
 }
