@@ -2,6 +2,7 @@
   "store.search": {
     "title": "Store Search Template",
     "blocks": [
+     
         "search-result-layout"
     ],
     "props": {
@@ -79,7 +80,7 @@
 "search-result-layout.desktop": {
     "title": "Search Result General Layout Desktop",
     "children": [
-       "flex-layout.row#search__results"
+        "breadcrumb.search","flex-layout.row#search__results"
     ]
 },
 "search-result-layout.mobile": {
