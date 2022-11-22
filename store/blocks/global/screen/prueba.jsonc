@@ -1,0 +1,17 @@
+{
+    "store.custom#pruerba":{
+        "blocks": [
+            "flex-layout.row#prueba"
+        ]
+    },
+    "flex-layout.row#prueba":{
+        "children": [
+            "rich-text#prueba"
+        ]
+    },
+    "rich-text#prueba":{
+        "props": {
+            "text": "HOLAAAA MUNDO"
+        }
+    }
+}
