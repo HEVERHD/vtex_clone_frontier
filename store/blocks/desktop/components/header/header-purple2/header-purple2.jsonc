@@ -23,8 +23,8 @@
     "title": "Menu item categorias",
     "children": [
       // MEGA MENU
-      // "flex-layout.row#4-desktop", 
-      // "flex-layout.row#mega-menu",
+      "flex-layout.row#4-desktop", 
+      "flex-layout.row#mega-menu",
 
       // MENU NORMAL
     
