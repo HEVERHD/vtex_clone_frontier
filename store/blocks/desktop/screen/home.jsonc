@@ -1,11 +1,12 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
-   
-     
+      //componente CUSTOM
       //slider
+      "whatsapp-button",
       "flex-layout.row#home__section--one",
-
+      
+    
       //parrafo y title frontier
       "flex-layout.row#home__paragraph-desktop",
 
@@ -48,6 +49,14 @@
       //fila de categoria ACCESORIOS
       // "flex-layout.row#home__section--4"
     ]
+  },
+
+  "whatsapp-button":{
+    "props":{
+      "logo":"LOGO DE LA CLASE.png",
+      "phone":"3105651506",
+      "message": "VTEX IO responsive"
+    }
   },
 
   
