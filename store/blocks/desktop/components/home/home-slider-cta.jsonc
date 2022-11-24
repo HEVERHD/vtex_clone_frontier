@@ -1,6 +1,7 @@
 {
   "flex-layout.row#home__section--one": {
     "children": [
+     
       "list-context.image-list#home__slider--list"
      
     ],

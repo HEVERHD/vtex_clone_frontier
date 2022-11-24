@@ -53,7 +53,7 @@
 
   "whatsapp-button":{
     "props":{
-      "logo":"LOGO DE LA CLASE.png",
+      "logo":"/assets/img/logopr/WhatsApp.svg.webp",
       "phone":"3105651506",
       "message": "VTEX IO responsive"
     }
