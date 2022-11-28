@@ -30,6 +30,9 @@
     }
   },
 
+
+
+
   "flex-layout.col#section__one--image-porttatil": {
     "children": ["image#category__image-port"]
   },

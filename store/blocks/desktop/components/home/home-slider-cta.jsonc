@@ -1,14 +1,15 @@
 {
-    "flex-layout.row#home__section--one": {
-        "children": [
-            "list-context.image-list#home__slider--list"
-         
-        ],
-        "props": {
-            "fullWidth": true
-           
-        }
-    },
+  "flex-layout.row#home__section--one": {
+    "children": [
+     
+      "list-context.image-list#home__slider--list"
+     
+    ],
+
+    "props": {
+      "fullWidth": true
+    }
+  },
 
   "list-context.image-list#home__slider--list": {
     "title": "lista de imagenes",
@@ -25,7 +26,6 @@
           "description": "Slider 1"
         }
       ]
-    
     }
   },
   "slider-layout#home__slider--list": {
@@ -42,7 +42,6 @@
         "timeout": 6000,
         "stopOnHover": true
       }
-    
     }
   }
 }

@@ -22,7 +22,12 @@
   "flex-layout.row#upper-two": {
     "title": "Menu item categorias",
     "children": [
-      "drawer#menu-drawer",
+      // MEGA MENU
+      "flex-layout.row#4-desktop", 
+      "flex-layout.row#mega-menu",
+
+      // MENU NORMAL
+    
       "menu-item#menu-item--categoria",
       "menu-item#menu-item--marcas",
       "image#menu-item--bot",

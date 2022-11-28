@@ -1,11 +1,15 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
-   
-     
+      //componente CUSTOM
       //slider
+      "whatsapp-button",
       "flex-layout.row#home__section--one",
 
+      // List contex componente CUSTOM
+      "list-context.bullet-group",
+      
+    
       //parrafo y title frontier
       "flex-layout.row#home__paragraph-desktop",
 
@@ -50,20 +54,13 @@
     ]
   },
 
-
-
-  // "rich-text#section__one--title": {
-  //   "props": {
-  //     "text": "Bienvenidos a VTEX U"
-  //   }
-  // },
-  // "rich-text#section__one--paragraph": {
-  //   "props": {
-  //     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec porta turpis. Praesent sit amet orci ac tellus cursus vulputate. Praesent venenatis, felis et tempor tempus, massa tellus commodo ipsum, id congue tellus tortor eget augue. Integer et lorem aliquet."
-  //   }
-  // },
-
-  //texto pricipal VTEX io
+  "whatsapp-button":{
+    "props":{
+      "logo":"/assets/img/logopr/WhatsApp.svg.webp",
+      "phone":"3105651506",
+      "message": "VTEX IO responsive"
+    }
+  },
 
   
   "search-result-layout.desktop#home__search--desktop":{
