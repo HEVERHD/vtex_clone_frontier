@@ -4,7 +4,7 @@
       "list-context.image-list#home__slider--list-mobile",
 
       // List contex componente CUSTOM
-      // "list-context.bullet-group",
+      "list-context.bullet-group",
 
       // texto frontier MOBILE
       "flex-layout.row#home__paragraph-mobile",
