@@ -8,6 +8,7 @@
 
       // List contex componente CUSTOM
       "list-context.bullet-group",
+   
       
     
       //parrafo y title frontier
@@ -62,7 +63,7 @@
     }
   },
 
-  
+
   "search-result-layout.desktop#home__search--desktop":{
     "children":[
       "flex-layout.row#home__result"

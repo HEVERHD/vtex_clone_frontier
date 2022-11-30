@@ -1,0 +1,44 @@
+{
+    
+     // preparancion del componente custom DIAGRAMATION
+     "list-context.bullet-group":{
+        "title":"Bulles list Custom",
+        "children":["slider-layout#bullet-group"],
+        "props":{
+          "bullets":[
+            {
+              "image":"item1",
+              "titleBullet":"COMPUTADORES",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image":"item2",
+              "titleBullet":"CELULARES",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image":"item1",
+              "titleBullet":"COMPUTADORES",
+              "link":{
+                "url":"/"
+              }
+            }
+          ]
+        }
+       },
+  
+       "slider-layout#bullet-group":{
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 5,
+            "mobile": 5
+          },
+          "infinite":true
+        }
+       },
+}
