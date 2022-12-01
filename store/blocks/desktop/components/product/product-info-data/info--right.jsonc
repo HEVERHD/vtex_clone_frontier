@@ -34,7 +34,7 @@
       "product-price",
       "rich-text#attribute",
       "flex-layout.row#cantidad",
-
+      "add-to-cart-info",
       "rich-text#attribute-final"
    
     ]
@@ -52,7 +52,8 @@
   "flex-layout.row#cantidad":{
     "children": [
         "product-quantity#pdp",
-        "buy-button"
+        "add-to-cart-button"
+      
     ],
     "props": {
       "blockClass": "cantidad-add"
