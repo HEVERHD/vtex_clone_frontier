@@ -34,11 +34,38 @@
       "product-price",
       "rich-text#attribute",
       "flex-layout.row#cantidad",
-
-      "rich-text#attribute-final"
+     
+      "rich-text#attribute-final",
+      "modal-trigger#add-to-cart-info"
    
     ]
   },
+
+  "modal-trigger#add-to-cart-info":{
+    "title": "Modal Custom",
+    "children":[
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+
+  "modal-layout#add-to-cart-info":{
+    "children":[
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ]
+  },
+
+  "modal-header#add-to-cart-info":{
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 32
+    }
+  },
+
+
 
   /////////////////// ATRIBUTE ////////////////////////////////
 
@@ -52,7 +79,8 @@
   "flex-layout.row#cantidad":{
     "children": [
         "product-quantity#pdp",
-        "buy-button"
+        "add-to-cart-button"
+      
     ],
     "props": {
       "blockClass": "cantidad-add"

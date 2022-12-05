@@ -12,13 +12,5 @@
     
     ]
    
-  },
-
-
-  "rich-text#promo-info":{
-    "title": "Texto adicional Promocion",
-    "props": {
-        "text": ""
-    }
   }
 }
