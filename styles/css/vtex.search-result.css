@@ -8,10 +8,16 @@
 }
 
 .galleryItem {
-  flex-grow: 1;
-  flex-basis: auto;
+
 }
 
 .galleryItem :global(.vtex-button) {
   background-color: #332e80;
+}
+
+.gallery--general-grid{
+  display: grid;
+  margin-bottom: 30px;
+  border: initial;
+  border-bottom: 1px solid #e8e8e8;
 }

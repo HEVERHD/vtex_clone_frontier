@@ -6,8 +6,7 @@
       "whatsapp-button",
       "flex-layout.row#home__section--one",
 
-      // List contex componente CUSTOM
-      // "list-context.bullet-group",
+ 
 
       // List contex componente CUSTOM
 
@@ -17,6 +16,10 @@
       // ===================PRODUCTOS POR DEFECTO ======================================
 
       "search-result-layout.customQuery#home",
+
+
+           // List contex componente CUSTOM
+           "list-context.bullet-group",
 
       //title categoria MONITORES
       "flex-layout.row#home__paragraph-title-category-monitores",
