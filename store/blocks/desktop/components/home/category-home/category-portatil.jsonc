@@ -5,11 +5,14 @@
     "title": "title category",
     "children": ["rich-text#section__one--title-portatil"],
     "props": {
-      "blockClass": "title_category--portatil"
+      "blockClass": "title_category--portatil",
+      "fullWidth": true,
+      "horizontalAlign":"right"
     }
   },
 
   "rich-text#section__one--title-portatil": {
+    "title": "Caterogy",
     "props": {
       "text": "PORTATILES",
       "blockClass": "texto-portatil"
@@ -29,9 +32,6 @@
       "blockClass": "home__section--portatil"
     }
   },
-
-
-
 
   "flex-layout.col#section__one--image-porttatil": {
     "children": ["image#category__image-port"]
