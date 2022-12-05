@@ -8,10 +8,8 @@
 
       // List contex componente CUSTOM
       // "list-context.bullet-group",
-   
 
       // List contex componente CUSTOM
-    
 
       //parrafo y title frontier
       "flex-layout.row#home__paragraph-desktop",
@@ -20,6 +18,12 @@
 
       "search-result-layout.customQuery#home",
 
+      //title categoria MONITORES
+      "flex-layout.row#home__paragraph-title-category-monitores",
+
+      //fila categoria monitores
+
+      "flex-layout.row#home__section--monitores",
       //title categoria PORTATIL
       "flex-layout.row#home__paragraph-title-category-portatil",
 
@@ -45,7 +49,6 @@
     ]
   },
 
-
   "whatsapp-button": {
     "props": {
       "logo": "/assets/img/logopr/WhatsApp.svg.webp",
@@ -54,11 +57,8 @@
     }
   },
 
-  
-  "search-result-layout.desktop#home__search--desktop":{
-    "children":[
-      "flex-layout.row#home__result"
-    ]
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["flex-layout.row#home__result"]
   },
   "flex-layout.row#home__result": {
     "children": ["flex-layout.col#home__result--search"]

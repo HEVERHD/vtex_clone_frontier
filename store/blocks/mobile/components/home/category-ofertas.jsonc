@@ -1,0 +1,17 @@
+{
+  
+    "flex-layout.row#banner-ofertas-mobile": {
+        "children": ["image#category__ofertas-mobile"],
+        "props": {
+      
+        }
+       
+      },
+    
+      "image#category__ofertas-mobile": {
+        "props": {
+            "blockClass": "home__section--ofertas",
+            "src": "assets/img/category/banner_ofertas_diciembre-mobile.jpg"
+        }
+      }
+}

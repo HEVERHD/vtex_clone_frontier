@@ -3,17 +3,21 @@
 
   "flex-layout.row#home__paragraph-title-category-impresion": {
     "title": "title category",
-    "children": ["rich-text#section__one--title"],
+    "children": ["rich-text#triangule","rich-text#section__one--title"],
 
     "props": {
-      "blockClass": "title_category--portatil"
+      "blockClass": "title_category--portatil",
+      "fullWidth": true,
+      "horizontalAlign":"right"
      
     }
   },
 
+
   "rich-text#section__one--title": {
     "props": {
-      "text": "IMPRESION"
+      "text": "IMPRESION",
+      "blockClass":"texto-portatil"
     }
   },
 

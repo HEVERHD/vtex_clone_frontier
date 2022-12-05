@@ -3,7 +3,7 @@
 
   "flex-layout.row#home__paragraph-title-category-portatil": {
     "title": "title category",
-    "children": ["rich-text#section__one--title-portatil"],
+    "children": ["rich-text#triangule","rich-text#section__one--title-portatil"],
     "props": {
       "blockClass": "title_category--portatil",
       "fullWidth": true,
@@ -11,10 +11,18 @@
     }
   },
 
+  "rich-text#triangule":{
+    "title":"triangule",
+    "props":{
+      "text": "",
+      "blockClass":"triangule"
+    }
+  },
+
   "rich-text#section__one--title-portatil": {
     "title": "Caterogy",
     "props": {
-      "text": "PORTATILES",
+      "text": "PORTÁTILES",
       "blockClass": "texto-portatil"
     }
   },

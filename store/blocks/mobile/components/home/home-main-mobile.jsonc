@@ -2,7 +2,7 @@
   "flex-layout.row#home__section--one-mobile": {
     "children": [
       "list-context.image-list#home__slider--list-mobile",
-      "whatsapp-button",
+  
 
   
       // texto frontier MOBILE
@@ -23,22 +23,13 @@
       // //fila categoria impesoras
 
       "flex-layout.row#home__section--tree",
+      
+      // banner ofertas
+      "flex-layout.row#banner-ofertas-mobile"
 
-      // // banner ofertas
-      "flex-layout.row#section__2--image4"
     ],
     "props": {
       "fullWidth": true
-    }
-  },
-
-  
-  "whatsapp-button": {
-    "props": {
-      "logo": "/assets/img/logopr/WhatsApp.svg.webp",
-      "phone": "3105651506",
-      "message": "VTEX IO responsive",
-      "blockClass":"mobile-whatsapp"
     }
   }
 }
