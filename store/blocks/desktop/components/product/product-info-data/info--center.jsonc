@@ -7,8 +7,8 @@
 
   "flex-layout.col#content-center": {
     "children": [
-        // "vtex.store-components:product-name",
-        "flex-layout.col#main-text",
+        "vtex.store-components:product-name",
+        // "flex-layout.col#main-text",
         "flex-layout.col#content-espesification",
         "flex-layout.col#content-delivery",
         "flex-layout.col#content-product-complement"

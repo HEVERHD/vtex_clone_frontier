@@ -199,3 +199,13 @@
 .container--text-attribu{
   border-bottom: 1px solid rgba(77,77,77,.71);
 }
+
+.wrapper--texto-portatil {
+float: left;
+}
+
+.paragraph--texto-portatil {
+  font-size: 27px;
+  font-weight: bold;
+  color: #4D4D4D;
+}

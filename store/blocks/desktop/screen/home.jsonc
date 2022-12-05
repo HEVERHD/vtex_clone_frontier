@@ -8,22 +8,16 @@
 
       // List contex componente CUSTOM
       "list-context.bullet-group",
-      
+
+      // List contex componente CUSTOM
     
+
       //parrafo y title frontier
       "flex-layout.row#home__paragraph-desktop",
 
-
-
-      
       // ===================PRODUCTOS POR DEFECTO ======================================
 
       "search-result-layout.customQuery#home",
-  
-   
-      
-
-    
 
       //title categoria PORTATIL
       "flex-layout.row#home__paragraph-title-category-portatil",
@@ -34,10 +28,6 @@
 
       //titulo categoria IMPRESION
       "flex-layout.row#home__paragraph-title-category-impresion",
-
-     
-
-
 
       // //fila categoria impesoras
 
@@ -54,38 +44,31 @@
     ]
   },
 
-  "whatsapp-button":{
-    "props":{
-      "logo":"/assets/img/logopr/WhatsApp.svg.webp",
-      "phone":"3105651506",
+  "list-context.bullet-group":{
+    "title":"custom category"
+  },
+
+  "whatsapp-button": {
+    "props": {
+      "logo": "/assets/img/logopr/WhatsApp.svg.webp",
+      "phone": "3105651506",
       "message": "VTEX IO responsive"
     }
   },
 
-  
-  "search-result-layout.desktop#home__search--desktop":{
-    "children":[
-      "flex-layout.row#home__result"
-    ]
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["flex-layout.row#home__result"]
   },
-  "flex-layout.row#home__result":{
-    "children": [
-      "flex-layout.col#home__result--search"
-    ]
+  "flex-layout.row#home__result": {
+    "children": ["flex-layout.col#home__result--search"]
   },
-  "flex-layout.col#home__result--search":{
-    "children": [
-      "search-content#home__results--search"
-    ]
+  "flex-layout.col#home__result--search": {
+    "children": ["search-content#home__results--search"]
   },
-  "search-content#home__results--search":{
-    "blocks":[
-      "gallery", "not-found"
-    ]
+  "search-content#home__results--search": {
+    "blocks": ["gallery", "not-found"]
   },
   "gallery": {
-    "blocks": [
-      "product-summary.shelf"
-    ]
+    "blocks": ["product-summary.shelf"]
   }
 }
