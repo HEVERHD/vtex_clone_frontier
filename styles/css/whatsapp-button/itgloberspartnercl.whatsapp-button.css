@@ -1,0 +1,18 @@
+.whatsapp_item-main {
+    position: fixed;
+    top: calc(50vh - 10px);
+    right: -103px;
+    z-index: 1000;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .whatsapp_item-main:hover {
+    right: 10px;
+  }
+
+  
+/* MOBILE STYLE */
+
+.whatsapp_item-main--mobile-whatsapp {
+
+}

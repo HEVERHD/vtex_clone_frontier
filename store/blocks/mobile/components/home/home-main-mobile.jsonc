@@ -30,5 +30,15 @@
     "props": {
       "fullWidth": true
     }
+  },
+
+  
+  "whatsapp-button": {
+    "props": {
+      "logo": "/assets/img/logopr/WhatsApp.svg.webp",
+      "phone": "3105651506",
+      "message": "VTEX IO responsive",
+      "blockClass":"mobile-whatsapp"
+    }
   }
 }
