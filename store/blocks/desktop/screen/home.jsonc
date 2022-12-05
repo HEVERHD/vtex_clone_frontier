@@ -7,15 +7,10 @@
       "flex-layout.row#home__section--one",
 
       // List contex componente CUSTOM
-<<<<<<< HEAD
-      "list-context.bullet-group",
-
-      // List contex componente CUSTOM
-=======
       // "list-context.bullet-group",
    
-      
->>>>>>> 49a5a2960cd45fcb5b3652681db2c57afbf30cac
+
+      // List contex componente CUSTOM
     
 
       //parrafo y title frontier
@@ -50,9 +45,6 @@
     ]
   },
 
-  "list-context.bullet-group":{
-    "title":"custom category"
-  },
 
   "whatsapp-button": {
     "props": {
@@ -62,16 +54,11 @@
     }
   },
 
-<<<<<<< HEAD
-  "search-result-layout.desktop#home__search--desktop": {
-    "children": ["flex-layout.row#home__result"]
-=======
-
+  
   "search-result-layout.desktop#home__search--desktop":{
     "children":[
       "flex-layout.row#home__result"
     ]
->>>>>>> 49a5a2960cd45fcb5b3652681db2c57afbf30cac
   },
   "flex-layout.row#home__result": {
     "children": ["flex-layout.col#home__result--search"]
