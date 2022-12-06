@@ -48,13 +48,27 @@
   },
   "disclosure-content#first": {
     "children": [
-      "rich-text#answer1",
+      "menu-item#atencioncliente__menu--ayuda","menu-item#atencioncliente__menu--ayuda","menu-item#atencioncliente__menu--ayuda",
       "rich-text#answer2",
       "rich-text#answer3",
       "rich-text#answer4",
       "rich-text#answer5"
     ]
   },
+
+  "menu-item#atencioncliente__menu--ayuda": {
+    "props": {
+        "id": "footer-ayuda",
+        "type": "custom",
+        "itemProps": {
+            "type": "internal",
+            "href": "https://hevert--itgloberspartnercl.myvtex.com/sobre-nosotros",
+            "tagTitle": "Ayuda",
+            "text": "Sobre Nosotros"
+        },
+        "blockClass": ""
+    }
+},
 
   //TITULO INFORMACION
   "rich-text#informacion": {
@@ -68,7 +82,8 @@
   //SUBTITULOS
   "rich-text#answer1": {
     "props": {
-      "text": "Sobre Nosotros"
+      "text": "Sobre Nosotros",
+      "href":"/"
     }
   },
 

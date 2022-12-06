@@ -161,7 +161,6 @@ RESULTS PLP */
 
 .flexRow--search__results-container {
   display: grid;
-  grid-template-columns: 230px 1fr;
   max-width: 1050px;
   margin: 25px auto;
   padding: 0 10px;

@@ -7,17 +7,23 @@
   column-gap: 10px;
 }
 
-.galleryItem {
-
-}
-
 .galleryItem :global(.vtex-button) {
   background-color: #332e80;
 }
 
-.gallery--general-grid{
+.gallery--general-grid {
   display: grid;
   margin-bottom: 30px;
   border: initial;
   border-bottom: 1px solid #e8e8e8;
+}
+
+.galleryLayoutSwitcher {
+  margin-left: 460px;
+}
+
+.gallery--grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    margin-bottom: 30px;
 }

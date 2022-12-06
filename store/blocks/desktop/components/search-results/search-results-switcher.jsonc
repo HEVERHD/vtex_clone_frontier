@@ -4,9 +4,27 @@
     "props": {
       "horizontalAlign": "left",
       "width": "grow",
-      "blockClass": "search__results--content"
+      "blockClass": "search__results--right"
     },
-    "children": ["gallery-layout-switcher", "search-content#results__content"]
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#group--border",
+      "search-content#results__content"
+    ]
+  },
+
+  //////////////////////////////////////
+
+  "flex-layout.row#group--border": {
+    "children": [
+      "order-by.v2",
+      // "header-spacer",
+      //  "header-spacer",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "pl-main__group--border"
+    }
   },
 
   ///////////////////////////////////////////////
@@ -20,7 +38,7 @@
       "layouts": [
         {
           "name": "grid",
-          "component": "gridSummary",
+          "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 3,
             "tablet": 3,
@@ -29,7 +47,7 @@
         },
         {
           "name": "list",
-          "component": "listSummary",
+          "component": "ListSummary",
           "itemsPerRow": {
             "desktop": 3,
             "tablet": 3,
@@ -37,32 +55,48 @@
           }
         }
       ],
-      "listSummary": "product-summary.shelf#list_summary"
+      "ListSummary": "product-summary.shelf#list_summary",
+      "GridSummary": "product-summary.shelf#grid_summary"
     }
   },
 
   "gallery-layout-switcher": {
-    "children": ["gallery-layout-option#two", "gallery-layout-option#many"]
+    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
   },
 
-  "gallery-layout-option#two": {
+  "gallery-layout-option#grid": {
     "props": {
-      "name":  "grid"
+      "name": "grid",
+      "blockClass": "pl-main__grid"
     },
-    "children": ["icon-inline-grid"]
+    "children": ["icon#grid-hd"]
   },
 
-  "gallery-layout-option#many": {
+  "gallery-layout-option#list": {
     "props": {
-      "name": "list"
+      "name": "list",
+      "blockClass": "pl-main__wrap-products"
     },
     "children": ["icon-menu"]
   },
 
-
-  "product-summary.shelf#list_summary":{
+  "product-summary.shelf#list_summary": {
     "children": [
-        
+      "product-summary-image",
+      "product-summary-brand",
+      "product-summary-name",
+      "product-selling-price"
     ]
+  },
+
+  "product-summary.shelf#grid_summary": {
+    "children": [
+      "product-summary-image",
+      "product-summary-brand",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "pl-main__grid"
+    }
   }
 }

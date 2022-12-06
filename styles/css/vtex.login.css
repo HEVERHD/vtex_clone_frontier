@@ -29,3 +29,8 @@
     padding: 0 5px;
 }
 
+.container :global(.vtex-button):focus,
+.container :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
