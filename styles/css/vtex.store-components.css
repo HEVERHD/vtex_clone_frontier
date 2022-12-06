@@ -156,3 +156,7 @@
   text-align: center;
   display: flex;
 }
+
+.searchResultContainer{
+  background-color: black;
+}

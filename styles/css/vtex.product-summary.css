@@ -14,3 +14,11 @@
 
 }
 
+/* PLP */
+
+.element--pl-main__grid {
+    border: 1px solid #e8e8e8;
+    padding: 0.9em;
+    width: 100%;
+}
+

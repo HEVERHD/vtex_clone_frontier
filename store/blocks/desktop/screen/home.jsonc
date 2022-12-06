@@ -13,14 +13,16 @@
       //parrafo y title frontier
       "flex-layout.row#home__paragraph-desktop",
 
+      
+      
+      
+      // List contex componente CUSTOM
+      "list-context.bullet-group",
+      
       // ===================PRODUCTOS POR DEFECTO ======================================
-
+      //title categoria VTEX
+      // "flex-layout.row#home__paragraph-title-category-vtex-product",
       "search-result-layout.customQuery#home",
-
-
-           // List contex componente CUSTOM
-           "list-context.bullet-group",
-
       //title categoria MONITORES
       "flex-layout.row#home__paragraph-title-category-monitores",
 
@@ -52,6 +54,21 @@
     ]
   },
 
+  // "flex-layout.row#home__paragraph-title-category-vtex-product": {
+  //   "title": "title category",
+  //   "children": [
+  //     "rich-text#triangule",
+  //     "rich-text#section__one--title-vtex"
+  //   ]
+  // },
+
+  //   "rich-text#section__one--title-vtex": {
+  //     "props": {
+  //       "text": "VTEX PRODUCTS",
+  //       "blockClass": "texto-portatil"
+  //     }
+  //   },
+
   "whatsapp-button": {
     "props": {
       "logo": "/assets/img/logopr/WhatsApp.svg.webp",
@@ -76,3 +93,4 @@
     "blocks": ["product-summary.shelf"]
   }
 }
+
