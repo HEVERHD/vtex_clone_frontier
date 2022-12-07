@@ -8,55 +8,70 @@
     },
     "flex-layout.row#about-us": {
       "children": [
-        "image#about-us",
-        "flex-layout.col#text-about-us",
-        "link#section1"
+     
+        "flex-layout.col#text-about-us"
+     
 
       ]
     },
-    "link#section1": {
-        "children": [
-            "info-card#section1"
-        ],
-        "props": {
-            "href": "/"
-        }
-    },
+    // "link#section1": {
+    //     "children": [
+    //         "info-card#section1"
+    //     ],
+    //     "props": {
+    //         "href": "/"
+    //     }
+    // },
 
-    "info-card#section1": {
-        "props": {
-          "id": "info-card-example",
-          "isFullModeStyle": false,
-          "textPosition": "left",
-          "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-          "headline": "Clearance Sale",
-          "callToActionText": "DISCOVER",
-          "callToActionUrl": "/",
-          "blockClass": "info-card-example",
-          "textAlignment": "center"
-        }
-      },
+    // "info-card#section1": {
+    //     "props": {
+    //       "id": "info-card-example",
+    //       "isFullModeStyle": false,
+    //       "textPosition": "left",
+    //       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+    //       "headline": "Clearance Sale",
+    //       "callToActionText": "DISCOVER",
+    //       "callToActionUrl": "/",
+    //       "blockClass": "info-card-example",
+    //       "textAlignment": "center"
+    //     }
+    //   },
     "flex-layout.col#text-about-us": {
       "children": [
         "rich-text#about-title",
-        "rich-text#about-content"
+        "rich-text#about-content",
+        "rich-text#about-content-end",
+        "flex-layout.col#image_banner"
       ],
           "props": {
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "width":"grow"
       }
     },
    "rich-text#about-title": {
       "props": {
         "text":
-        "# About us Title"
+        "# Sobre Nosotros",
+        "blockClass":"abouts"
       }
     },
     "rich-text#about-content": {
       "props": {
-        "text":
-        " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+        "text":"Somos una marca registrada Compurent, la historia de Compurent comienza en la ciudad de Medellín en 1982, con el propósito de solucionar una necesidad que presentaba el Metro de Medellín en su primera etapa de desarrollo, más específicamente, para el procesamiento de la información del diseño del proyecto. \n \n Para 1987, y dado el crecimiento que veníamos experimentando, nos constituimos formalmente frente a la Cámara de Comercio de Medellín, con la intención de dar continuidad al cumplimiento de nuestro propósito principal. \n \n Desde nuestros comienzos, y durante más de 30 años, hemos contribuido al éxito de grandes y pequeñas empresas, proyectos públicos y privados, que a lo largo del tiempo han aportado al desarrollo y bienestar de nuestro país. \n \n Con orgullo decimos que en Compurent estamos comprometidos a acompañar a nuestros clientes, por su camino al éxito. \n Como equipo de trabajo tenemos unos valores que definen quienes somos como empresa, es decir el carácter y la personalidad que identifica a Compurent. Es por esto que nuestros planes, acciones, y decisiones las tomamos basándonos en:  \n * Positivismo.  \n * Pasión.  \n * Disciplina. \n * Enfoque al Resultado. \n * Responsabilidad. \n  ",
+        "blockClass":"page-body"
+
       }
     },
+
+    "rich-text#about-content-end":{
+      "props": {
+        "text": "Para nosotros es muy importante trabajar cada día viviendo estos valores, pues gracias a estos garantizamos Clientes Exitosos y Empleados Felices.",
+        "blockClass":"page-body"
+      }
+    },
+
+  
+ 
     "image#about-us": {
       "props": {
         "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
