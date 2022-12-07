@@ -110,9 +110,6 @@
   min-width: 328px;
 }
 
-.paragraph {
-}
-
 /*================================= VENTA */
 
 .heading--title--venta {
@@ -183,38 +180,56 @@
 .wrapper--attribute-final {
   color: #4d4d4d;
   font-size: 12.8px;
-  
 }
 
 .wrapper--text-complement {
   color: #fe6906;
   font-size: 12px;
 }
-.wrapper--text-attribu{
+.wrapper--text-attribu {
   font-size: 12.8px;
-    white-space: nowrap;
-
+  white-space: nowrap;
 }
 
-.container--text-attribu{
-  border-bottom: 1px solid rgba(77,77,77,.71);
+.container--text-attribu {
+  border-bottom: 1px solid rgba(77, 77, 77, 0.71);
 }
 
 .wrapper--texto-portatil {
-float: left;
+  float: left;
 }
 
 .paragraph--texto-portatil {
   font-size: 27px;
   font-weight: bold;
-  color: #4D4D4D;
+  color: #4d4d4d;
   margin-left: -613px;
 }
 
-.container--triangule{
+.container--triangule {
   margin-right: -607px;
   border-top: 15px solid transparent;
   border-right: 44px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 25px solid #332e80;
+}
+
+.container--abouts {
+  display: flex;
+  justify-content: center;
+}
+
+.heading--abouts {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: #4d4d4d;
+}
+
+.container--page-body{
+  text-align: justify;
+  line-height: 22px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: .8rem;
 }
