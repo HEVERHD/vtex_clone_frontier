@@ -22,10 +22,9 @@
   margin-left: 460px;
 }
 
-.gallery--grid{
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1em;
-    margin-bottom: 30px;
+.gallery--grid {
+  grid-gap: 1em;
+  margin-bottom: 30px;
 }
 
 .galleryItem--list {
@@ -33,17 +32,48 @@
   border-bottom: 1px solid #ff6600;
 }
 
-
-.galleryLayoutOptionButton--pl-main__grid--selected{
-background-color: #ff6600;
+.galleryLayoutOptionButton--grid {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-list.svg);
 }
+
+.galleryLayoutOptionButton--grid--selected {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-list-active.svg);
+}
+
+.galleryLayoutOptionButton--list {
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-grid.svg);
+}
+
+.galleryLayoutOptionButton--list--selected {
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-grid-active.svg);
+}
+
 
 .gallery--list {
-  display: grid;
 
 }
 
-.galleryItem--list{
+.galleryItem--list {
   display: grid;
   margin-bottom: 30px;
   border: initial;
