@@ -27,3 +27,13 @@
     grid-gap: 1em;
     margin-bottom: 30px;
 }
+
+.galleryItem--list {
+  border: initial;
+  border-bottom: 1px solid #ff6600;
+}
+
+
+.galleryLayoutOptionButton--pl-main__grid--selected{
+background-color: #ff6600;
+}

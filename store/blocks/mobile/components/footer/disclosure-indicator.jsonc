@@ -21,7 +21,8 @@
 
   "icon#grid-hd": {
     "props": {
-      "id": "grid-hd"
+      "id": "grid-hd",
+      "activeClassName": "grid-hd"
     }
   }
 }
