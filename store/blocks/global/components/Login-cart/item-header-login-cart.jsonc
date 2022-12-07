@@ -24,7 +24,9 @@
           // ==================MINI CART ================================
       "minicart.v2#header__desktop--minicart": {
         "props": {
-          "variation": "popup",
+          // "variation": "popup",
+          "linkVariationUrl": "https://hevert--itgloberspartnercl.myvtex.com/checkout/#/cart",
+          "variation": "link",
           "itemCountMode": "total",
           "quantityDisplay": "always"
         },
