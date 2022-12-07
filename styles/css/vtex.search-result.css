@@ -37,3 +37,15 @@
 .galleryLayoutOptionButton--pl-main__grid--selected{
 background-color: #ff6600;
 }
+
+.gallery--list {
+  display: grid;
+
+}
+
+.galleryItem--list{
+  display: grid;
+  margin-bottom: 30px;
+  border: initial;
+  border-bottom: 1px solid #e8e8e8;
+}

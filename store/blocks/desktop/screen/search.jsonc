@@ -62,12 +62,12 @@
     ]
   },
 
-//   "breadcrumb.search"
+  //   "breadcrumb.search"
 
   ///////////////////////////////////////////////
   "search-result-layout.desktop": {
     "title": "Search Result General Layout Desktop",
-    "children": [ "flex-layout.row#search__results"]
+    "children": ["flex-layout.row#search__results"]
   },
   "search-result-layout.mobile": {
     "title": "Search Result General Layout Mobile",
@@ -81,7 +81,6 @@
     "children": ["rich-text#search__not-found--text", "image#nofound"]
   },
 
-
   //////////////////////////
   "flex-layout.row#search__results": {
     "title": "Search Result Container",
@@ -89,12 +88,10 @@
       "blockClass": "search__results-container"
     },
     "children": [
-      
-      "flex-layout.col#search__results--filter", 
+      "flex-layout.col#search__results--filter",
       "flex-layout.col#search__results--content"
     ]
   },
-
 
   "rich-text#search__not-found--text": {
     "title": "Search Not Found Message",
@@ -112,8 +109,4 @@
       "blockClass": "image-nofound"
     }
   }
-
-
-   
-
 }
