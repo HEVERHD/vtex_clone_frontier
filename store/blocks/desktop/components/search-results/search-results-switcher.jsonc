@@ -21,10 +21,22 @@
       "order-by.v2",
       // "header-spacer",
       //  "header-spacer",
-      "gallery-layout-switcher"
+   
+
+      "flex-layout.row#switcher"
+   
     ],
     "props": {
-      "blockClass": "pl-main__group--border"
+      "blockClass": "pl-main__group"
+    }
+  },
+
+  "flex-layout.row#switcher":{
+    "children": [
+ "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "pl-main__grid-filter"
     }
   },
 
@@ -62,52 +74,55 @@
   },
 
   "gallery-layout-switcher": {
-    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
+    "children": [        "rich-text#vistas","gallery-layout-option#grid", "gallery-layout-option#list"]
+  },
+
+  "rich-text#vistas":{
+    "props": {
+      "text": "Vistas:"
+    }
   },
 
   "gallery-layout-option#grid": {
     "props": {
       "name": "grid",
-      "blockClass": "pl-main__grid"
-    },
-    "children": ["icon#grid-hd"]
+      "blockClass": "grid"
+    }
   },
 
   "gallery-layout-option#list": {
     "props": {
       "name": "list",
-      "blockClass": "pl-main__wrap-products"
-    },
-    "children": ["icon-menu"]
-  },
-
-  "product-summary.shelf#list_summary": {
-    "children": [
-
-      "flex-layout.row#list_summary"
-  
-    ]
-  },
-
-  "flex-layout.row#list_summary":{
-    "children": [
-     "product-summary-image",
-      "product-summary-brand",
-      "product-summary-name",
-      "product-selling-price"
-    ]
-  },
-
-  "product-summary.shelf#grid_summary": {
-    "children": ["flex-layout.col#product-grid"],
-    "props": {
-    
+      "blockClass": "list"
     }
   },
 
-  "flex-layout.col#product-grid": {
+  "product-summary.shelf#list_summary": {
+    "children": ["flex-layout.row#list_summary"]
+  },
+
+  "flex-layout.row#list_summary": {
     "children": [
       "product-summary-image",
+      "product-summary-name",
+      "product-summary-brand",
+      "product-selling-price"
+    ],
+    "props": {
+      "blockClass": "pl-main__list"
+    }
+  },
+
+  "product-summary.shelf#grid_summary": {
+    "children": ["flex-layout.row#product-grid"],
+    "props": {}
+  },
+
+  "flex-layout.row#product-grid": {
+    "children": [
+      "product-summary-image",
+      "product-summary-brand",
+      "product-summary-name",
       "product-selling-price"
     ],
     "props": {
