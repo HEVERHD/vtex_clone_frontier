@@ -9,8 +9,9 @@
       },
     
       "image#category__ofertas-mobile": {
+        "title": "Banner ofertas - mobile",
         "props": {
-            "blockClass": "home__section--ofertas",
+            "blockClass": "home__section--ofertas-mobile",
             "src": "assets/img/category/banner_ofertas_diciembre-mobile.jpg"
         }
       }

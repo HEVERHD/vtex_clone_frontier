@@ -1,7 +1,7 @@
 {
   // preparancion del componente custom DIAGRAMATION
-  "list-context.bullet-group": {
-    "title": "Bulles list Custom",
+  "list-context.bullet-group#monitores": {
+    "title": "Categoria Monitores",
     "children": ["slider-layout#bullet-group"],
     "props": {
       "bullets": [
@@ -32,16 +32,17 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 5,
-        "mobile": 5
+        "tablet": 3,
+        "mobile": 1
       },
       "infinite": true
     }
   },
 
-  "list-context.bullet-group#category-portatil": {
-    "title": "Bulles list Custom",
-    "children": ["slider-layout#category-portatil"],
+
+  "list-context.bullet-group#portatiles":{
+    "title": "Categoria Portatiles",
+    "children": ["slider-layout#bullet-group"],
     "props": {
       "bullets": [
         {
@@ -52,13 +53,13 @@
           }
         },
         {
-          "image": "item2",
+          "image2": "item2",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "item1",
+          "image3": "item3",
           "link": {
             "url": "/"
           }
@@ -66,15 +67,34 @@
       ]
     }
   },
-
-  "slider-layout#category-portatil": {
+  "list-context.bullet-group#accesorios":{
+    "title": "Categoria accesorios",
+    "children": ["slider-layout#bullet-group"],
     "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 5,
-        "mobile": 5
-      },
-      "infinite": true
+      "bullets": [
+        {
+          "image": "item1",
+          "titleBullet": "COMPUTADORES",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image2": "item2",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image3": "item3",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
     }
   }
+
+
+  
 }

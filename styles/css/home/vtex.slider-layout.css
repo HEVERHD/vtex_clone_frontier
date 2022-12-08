@@ -34,10 +34,11 @@
 .bullet_item--title-container {
     text-align: left;
     font-size: 1.3rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    margin-left: 5px;
 }
 .bullet_item--title {
     font-size: 27px;
@@ -52,10 +53,20 @@
     border-left: 25px solid #332e80;
 }
 
+.bullet_item--main-image{
+    margin-top: -35px;
+}
 
 .bullet_item--image{
 
-    margin: 7px;
+    margin: 5px;
 }
+
+
+/* @media (min-width: 600px){
+    .bullet_item-main {
+        grid-template-columns: repeat(3,1fr);
+    }
+} */
 
 
