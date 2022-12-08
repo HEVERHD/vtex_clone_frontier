@@ -75,6 +75,7 @@
 
 
         "rich-text#empty--desktop":{
+          "title": "Tu carrito esta vacio Desktop",
           "props": {
             "text": "Tu carrito esta vacio!",
             "blockClass":"carrito vacio"
