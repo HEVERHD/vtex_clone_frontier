@@ -20,11 +20,11 @@
           // ==================MINI CART ================================
       "minicart.v2#header__mobile--minicart": {
         "props": {
-          "variation": "popup",
+          "variation": "drawer",
           "itemCountMode": "total",
           "quantityDisplay": "always"
         },
-        "children": ["minicart-base-content#mobile"]
+        "children": ["minicart.v2"]
       },
       "minicart-base-content#mobile":{
         "blocks":["minicart-empty-state#mobile"],
