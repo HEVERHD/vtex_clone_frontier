@@ -7,11 +7,75 @@
   column-gap: 10px;
 }
 
-.galleryItem {
-  flex-grow: 1;
-  flex-basis: auto;
-}
-
 .galleryItem :global(.vtex-button) {
   background-color: #332e80;
+}
+
+.gallery--general-grid {
+  display: grid;
+  margin-bottom: 30px;
+  border: initial;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.galleryLayoutSwitcher {
+  margin-left: 460px;
+}
+
+.gallery--grid {
+  grid-gap: 1em;
+  margin-bottom: 30px;
+}
+
+.galleryItem--list {
+  border: initial;
+  border-bottom: 1px solid #ff6600;
+}
+
+.galleryLayoutOptionButton--grid {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-list.svg);
+}
+
+.galleryLayoutOptionButton--grid--selected {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-list-active.svg);
+}
+
+.galleryLayoutOptionButton--list {
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-grid.svg);
+}
+
+.galleryLayoutOptionButton--list--selected {
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-grid-active.svg);
+}
+
+
+.gallery--list {
+
+}
+
+.galleryItem--list {
+  display: grid;
+  margin-bottom: 30px;
+  border: initial;
+  border-bottom: 1px solid #e8e8e8;
 }

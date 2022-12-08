@@ -1,0 +1,77 @@
+{
+  // //definicion TITLE CATEGORIA MONITORES
+
+  "flex-layout.row#home__paragraph-title-category-monitores": {
+    "title": "title category",
+    "children": [
+      "rich-text#triangule",
+      "rich-text#section__one--title-monitores"
+    ],
+
+    "props": {
+      "blockClass": "title_category--portatil",
+      "fullWidth": true,
+      "horizontalAlign": "right"
+    }
+  },
+
+  "rich-text#section__one--title-monitores": {
+    "props": {
+      "text": "MONITORES",
+      "blockClass": "texto-portatil"
+    }
+  },
+
+  // //definicion de categoria monitores
+
+  "flex-layout.row#home__section--monitores": {
+    "title": "Section 1",
+    "children": [
+      "flex-layout.col#section__2--image-monitores",
+      "flex-layout.col#section__2--image2-monitores",
+      "flex-layout.col#section__2--image3-monitores"
+    ],
+    "props": {
+      "blockClass": "home__section--portatil"
+    }
+  },
+
+  "flex-layout.col#section__2--image-monitores": {
+    "children": ["image#category__image-monitor"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category__image-monitor": {
+    "props": {
+      "src": "assets/img/category/monitores-home-noviembre.jpg"
+    }
+  },
+
+  "flex-layout.col#section__2--image2-monitores": {
+    "children": ["image#category__image2-monitor"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category__image2-monitor": {
+    "props": {
+      "src": "assets/img/category/monitores-home-noviembre2.jpg"
+    }
+  },
+
+  "flex-layout.col#section__2--image3-monitores": {
+    "children": ["image#category__image3-monitor"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#category__image3-monitor": {
+    "props": {
+      "src": "assets/img/category/monitores-home-noviembre3.jpg"
+    }
+  }
+}

@@ -24,7 +24,9 @@
           // ==================MINI CART ================================
       "minicart.v2#header__desktop--minicart": {
         "props": {
-          "variation": "popup",
+          // "variation": "popup",
+          "linkVariationUrl": "https://hevert--itgloberspartnercl.myvtex.com/checkout/#/cart",
+          "variation": "link",
           "itemCountMode": "total",
           "quantityDisplay": "always"
         },
@@ -73,6 +75,7 @@
 
 
         "rich-text#empty--desktop":{
+          "title": "Tu carrito esta vacio Desktop",
           "props": {
             "text": "Tu carrito esta vacio!",
             "blockClass":"carrito vacio"

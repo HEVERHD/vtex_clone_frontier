@@ -1,13 +1,59 @@
 {
-    
-// ============================== MOBILE FOOTER =============================
+  // ============================== MOBILE FOOTER =============================
 
-  "footer-layout.mobile": { 
+  "footer-layout.mobile": {
     "children": [
-      "disclosure-layout-group#group"
+      "newsletter-form#mobile",
+      
+      "disclosure-layout-group#group"],
+    "props": {
+      "blockClass": "footer-upper-mobile"
+    }
+  },
+
+  "newsletter-form#mobile": {
+    "children": [
+      "rich-text#info-noticias-mobile",
+      "flex-layout.row#input-submit"
+   
     ],
-    "props":{
-      "blockClass":"footer-upper"
+    "props": {
+      "blockClass": "subscrib-mobile"
+    }
+  },
+
+  "flex-layout.row#input-submit":{
+    "children": [
+      "newsletter-input-email#mobile",
+      "newsletter-submit#mobile"
+    
+    ],
+    "props": {
+     "fullWidth": true
+    }
+  },
+
+
+  
+  "rich-text#info-noticias-mobile": {
+    "title": "Recibe las ultimas noticias",
+    "props": {
+      "text": "Recibe las últimas noticias sobre **tecnología**",
+      "textAlignment": "CENTER",
+      "blockClass": "info-recibe"
+    }
+  },
+
+  "newsletter-input-email#mobile": {
+    "props": {
+      "submitButtonLabel": "Enviar."
+    }
+  },
+
+  "newsletter-submit#mobile": {
+    "props": {
+      "submitButtonLabel": "Enviar."
     }
   }
+
 }

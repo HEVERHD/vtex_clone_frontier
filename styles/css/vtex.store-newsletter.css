@@ -10,6 +10,13 @@
   
 }
 
+.newsletterForm--subscrib-mobile{
+    background-color: #332e80;
+    text-align: center;
+    border-top: 1px solid #c1c1c1;
+  
+}
+
 .emailInputContainer{
     width: 45%;
 }

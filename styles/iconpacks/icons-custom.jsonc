@@ -3,5 +3,11 @@
     "props": {
       "id": "view-hd"
     }
+  },
+
+  "icon#grid-hd": {
+    "props": {
+      "id": "grid-hd"
+    }
   }
 }

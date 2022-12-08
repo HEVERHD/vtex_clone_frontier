@@ -36,8 +36,20 @@
 }
 
 .imageElement--home__section--ofertas {
-  height: 168px;
+  height: 164px;
   padding-top: 10px;
+  overflow:hidden;
+}
+.imageElement--home__section--ofertas-mobile {
+  padding-top: 4px;
+  padding-bottom: 14px;
+}
+
+
+
+.imageElement--home__section--ofertas:hover{
+  transition:all .2s ease-in-out;
+  -webkit-transform:scale(1);transform:scale(1.01);
 }
 
 .imageElement--text-item-bot {
@@ -99,8 +111,6 @@
   width: 415px;
 }
 
-.productImagesGallerySwiperContainer {
-}
 
 .productImagesGallerySlide {
   width: none;
@@ -150,4 +160,8 @@
   position: relative;
   text-align: center;
   display: flex;
+}
+
+.searchResultContainer{
+  background-color: black;
 }

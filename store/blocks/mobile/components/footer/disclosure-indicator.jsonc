@@ -1,27 +1,28 @@
 {
   "disclosure-state-indicator": {
- 
     "props": {
-      "Show":  "icon#angle-down",
-      "Hide":  "icon#angle-up",
-      "blockClass":"flechas-disclosure"
+      "Show": "icon#angle-down",
+      "Hide": "icon#angle-up",
+      "blockClass": "flechas-disclosure"
     }
   },
 
-  "icon#angle-down":{
+  "icon#angle-down": {
     "props": {
       "id": "mpa-angle--down"
-    
-   
     }
   },
 
-  "icon#angle-up":{
+  "icon#angle-up": {
     "props": {
       "id": "mpa-angle--up"
-    
-   
+    }
+  },
+
+  "icon#grid-hd": {
+    "props": {
+      "id": "grid-hd",
+      "activeClassName": "grid-hd"
     }
   }
-
 }
