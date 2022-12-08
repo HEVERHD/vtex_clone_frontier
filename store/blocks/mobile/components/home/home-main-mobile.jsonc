@@ -8,24 +8,31 @@
       // texto frontier MOBILE
       "flex-layout.row#home__paragraph-mobile",
 
-      //products por defecto
-      "search-result-layout.customQuery#home",
-      //title categoria PORTATIL
-      "flex-layout.row#home__paragraph-title-category-portatil",
+         // List contex componente CUSTOM  MOBILE
+         "list-context.bullet-group#monitores",
+         "list-context.bullet-group#portatiles",
+            // // banner ofertas
+         "flex-layout.row#banner-ofertas-mobile",
+         "list-context.bullet-group#accesorios"
 
-      //fila categoria portatil
+      // //products por defecto
+      // "search-result-layout.customQuery#home",
+      // //title categoria PORTATIL
+      // "flex-layout.row#home__paragraph-title-category-portatil",
 
-      "flex-layout.row#home__section--two",
+      // //fila categoria portatil
 
-      //titulo categoria IMPRESION
-      "flex-layout.row#home__paragraph-title-category-impresion",
+      // "flex-layout.row#home__section--two",
 
-      // //fila categoria impesoras
+      // //titulo categoria IMPRESION
+      // "flex-layout.row#home__paragraph-title-category-impresion",
 
-      "flex-layout.row#home__section--tree",
+      // // //fila categoria impesoras
+
+      // "flex-layout.row#home__section--tree",
       
-      // banner ofertas
-      "flex-layout.row#banner-ofertas-mobile"
+      // // banner ofertas
+      // "flex-layout.row#banner-ofertas-mobile"
 
     ],
     "props": {

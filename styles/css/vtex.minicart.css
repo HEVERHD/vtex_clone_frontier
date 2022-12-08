@@ -19,3 +19,9 @@
    justify-content: center;
    align-items: center;
 }
+
+.minicartContainer :global(.vtex-button):focus,
+.minicartContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
