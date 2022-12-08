@@ -32,18 +32,21 @@
     }
   },
   "rich-text#title--blog": {
+    "title": "blog",
     "props": {
       "text": "### Blog",
       "blockClass": "header__item"
     }
   },
   "rich-text#title--venta": {
+    "title": "numero venta telefonica",
     "props": {
       "text": "###  Venta telefonica 314 223 34 52  ",
       "blockClass": "title--venta"
     }
   },
   "rich-text#title--cambiar": {
+    "title": "Cambia a persona",
     "props": {
       "text": "### Cambiar a Personas",
       "blockClass": "title--cambiar"

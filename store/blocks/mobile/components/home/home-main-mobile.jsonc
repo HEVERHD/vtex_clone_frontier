@@ -13,10 +13,10 @@
          "list-context.bullet-group#portatiles",
             // // banner ofertas
          "flex-layout.row#banner-ofertas-mobile",
-         "list-context.bullet-group#accesorios"
+         "list-context.bullet-group#accesorios",
 
       // //products por defecto
-      // "search-result-layout.customQuery#home",
+       "search-result-layout.customQuery#home"
       // //title categoria PORTATIL
       // "flex-layout.row#home__paragraph-title-category-portatil",
 

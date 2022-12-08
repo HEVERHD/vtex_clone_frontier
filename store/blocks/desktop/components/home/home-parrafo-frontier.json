@@ -9,6 +9,7 @@
 
 
   "rich-text#section__one--paragraph-desktop": {
+    "title": "Parrafo principal frontier",
     "props": {
       "text": " Todo lo que buscas en tecnología \n lo encuentras aquí en **Frontier**",
       "textAlignment": "CENTER",

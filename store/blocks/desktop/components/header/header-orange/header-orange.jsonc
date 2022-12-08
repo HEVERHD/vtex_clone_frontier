@@ -27,6 +27,7 @@
   },
 
   "flex-layout.row#item-main1": {
+    "title": "Envio",
     "children": ["image#logo-envio","rich-text#item-1"],
     "props": {
       "horizontalAlign": "center",
@@ -35,6 +36,7 @@
   },
   
     "image#logo-envio": {
+      "title": "imagen-envio",
       "props": {
         "src": "assets/barra1/envioS.svg",
         "maxHeight": 35,
@@ -54,6 +56,7 @@
 
 
     "flex-layout.col#item-2": {
+      "title": "item - garantia",
       "children": [ "flex-layout.row#item-main2"],
       "props": {
         "blockClass":"header_orange-item1",
@@ -62,12 +65,14 @@
      
     },
     "flex-layout.row#item-main2": {
+      "title": "Garantia - imagen",
       "children": [
         "image#logo-garantia", "rich-text#item-2"
       ]
     },
     
       "image#logo-garantia": {
+        "title": "imagen - garantia",
         "props": {
           "src": "assets/barra1/garantia.png",
           "maxHeight": 35,
@@ -76,6 +81,7 @@
       },
       
       "rich-text#item-2": {
+        "title": "garantia",
         "props": {
           "text": "**Garantía** \n *Recibirás apoyo para gestionar tu garantía.",
           "blockClass":"texto-item1"
@@ -87,6 +93,7 @@
 
 
     "flex-layout.col#item-3": {
+      "title": "precios - bajos",
       "children": ["flex-layout.row#item-main3"],
       "props": {
         "blockClass":"header_orange-item3",
@@ -96,12 +103,14 @@
     },
 
     "flex-layout.row#item-main3": {
+      "title": "precios bajos",
       "children": [
         "image#logo-precio", "rich-text#item-3"
       ]
     },
     
       "image#logo-precio": {
+        "title": "imagen precios bajos",
         "props": {
           "src": "assets/barra1/precio.png",
           "maxHeight": 35,
@@ -110,6 +119,7 @@
       },
       
       "rich-text#item-3": {
+        "title": "precios bajos",
         "props": {
           "text": "Precios Bajos ¡Siempre!",
           "blockClass":"texto-item"

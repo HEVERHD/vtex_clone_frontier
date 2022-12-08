@@ -7,6 +7,10 @@
   
 }
 
+.buttonLink {
+    margin-right: -30px;
+}
+
 .container :global(.vtex-button__label){
     /* border-right: 1px solid white */
 }
