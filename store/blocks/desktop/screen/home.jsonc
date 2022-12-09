@@ -3,7 +3,6 @@
     "children": [
       //componente CUSTOM
       //slider
-      "whatsapp-button",
       "flex-layout.row#home__section--one",
 
       // List contex componente CUSTOM

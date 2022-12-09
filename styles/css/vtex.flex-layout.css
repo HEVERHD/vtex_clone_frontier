@@ -69,7 +69,8 @@
 }
 
 .flexRowContent--main_header-purple3 {
-  margin-left: -16px;
+  
+  margin-left: -20px;
 }
 
 .flexCol--header_orange-item1 {
@@ -160,10 +161,7 @@
 RESULTS PLP */
 
 .flexRow--search__results-container {
-  display: grid;
-  max-width: 1050px;
-  margin: 25px auto;
-  padding: 0 10px;
+
 }
 
 .flexColChild--search__results--filter {
@@ -174,3 +172,41 @@ RESULTS PLP */
 .gallery--general-grid {
   background-color: #ff6900;
 }
+
+
+.flexColChild--search__results--filter {
+  height: 100%;
+  background: #fff;
+  position: sticky;
+  top: 139px;
+  z-index: 2;
+}
+
+.flexCol--search__results--right {
+
+}
+
+
+.flexRow--pl-main__group {
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* background: #fff; */
+ 
+}
+
+.flexColChild--search__results--right {
+  height: auto;
+}
+ .stretchChildrenWidth {
+  width: auto;
+ }
+
+ .flexCol--search__results--right {
+  margin: 0 0 5% 2%;
+ }
+ .flexCol--template-category-pl{
+  flex-direction: row;
+  justify-content: space-between;
+ }

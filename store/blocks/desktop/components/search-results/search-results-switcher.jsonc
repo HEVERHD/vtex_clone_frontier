@@ -22,8 +22,8 @@
       // "header-spacer",
       //  "header-spacer",
    
-
-      "flex-layout.row#switcher"
+      "gallery-layout-switcher"
+      // "flex-layout.row#switcher"
    
     ],
     "props": {
@@ -31,14 +31,14 @@
     }
   },
 
-  "flex-layout.row#switcher":{
-    "children": [
- "gallery-layout-switcher"
-    ],
-    "props": {
-      "blockClass": "pl-main__grid-filter"
-    }
-  },
+  // "flex-layout.row#switcher":{
+  //   "children": [
+  //   "gallery-layout-switcher"
+  //   ],
+  //   "props": {
+  //     "blockClass": "pl-main__grid-filter"
+  //   }
+  // },
 
   ///////////////////////////////////////////////
   "search-content#results__content": {
@@ -54,7 +54,6 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 3,
-            "tablet": 3,
             "phone": 1
           }
         },
@@ -63,7 +62,6 @@
           "component": "ListSummary",
           "itemsPerRow": {
             "desktop": 3,
-            "tablet": 3,
             "phone": 1
           }
         }
@@ -74,7 +72,10 @@
   },
 
   "gallery-layout-switcher": {
-    "children": [        "rich-text#vistas","gallery-layout-option#grid", "gallery-layout-option#list"]
+    "children": [   "rich-text#vistas","gallery-layout-option#list", "gallery-layout-option#grid"],
+    "props":{
+      "blockClass" :"pl-main__grid-filter"
+    }
   },
 
   "rich-text#vistas":{
@@ -83,19 +84,20 @@
     }
   },
 
-  "gallery-layout-option#grid": {
+  "gallery-layout-option#list": {
     "props": {
-      "name": "grid",
+      "name": "list",
       "blockClass": "grid"
     }
   },
 
-  "gallery-layout-option#list": {
+  "gallery-layout-option#grid": {
     "props": {
-      "name": "list",
+      "name": "grid",
       "blockClass": "list"
     }
   },
+  
 
   "product-summary.shelf#list_summary": {
     "children": ["flex-layout.row#list_summary"]
@@ -103,30 +105,92 @@
 
   "flex-layout.row#list_summary": {
     "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-brand",
-      "product-selling-price"
+    
+      "flex-layout.col#image-nombre-precio-product"
+     
+      // "product-summary-image",
+      // "product-summary-name"
+      // // "product-summary-brand",
+      // "product-selling-price"
+   
     ],
     "props": {
-      "blockClass": "pl-main__list"
+     
     }
   },
 
+  "flex-layout.col#image-nombre-precio-product":{
+    "children": [
+      "product-summary-image",
+      // "image#mobile-phone",
+      "product-summary-name",
+      // "rich-text#prueba-product",
+      "product-selling-price",
+      // "rich-text#prueba-product-precio",
+      "add-to-cart-button"
+     
+   
+     
+
+      // "flex-layout.row#button-name"
+    ],
+    "props": {
+    "blockClass": "template-category-pl"
+    }
+  },
+
+  "flex-layout.row#button-name":{
+    "children": [
+      // "product-selling-price",
+   
+    ],
+    "props": {
+      "blockClass":"button-name"
+      }
+    },
+  
+
+  "image#mobile-phone": {
+    "props": {
+      "src": "https://frontier.com.co/content/product/0013627_monitor-plano-hd-lg-195.webp",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "image-product-list"
+    }
+  },
+
+  "rich-text#prueba-product": {
+    "props": {
+      "text": "# Name product ",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#prueba-product-precio": {
+    "props": {
+      "text": "# $2000.",
+      "blockClass": "title"
+    }
+  },
+
+
+
   "product-summary.shelf#grid_summary": {
-    "children": ["flex-layout.row#product-grid"],
+    "children": ["flex-layout.col#product-grid"],
     "props": {}
   },
 
-  "flex-layout.row#product-grid": {
+  "flex-layout.col#product-grid": {
     "children": [
-      "product-summary-image",
-      "product-summary-brand",
-      "product-summary-name",
-      "product-selling-price"
+      // "product-summary-image",
+      // "product-price",
+      // "product-summary-name",
+      // "product-summary-brand"
+     
     ],
     "props": {
-      "blockClass": "pl-main__grid"
+   
+      // "blockClass": "pl-main__list"
     }
   }
 }
