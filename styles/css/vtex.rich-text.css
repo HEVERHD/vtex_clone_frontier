@@ -238,3 +238,9 @@
  
   color: #7d7d7d;
 }
+
+.paragraph--text-item-categoria {
+  margin-left: -16px;
+  font-size: 1.1em;
+    color: white;
+}

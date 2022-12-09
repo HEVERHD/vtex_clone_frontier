@@ -6,7 +6,7 @@
       "logo#header_logo",
 
       "login#mobile",
-      "minicart.v2"
+      "minicart.v2#header__mobile--minicart"
     //   "search-bar#header_search"
     ]
   }
