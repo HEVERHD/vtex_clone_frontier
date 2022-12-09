@@ -52,3 +52,14 @@
 .styledLinkContent--text-item-ofertas:hover {
   color: #ff6900;
 }
+
+.vtex-store-drawer-0-x-drawer { 
+  background-color: aqua;
+}
+
+.opened {
+}
+
+/* .vtex-store-drawer-0-x-drawer :global(.opened){
+  background-color: aqua;
+  /* border-right: 1px solid white */

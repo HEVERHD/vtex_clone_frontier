@@ -1,6 +1,7 @@
 {
   "footer-layout.desktop": {
     "children": [
+      
       "newsletter-form",
       "flex-layout.row#footer__container",
       "flex-layout.row#footer__container2"

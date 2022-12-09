@@ -25,3 +25,7 @@
   background-color: transparent;
 }
 
+.minicartCheckoutButton :global(.vtex-button){
+   background-color: #ff6900;
+}
+
