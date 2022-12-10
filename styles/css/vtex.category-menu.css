@@ -1,5 +1,6 @@
 
 .container {
+  
 background: transparent;
 display: flex;
 }
@@ -7,7 +8,19 @@ display: flex;
 
 
 .itemContainer {
-  
+
+}
+
+.itemContainer--category {
+  background-color: rgb(255, 255, 255);
+  top: 148px;
+ 
+
+}
+
+
+.vtex-category-menu-2-x-itemContainer :global(.vtex-category-menu-2-x-itemContainer--category){
+    top: 148;
 }
 
 .itemContainer--department {
@@ -19,10 +32,8 @@ display: flex;
 }
 
 .departmentLink{
-=======
-
-.itemContainer--departmen {
-    background-color: #332e80;
+    font-size: 1.1em;
+    color: white;
 }
 .section--department {
     background :none

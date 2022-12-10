@@ -9,14 +9,13 @@
   },
   "flex-layout.col#header__megamenu":{
     "children": [
-      "flex-layout.row#4-desktop", 
+      "flex-layout.row#menu-desktop", 
       "flex-layout.row#mega-menu"
     ]
   },
-  "flex-layout.row#4-desktop": {
+  "flex-layout.row#menu-desktop": {
       "children": [
         "flex-layout.col#trigger-mega-menu"
-        // ...
       ],
       "props": {
         "fullWidth": true
@@ -31,7 +30,7 @@
         "openOnly": "horizontal",
         "title": "Todas las Categorías",
         "itemProps": {
-          "text": "Shop"
+          "text": "Categorías"
         },
         "blockClass": "desktop__mega-menu"
       }
