@@ -1,12 +1,13 @@
 .triggerButtonIcon{
-    margin-left: 12px;
+    margin-left: 5px;
     color: white;
 }
-.menuContainerNav :global(.vtex-mega-menu-2-x-menuContainer){
-  
 
-   
+.vtex-flex-layout-0-x-flexColChild--trigger-mega-menu :global(.vtex-mega-menu-2-x-triggerButtonIcon--menu__trigger) {
+    color: white;
 }
+
+
 
 .menuContainerNav{
     /* border: 4px solid red; */
@@ -42,4 +43,8 @@
     background: #fff;
     border-radius: 50%;
     margin: 5px;
+}
+
+.triggerButtonIcon ::before {
+   
 }

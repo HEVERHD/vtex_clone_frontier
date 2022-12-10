@@ -69,7 +69,7 @@
 }
 
 .flexRowContent--main_header-purple3 {
-  margin-left: -16px;
+  margin-left: -13px;
 }
 
 .flexCol--header_orange-item1 {
@@ -173,4 +173,10 @@ RESULTS PLP */
 
 .gallery--general-grid {
   background-color: #ff6900;
+}
+
+.flexColChild--trigger-mega-menu ::after {
+  font-size: 1.1em;
+  color: white;
+  content: " Categorias";
 }

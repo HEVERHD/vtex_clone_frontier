@@ -1,36 +1,88 @@
 {
   // MEGA MENU ///////////////////////////////
 
-  "flex-layout.row#4-desktop": {
-    "children": [
-      "flex-layout.col#trigger-mega-menu"
-      // ...
-    ],
-    "props": {
-    
-    }
-  },
+  // "flex-layout.row#4-desktop": {
+  //   "children": [
+  //     "flex-layout.col#trigger-mega-menu"
+  //     // ...
+  //   ],
+  //   "props": {
+  //     "fullWidth": true
+  //   }
+  // },
 
-  "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"],
-    "props": {
-     "blockClass": "desktop__mega-menu"
-    }
+  // "flex-layout.row#mega-menu": {
+  //   "children": ["mega-menu#desktop"],
+  //   "props": {
+  //    "blockClass": "desktop__mega-menu"
+  //   }
+  // },
+  // "mega-menu#desktop": {
+  //   "props": {
+  //     "openOnly": "horizontal",
+  //     "title": "Todas las Categorías",
+  //     "itemProps": {
+  //       "text": "Shop"
+  //     },
+  //     "blockClass": "desktop__mega-menu"
+  //   }
+  // },
+  // "flex-layout.col#trigger-mega-menu": {
+  //   "props": {
+  //     "verticalAlign": "middle"
+  //   },
+  //   "children": ["mega-menu-trigger-btn"]
+  // },
+  // "mega-menu-trigger-btn": {
+  //   "props": {
+  //     "Drawer": "drawer"
+  //   }
+  // }
+
+  "flex-layout.row#header__megamenu":{
+    "title": "Desktop MegaMenu Home",
+      "children": [
+        "flex-layout.col#header__megamenu"
+      ]
   },
-  "mega-menu#desktop": {
-    "props": {
-      "openOnly": "horizontal"
-    }
+  "flex-layout.col#header__megamenu":{
+    "children": [
+      "flex-layout.row#4-desktop", 
+      "flex-layout.row#mega-menu"
+    ]
   },
-  "flex-layout.col#trigger-mega-menu": {
-    "props": {
-      "verticalAlign": "middle"
+  "flex-layout.row#4-desktop": {
+      "children": [
+        "flex-layout.col#trigger-mega-menu"
+        // ...
+      ],
+      "props": {
+        "fullWidth": true
+      }
     },
-    "children": ["mega-menu-trigger-btn"]
-  },
-  "mega-menu-trigger-btn": {
-    "props": {
-      "Drawer": "drawer"
+  
+    "flex-layout.row#mega-menu": {
+      "children": ["mega-menu#desktop__mega-menu"]
+    },
+    "mega-menu#desktop__mega-menu": {
+      "props": {
+        "openOnly": "horizontal",
+        "title": "Todas las Categorías",
+        "blockClass": "desktop__mega-menu"
+      }
+    },
+    "flex-layout.col#trigger-mega-menu": {
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "trigger-mega-menu"
+      },
+      "children": ["mega-menu-trigger-btn"]
+    },
+
+    "mega-menu-trigger-btn": {
+      "props": {
+        "Drawer": "drawer",
+        "blockClass": "menu__trigger"
+      }
     }
-  }
 }

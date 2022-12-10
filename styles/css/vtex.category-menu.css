@@ -1,0 +1,23 @@
+.container {
+background: transparent;
+display: flex;
+}
+
+
+
+.itemContainer {
+  
+}
+
+.itemContainer--department {
+   
+}
+
+.section--department {
+ 
+}
+
+.departmentLink{
+    font-size: 1.1em;
+    color: white;
+}
