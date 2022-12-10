@@ -2,7 +2,7 @@
     // //definicion TITLE CATEGORIA IMPRESION
 
   "flex-layout.row#home__paragraph-title-category-impresion": {
-    "title": "title category",
+    "title": "title category - product vtex ",
     "children": ["rich-text#triangule","rich-text#section__one--title"],
 
     "props": {
@@ -15,8 +15,9 @@
 
 
   "rich-text#section__one--title": {
+    "title": "Title Productos",
     "props": {
-      "text": "IMPRESION",
+      "text": "PRODUCTOS VTEX io",
       "blockClass":"texto-portatil"
     }
   },
