@@ -226,3 +226,12 @@ RESULTS PLP */
   color: white;
   content: "  Categorías";
  }
+
+ .flexCol--trigger-mega-menu {
+  margin-top: -2px;
+ }
+
+
+ .vtex-mega-menu-2-x-triggerContainer :global(.vtex-flex-layout-0-x-flexColChild--trigger-mega-menu) {
+  background-color: aqua;
+ }
