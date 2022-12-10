@@ -4,7 +4,6 @@
       "flex-layout.row#upper-one",
       "flex-layout.row#upper-two",
       "flex-layout.row#login-cart"
-     
     ],
     "props": {
       "blockClass": "main_header-purple2"
@@ -22,27 +21,44 @@
   "flex-layout.row#upper-two": {
     "title": "Menu item categorias",
     "children": [
-      // MEGA MENU
-      "flex-layout.row#4-desktop", 
-      "flex-layout.row#mega-menu",
+      // MEGA MENU //////////////////////////////////////////////////
+      "flex-layout.row#header__megamenu",
+      /////////////////////////////////////////////////////////////
 
-      // MENU NORMAL
-    
-      "menu-item#menu-item--categoria",
-      "menu-item#menu-item--marcas",
-      "image#menu-item--bot",
-      "menu-item#menu-item--fronty",
-      "menu-item#menu-item--ofertas",
-      "header-spacer",
-      "header-spacer",
-      "header-spacer",
-      "flex-layout.row#navbar-spacer",
+      // MENU NORMAL ////////////////////////////////////////////////
+      // "menu-item#menu-item--categoria",
+      // "menu-item#menu-item--marcas",
+      // "image#menu-item--bot",
+      // "menu-item#menu-item--fronty",
+      // "menu-item#menu-item--ofertas",
+      // "header-spacer",
+      // "header-spacer",
+      // "header-spacer",
+      // "flex-layout.row#navbar-spacer",
+      // "login",
+      // "minicart.v2#header__desktop--minicart",
+      /////////////////////////////////////////////////////////////////
+
+      // MENU CATEGORY ////////////////////////////////////////////
+      "category-menu#category__menu",
       "login",
       "minicart.v2#header__desktop--minicart"
+      /////////////////////////////////////////////////////////////////
     ],
     "props": {
       "blockClass": "main_header-purple3",
       "colSizing": "auto"
+    }
+  },
+
+  "category-menu#category__menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name",
+      "blockClass": "category__menu"
     }
   },
 
@@ -61,14 +77,11 @@
       "blockClass": "navbar-spacer"
     }
   },
-  
+
   "rich-text#spacer": {
     "props": {
       "text": "&nbsp;",
       "blockClass": "spacer"
     }
   }
-
-
-
 }
