@@ -1,4 +1,26 @@
 
+.container {
+background: transparent;
+display: flex;
+}
+
+
+
+.itemContainer {
+  
+}
+
+.itemContainer--department {
+   
+}
+
+.section--department {
+ 
+}
+
+.departmentLink{
+=======
+
 .itemContainer--departmen {
     background-color: #332e80;
 }
@@ -11,6 +33,7 @@
 }
 
 .departmentLink {
+
     font-size: 1.1em;
     color: white;
 }

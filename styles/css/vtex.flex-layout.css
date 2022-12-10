@@ -69,9 +69,12 @@
 }
 
 .flexRowContent--main_header-purple3 {
+ feat_header-menu-category
+  margin-left: -13px;
+=======
   
   margin-left: -20px;
-}
+
 
 .flexCol--header_orange-item1 {
   border-right: 1px solid;
@@ -174,6 +177,13 @@ RESULTS PLP */
 }
 
 
+.flexColChild--trigger-mega-menu ::after {
+  font-size: 1.1em;
+  color: white;
+  content: " Categorias";
+}
+
+
 .flexColChild--search__results--filter {
   height: 100%;
   background: #fff;
@@ -210,3 +220,4 @@ RESULTS PLP */
   flex-direction: row;
   justify-content: space-between;
  }
+
