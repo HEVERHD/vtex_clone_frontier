@@ -1,4 +1,8 @@
-.triggerButtonIcon{
+
+
+
+.triggerButtonIcon::after{
+    content: "botonnnn";
     margin-left: 5px;
     color: white;
 }
