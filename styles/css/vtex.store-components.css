@@ -129,8 +129,6 @@
   color: #332e80;
 }
 
-.price_sellingPrice {
-}
 
 .imageElement--logo-delivery {
   margin-left: -150px;
@@ -138,9 +136,7 @@
 
 /* COMPONENTES VTEX */
 
-.productBrand--title-main {
-  white-space: nowrap;
-}
+
 
 /* SLIDER */
 

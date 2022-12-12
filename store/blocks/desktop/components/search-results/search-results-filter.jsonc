@@ -3,7 +3,7 @@
   "flex-layout.col#search__results--filter": {
     "title": "Search Reasult Filter",
     "props": {
-      "width": "15%",
+      "width": "22%",
       "blockClass": "search__results--filter"
     },
     "children": ["filter-navigator.v3"]

@@ -3,8 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  row-gap: 10px;
-  column-gap: 10px;
+  padding: 10px 12px 0 12px;
 }
 
 .galleryItem :global(.vtex-button) {
@@ -15,14 +14,17 @@
 }
 
 .galleryLayoutSwitcher {
-  margin-left: 460px;
 }
 
 .gallery--grid {
 }
 
 .galleryItem--list {
-  max-width: 0%;
+  width: 100%;
+  max-width: 100% !important;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 24px;
 }
 
 .galleryLayoutOptionButton--grid {
@@ -69,11 +71,9 @@
 }
 
 .vtex-search-result-3-x-container--layout {
- 
 }
 
 .container--layout {
- 
 }
 
 .galleryLayoutSwitcher--pl-main__grid-filter {
@@ -83,16 +83,10 @@
 }
 
 .galleryItem--normal {
+
 }
 
-.vtex-search-result-3-x-galleryItem :global(.vtex-search-result-3-x-gallery--list) {
-    flex-basis: 100%;
-    max-width: 100%;
-    background-color: aqua;
-}
-
-.galleryItem--list {
-
-
-
+.orderByButton--order-personal {
+  justify-content: flex-start;
+  width: auto;
 }

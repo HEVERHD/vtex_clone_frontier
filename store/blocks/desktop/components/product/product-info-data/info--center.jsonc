@@ -2,7 +2,10 @@
   // info center////////////////////////////////////
 
   "flex-layout.row#product__info--center": {
-    "children": ["flex-layout.col#content-center"]
+    "children": ["flex-layout.col#content-center"],
+    "props": {
+      // "width":"100%"
+    }
   },
 
   "flex-layout.col#content-center": {
@@ -14,6 +17,7 @@
         "flex-layout.col#content-product-complement"
     ],
     "props": {
+
         "blockClass": "content-main-center"
     }
   },
