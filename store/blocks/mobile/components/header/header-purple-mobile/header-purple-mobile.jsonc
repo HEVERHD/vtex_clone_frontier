@@ -4,25 +4,13 @@
       "drawer#menu-drawer",
 
       "logo#header_logo",
-
+      "header-spacer",
       "login#mobile",
       "minicart.v2"
+
+
+
     //   "search-bar#header_search"
     ]
   }
-  
-  
-
-  // "flex-layout.row#main-elements": {
-  //     "children": [
-
-  //         // "logo#header_logo",
-  //         // "login",
-  //         // "minicart.v2#header__desktop--minicart"
-
-  //     ],
-  //     "props": {
-  //         "colSizing": "auto"
-  //     }
-  // }
 }

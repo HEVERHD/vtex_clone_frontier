@@ -7,10 +7,6 @@ display: flex;
 
 
 
-.itemContainer {
-
-}
-
 .itemContainer--category {
   background-color: rgb(255, 255, 255);
   top: 148px;
@@ -23,17 +19,14 @@ display: flex;
     top: 148;
 }
 
-.itemContainer--department {
-   
-}
-
-.section--department {
- 
-}
 
 .departmentLink{
     font-size: 1.1em;
     color: white;
+}
+
+.departmentLink:hover  {
+    color: #ff6900;
 }
 .section--department {
     background :none

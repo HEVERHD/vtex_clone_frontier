@@ -54,7 +54,6 @@
 
   ///////////////////////////////////////////////
   "search-result-layout": {
-    "title": "Search Result General Layout",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -62,7 +61,7 @@
     ]
   },
 
-  //   "breadcrumb.search"
+    //   "breadcrumb.search"
 
   ///////////////////////////////////////////////
   "search-result-layout.desktop": {
@@ -81,7 +80,6 @@
     "children": ["rich-text#search__not-found--text", "image#nofound"]
   },
 
-  //////////////////////////
   "flex-layout.row#search__results": {
     "title": "Search Result Container",
     "props": {

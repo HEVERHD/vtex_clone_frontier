@@ -9,7 +9,7 @@
 }
 
 .buttonLink {
-    margin-right: -30px;
+    margin-right: -45px;
 }
 
 .container :global(.vtex-button__label){
@@ -24,7 +24,7 @@
 }
 
 .label{
-    margin-right: -50px;
+    margin-right: -40px;
    color: white;
    padding: 0 5px;
     text-transform: none;
@@ -35,7 +35,7 @@
   
     color:white;
     font-weight: initial;
-    margin: -50px;
+    margin: -38px;
     border-right: 1px solid white;
     padding: 0 5px;
 }
@@ -45,3 +45,6 @@
   background-color: transparent;
 }
 
+.vtex-button{
+    background: #ff6900;
+}

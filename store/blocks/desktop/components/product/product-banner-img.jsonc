@@ -5,7 +5,9 @@
     "children": [
       "flex-layout.col#image_banner"
     ]
-  },
+   
+    },
+  
   "flex-layout.col#image_banner":{
     "children": [
       "image#image_banner-pdp"
@@ -14,7 +16,8 @@
 
   "image#image_banner-pdp":{
     "props": {
-      "src":"assets/img/banner/banner-pdp.jpg"
+      "src":"assets/img/banner/banner-pdp.jpg",
+      "blockClass": "image-banner-desktop"
     }
   }
 
