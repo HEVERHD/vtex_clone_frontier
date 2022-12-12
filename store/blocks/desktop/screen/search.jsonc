@@ -85,6 +85,7 @@
   "flex-layout.row#search__results": {
     "title": "Search Result Container",
     "props": {
+      "fullWidth": true,
       "blockClass": "search__results-container"
     },
     "children": [

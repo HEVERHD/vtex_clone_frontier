@@ -23,6 +23,6 @@
 }
 
 .containerNormal{
-    max-width: 1010px;
+    max-width: 100% !important;
 }
 

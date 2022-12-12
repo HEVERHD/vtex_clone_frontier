@@ -1,3 +1,9 @@
+.minicartWrapperContainer{
+   width: auto;
+   margin-right: -45px;
+}
+
+
 .cartIcon{
    color: #ff6900;
 }

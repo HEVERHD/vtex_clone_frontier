@@ -4,6 +4,7 @@
   "flex-layout.row#product__info--right": {
     "title": "datos del PRODUCTO",
     "props": {
+      // "width":"100%",
     "blockClass": "info--data"
     },
     "children": [

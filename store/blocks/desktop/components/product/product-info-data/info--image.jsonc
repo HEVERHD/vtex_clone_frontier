@@ -2,7 +2,7 @@
     "flex-layout.row#product__info--image": {
         "title": "Imagenes  de PDP",
         "props": {
-          "width": "60%",
+          // "width": "100%",
           "rowGap": 0
         },
         // "children": ["product-images", "product-rating-inline"]

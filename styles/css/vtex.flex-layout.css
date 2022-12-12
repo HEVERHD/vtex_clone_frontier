@@ -69,11 +69,8 @@
 }
 
 .flexRowContent--main_header-purple3 {
-
-
   margin-left: -13px;
 }
-
 
 .flexCol--header_orange-item1 {
   border-right: 1px solid;
@@ -138,8 +135,8 @@
   letter-spacing: -0.2px;
   width: 100%;
   max-width: 1440px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
   align-items: start;
   padding: 10px;
   margin-bottom: 50px;
@@ -163,25 +160,25 @@
 RESULTS PLP */
 
 .flexRow--search__results-container {
-
+  display: flex;
+  max-width: 1050px;
 }
 
 .flexColChild--search__results--filter {
-  padding: 10px;
-  margin-left: -100px;
+  padding: 0 15px 10px 15px;
+/*  
+  margin-left: -100px;*/
 }
 
 .gallery--general-grid {
   background-color: #ff6900;
 }
 
-
 .flexColChild--trigger-mega-menu ::after {
   font-size: 1.1em;
   color: white;
   content: " Categorias";
 }
-
 
 .flexColChild--search__results--filter {
   height: 100%;
@@ -192,46 +189,51 @@ RESULTS PLP */
 }
 
 .flexCol--search__results--right {
-
 }
-
 
 .flexRow--pl-main__group {
   padding: 5px;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
-  /* background: #fff; */
- 
+  background-color: #fff;
 }
 
 .flexColChild--search__results--right {
   height: auto;
 }
- .stretchChildrenWidth {
+.stretchChildrenWidth {
   width: auto;
- }
+}
 
- .flexCol--search__results--right {
-  margin: 0 0 5% 2%;
- }
- .flexCol--template-category-pl{
+.flexCol--search__results--right {
+  padding-left: 13px;
+  margin-top: -19px;
+}
+.flexCol--template-category-pl {
   flex-direction: row;
   justify-content: space-between;
- }
+}
 
-
- .flexColChild--btn-text-categoria::after{
+.flexColChild--btn-text-categoria::after {
   font-size: 1.1em;
   color: white;
   content: "  Categorías";
- }
+}
 
- .flexCol--trigger-mega-menu {
+.flexCol--trigger-mega-menu {
   margin-top: -2px;
- }
+}
 
-
- .vtex-mega-menu-2-x-triggerContainer :global(.vtex-flex-layout-0-x-flexColChild--trigger-mega-menu) {
+.vtex-mega-menu-2-x-triggerContainer
+  :global(.vtex-flex-layout-0-x-flexColChild--trigger-mega-menu) {
   background-color: aqua;
- }
+}
+
+.flexRow--login-minicart__container {
+  margin-right: -25px;
+}
+
+.flexCol--login__container {
+  margin-left: 101px;
+}
