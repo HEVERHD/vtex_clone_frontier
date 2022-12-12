@@ -48,15 +48,15 @@
   },
   "disclosure-content#first": {
     "children": [
-      "menu-item#atencioncliente__menu--ayuda","menu-item#atencioncliente__menu--ayuda","menu-item#atencioncliente__menu--ayuda",
-      "rich-text#answer2",
+      "menu-item#atencioncliente__menu--sobre-nosotros",
+      "menu-item#atencioncliente__menu--envios",
       "rich-text#answer3",
       "rich-text#answer4",
       "rich-text#answer5"
     ]
   },
 
-  "menu-item#atencioncliente__menu--ayuda": {
+  "menu-item#atencioncliente__menu--sobre-nosotros": {
     "props": {
         "id": "footer-ayuda",
         "type": "custom",
@@ -66,8 +66,22 @@
             "tagTitle": "Ayuda",
             "text": "Sobre Nosotros"
         },
-        "blockClass": ""
+        "blockClass": "sobre-nosotros"
     }
+},
+
+"menu-item#atencioncliente__menu--envios": {
+  "props": {
+      "id": "footer-ayuda",
+      "type": "custom",
+      "itemProps": {
+          "type": "internal",
+          "href": "https://hevert--itgloberspartnercl.myvtex.com/sobre-nosotros",
+          "tagTitle": "Ayuda",
+          "text": "Envios y Devoluciones"
+      },
+      "blockClass": "sobre-nosotros"
+  }
 },
 
   //TITULO INFORMACION

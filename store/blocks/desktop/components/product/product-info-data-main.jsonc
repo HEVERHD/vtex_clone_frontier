@@ -5,7 +5,6 @@
       "blockClass": "product-essential"
     },
     "children": [
-    
       "flex-layout.row#product__info--image",
       "flex-layout.row#product__info--center",
       "flex-layout.row#product__info--right"

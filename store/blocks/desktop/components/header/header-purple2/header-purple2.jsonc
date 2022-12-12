@@ -41,6 +41,7 @@
 
       // MENU CATEGORY ////////////////////////////////////////////
       "category-menu#category__menu",
+      "header-spacer",
       "flex-layout.row#header__login-minicart"
     
       /////////////////////////////////////////////////////////////////

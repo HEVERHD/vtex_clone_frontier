@@ -31,6 +31,10 @@
     margin-bottom: 50px;
 }
 
+.bullet_item-main:hover {
+
+}
+
 .bullet_item--title-container {
     text-align: left;
     font-size: 1.3rem;
@@ -58,8 +62,16 @@
 }
 
 .bullet_item--image{
-
+    overflow:hidden;
     margin: 5px;
+}
+.bullet_item--image:hover {
+    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid #ff6900;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    /* transition: all .4s ease-in-out;
+    -webkit-transform:scale(0.1);transform:scale(1.5) */
 }
 
 

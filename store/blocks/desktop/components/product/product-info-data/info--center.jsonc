@@ -10,10 +10,11 @@
 
   "flex-layout.col#content-center": {
     "children": [
-        "vtex.store-components:product-name",
+      "flex-layout.col#name_identifier",
+   
         // "flex-layout.col#main-text",
         "flex-layout.col#content-espesification",
-        "flex-layout.col#content-delivery",
+        // "flex-layout.col#content-delivery",
         "flex-layout.col#content-product-complement"
     ],
     "props": {
@@ -22,22 +23,18 @@
     }
   },
 
-  "flex-layout.col#main-text":{
+  "flex-layout.col#name_identifier":{
     "children": [
-      // "vtex.store-components:product-name",
-        "rich-text#title-main",
-        // "product-description",
-        "product-identifier.product"
+      "vtex.store-components:product-name",
+      "product-identifier.product"
     ],
     "props": {
-       "blockClass":"main-text"
+      "blockClass": "title-main"
     }
   },
 
   "vtex.store-components:product-name":{
-    "props": {
-      "blockClass": "title-main"
-    }
+ 
   },
 
   ////////////////////////////////////////

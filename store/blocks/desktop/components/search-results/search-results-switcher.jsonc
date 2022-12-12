@@ -117,9 +117,30 @@
 
       "product-summary-image",
       "product-summary-name",
-      "product-selling-price",
-      "add-to-cart-button"
+      "flex-layout.col#price"
+  
     ]
+  },
+
+  "flex-layout.col#price":{
+    "children": [
+      "product-selling-price",
+      "add-to-cart-button#verproducto"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "rowGap":7
+    }
+  },
+
+
+
+  "add-to-cart-button#verproducto":{
+    "props": {
+     "onClickBehavior": "go-to-product-page",
+      "text": "Ver producto"
+    }
   },
 
   "flex-layout.col#image-nombre-precio-product": {
@@ -130,44 +151,12 @@
       // "rich-text#prueba-product",
       "product-selling-price",
       // "rich-text#prueba-product-precio",
-      "add-to-cart-button"
+      "product-summary-buy-button"
 
       // "flex-layout.row#button-name"
     ],
     "props": {
       "blockClass": "template-category-pl"
-    }
-  },
-
-  "flex-layout.row#button-name": {
-    "children": [
-      // "product-selling-price",
-    ],
-    "props": {
-      "blockClass": "button-name"
-    }
-  },
-
-  "image#mobile-phone": {
-    "props": {
-      "src": "https://frontier.com.co/content/product/0013627_monitor-plano-hd-lg-195.webp",
-      "maxHeight": "",
-      "maxWidth": "",
-      "blockClass": "image-product-list"
-    }
-  },
-
-  "rich-text#prueba-product": {
-    "props": {
-      "text": "# Name product ",
-      "blockClass": "title"
-    }
-  },
-
-  "rich-text#prueba-product-precio": {
-    "props": {
-      "text": "# $2000.",
-      "blockClass": "title"
     }
   },
 

@@ -57,7 +57,17 @@
   background-color: aqua;
 }
 
-.opened {
+.styledLinkContainer {
+  margin-left: 0 !important;
+;
+}
+
+.styledLinkContent--sobre-nosotros:hover {
+color: #4ab2f1;
+}
+
+.styledLinkContainer--sobre-nosotros {
+  padding: 16px 0;
 }
 
 /* .vtex-store-drawer-0-x-drawer :global(.opened){
