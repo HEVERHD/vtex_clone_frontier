@@ -27,13 +27,14 @@
 
 
 .formSubmitContainer :global(.vtex-button){
+    margin-left: 5px!important;;
+    font-size: .9em!important;;
+    padding: 5px!important;;
     border: 1px solid #ff6900;
     border-radius: 10px!important;
     font-weight: bold;
-    padding: 10px;
     background-color: #ff6900;
     color: #fff;
-    font-size: 1em;
     display: inline-block;
     text-align: center;
 }

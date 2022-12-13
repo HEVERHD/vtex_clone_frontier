@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#product__info--image": {
+    "flex-layout.row#product__info--image-mobile": {
         "title": "Imagenes  de PDP",
         "props": {
           // "width": "100%",
@@ -8,12 +8,13 @@
         // "children": ["product-images", "product-rating-inline"]
 
         "children":[
-            "flex-layout.col#product__info--image-rating"
+            "flex-layout.col#product__info--image-rating-mobile"
         ]
       },
 
-      "flex-layout.col#product__info--image-rating":{
+      "flex-layout.col#product__info--image-rating-mobile":{
         "children": [
+          "flex-layout.col#name_identifier-mobile",
             "product-images",
             "product-rating-inline",
             "share"

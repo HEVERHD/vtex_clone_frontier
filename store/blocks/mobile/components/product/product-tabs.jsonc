@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#product__tabs": {
+  "flex-layout.row#product__tabs-mobile": {
     "title": "Informacion Adicional",
     "children": [
       "tab-layout#product__tabs"

@@ -24,10 +24,11 @@
   "flex-layout.col#product__info--right-price": {
     "children": [
       "product-price",
-      "rich-text#attribute",
+      // "product-description",
+      // "rich-text#attribute",
       "flex-layout.row#cantidad",
 
-      "rich-text#attribute-final",
+      // "rich-text#attribute-final",
       "modal-trigger#add-to-cart-info"
     ]
   },
