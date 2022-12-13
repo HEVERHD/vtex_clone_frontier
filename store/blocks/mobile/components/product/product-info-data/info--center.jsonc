@@ -10,7 +10,7 @@
 
   "flex-layout.col#content-center-mobile": {
     "children": [
-      "flex-layout.col#name_identifier-mobile",
+   
    
         // "flex-layout.col#main-text",
         "flex-layout.col#content-espesification",

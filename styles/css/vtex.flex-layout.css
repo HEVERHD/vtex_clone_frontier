@@ -261,3 +261,7 @@ RESULTS PLP */
 .flexColChild--content-main-center{
   padding-right: 20px
 }
+
+.flexRow--email-submit{
+  margin-left: -411px;
+}
