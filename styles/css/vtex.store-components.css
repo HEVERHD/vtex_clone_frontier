@@ -118,11 +118,14 @@
 }
 
 .sellingPriceContainer {
+  font-size: 30px;
+    margin: 0;
   border-bottom: 1px solid rgba(77, 77, 77, 0.71);
 }
 
 .sellingPrice {
-  font-size: 1.5rem;
+  font-size: 30px;
+  margin: 0;
   font-weight: bold;
   letter-spacing: -1.2px;
   text-align: left;
@@ -169,4 +172,13 @@ display: none;
   margin: 0 0 25px;
   border-bottom: 1px solid #ddd;
   padding: 0 0 10px;
+}
+
+.currencyContainer{
+  font-size: 30px;
+  margin: 0;
+}
+
+.imageElement--image-banner-desktop{
+  margin-bottom: 40px;
 }

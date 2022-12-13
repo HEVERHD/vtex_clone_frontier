@@ -250,9 +250,14 @@ RESULTS PLP */
 }
 
 .flexColChild--main-details-mobile{
-  margin-bottom: 40px;
+  width: auto;
+  margin-bottom: 20px;
 }
 
 .flexCol--contenedor-img-footer {
   margin-top: 197px;
+}
+
+.flexColChild--content-main-center{
+  padding-right: 20px
 }
