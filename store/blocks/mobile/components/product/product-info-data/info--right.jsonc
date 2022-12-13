@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#product__info--right": {
+  "flex-layout.row#product__info--right-mobile": {
     "title": "datos del PRODUCTO",
     "props": {
       // "width":"100%",
@@ -24,12 +24,22 @@
   "flex-layout.col#product__info--right-price": {
     "children": [
       "product-price",
+     
       "rich-text#attribute",
       "flex-layout.row#cantidad",
 
       "rich-text#attribute-final",
+      "product-description",
       "modal-trigger#add-to-cart-info"
     ]
+  },
+
+
+  "product-description":{
+    "props": {
+      "collapseContent": true,
+      "showTitle": true
+    }
   },
 
   "modal-trigger#add-to-cart-info": {
