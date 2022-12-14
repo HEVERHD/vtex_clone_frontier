@@ -30,7 +30,9 @@
 
       "rich-text#attribute-final",
       "product-description",
+
       "modal-trigger#add-to-cart-info"
+      // "shelf.relatedProducts"
     ]
   },
 

@@ -1,20 +1,20 @@
 {
       /////////////////////////////////////
 
-  "flex-layout.row#image_banner-pdp":{
+  "flex-layout.row#image_banner-pdp-desktop":{
     "children": [
-      "flex-layout.col#image_banner"
+      "flex-layout.col#image_banner-desktop"
     ]
    
     },
   
-  "flex-layout.col#image_banner":{
+  "flex-layout.col#image_banner-desktop":{
     "children": [
-      "image#image_banner-pdp"
+      "image#image_banner-pdp-desktop"
     ]
   },
 
-  "image#image_banner-pdp":{
+  "image#image_banner-pdp-desktop":{
     "props": {
       "src":"assets/img/banner/banner-pdp.jpg",
       "blockClass": "image-banner-desktop"

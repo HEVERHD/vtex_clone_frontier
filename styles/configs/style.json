@@ -390,21 +390,21 @@
         "fontFamily": "Roboto, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "Roboto, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--large": {
         "fontFamily": "Roboto, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
-        "textTransform": "uppercase",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "code": {

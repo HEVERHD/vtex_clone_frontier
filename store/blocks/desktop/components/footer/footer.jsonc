@@ -1,7 +1,6 @@
 {
   "footer-layout.desktop": {
     "children": [
-      
       "newsletter-form",
       "flex-layout.row#footer__container",
       "flex-layout.row#footer__container2"
@@ -26,12 +25,12 @@
     "children": [
       "rich-text#info-noticias",
       "flex-layout.row#email-submit"
-   
     ],
     "props": {
       "blockClass": "main-newsletter",
-      "fullWidth": true,
-      "colJustify": "between"
+      "fullWidth": false,
+      "colJustify": "between",
+      "colSizing": "auto"
     }
   },
 
@@ -41,14 +40,16 @@
       "newsletter-submit"
     ],
     "props": {
-      "fullWidth": true,
-      "blockClass": "email-submit"
+      "fullWidth": false,
+      "blockClass": "email-submit",
+      "colSizing": "auto"
     }
   },
 
   "newsletter-submit": {
     "props": {
-      "submitButtonLabel": "Enviar."
+      "submitButtonLabel": "Enviar.",
+      "blockClass": "email-btn"
     }
   },
 

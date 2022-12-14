@@ -4,17 +4,11 @@
     "props": {
       "blockClass": "bread"
     },
-    "children": [
-    
-      "breadcrumb"
-   
-    ]
+    "children": ["breadcrumb"]
   },
-    "breadcrumb": {
-      "props": {
-          "showOnMobile": true
-      }
-
-}
-
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
 }
