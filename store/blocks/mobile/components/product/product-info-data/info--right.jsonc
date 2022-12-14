@@ -24,7 +24,7 @@
   "flex-layout.col#product__info--right-price": {
     "children": [
       "product-price",
-     
+
       "rich-text#attribute",
       "flex-layout.row#cantidad",
 
@@ -36,8 +36,7 @@
     ]
   },
 
-
-  "product-description":{
+  "product-description": {
     "props": {
       "collapseContent": true,
       "showTitle": true

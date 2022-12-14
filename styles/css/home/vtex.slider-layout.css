@@ -25,7 +25,6 @@
  
 }
 
-
 .bullet_item-main{
   
     margin-bottom: 50px;
@@ -73,12 +72,5 @@
     /* transition: all .4s ease-in-out;
     -webkit-transform:scale(0.1);transform:scale(1.5) */
 }
-
-
-/* @media (min-width: 600px){
-    .bullet_item-main {
-        grid-template-columns: repeat(3,1fr);
-    }
-} */
 
 

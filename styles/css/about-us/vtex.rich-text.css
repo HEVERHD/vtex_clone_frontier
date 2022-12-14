@@ -1,0 +1,21 @@
+
+.container--abouts {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .heading--abouts {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #4d4d4d;
+  }
+  
+  .container--page-body {
+    text-align: justify;
+    line-height: 22px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+  }
+  

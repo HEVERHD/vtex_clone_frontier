@@ -1,0 +1,17 @@
+.flexCol--contenedor-img-footer {
+  margin-top: 197px;
+}
+.flexRow--email-submit {
+  width: 877px !important;
+  display: flex;
+}
+
+.flexRow--footer-container-main {
+  background-color: #fff;
+  text-align: center;
+  border-top: 1px solid #c1c1c1;
+}
+.flexRowContent--footer-container-main {
+  display: flex;
+  flex-direction: row;
+}

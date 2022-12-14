@@ -7,17 +7,11 @@
   color: #b7b2b2;
 }
 
-
 .logoImage {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
-/* .searchBarContainer{
-    width: 100%;
-    color: yellow;
-} */
 
 .logoContainer--logo-header-main {
   width: 100%;
@@ -38,18 +32,17 @@
 .imageElement--home__section--ofertas {
   height: 164px;
   padding-top: 10px;
-  overflow:hidden;
+  overflow: hidden;
 }
 .imageElement--home__section--ofertas-mobile {
   padding-top: 4px;
   padding-bottom: 14px;
 }
 
-
-
-.imageElement--home__section--ofertas:hover{
-  transition:all .2s ease-in-out;
-  -webkit-transform:scale(1);transform:scale(1.01);
+.imageElement--home__section--ofertas:hover {
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1.01);
 }
 
 .imageElement--text-item-bot {
@@ -88,10 +81,6 @@
   transition: 0.3s;
 }
 
-/* .imageElement--home__slider{
-  padding-top: 5px;
-} */
-
 .shareLabel {
   display: none;
 }
@@ -104,7 +93,7 @@
 }
 
 .productImageTag--main {
-  margin-left:-88px ;
+  margin-left: -88px;
   padding: 5px 10px;
 }
 
@@ -112,14 +101,13 @@
   width: 415px;
 }
 
-
 .productImagesGallerySlide {
   width: none;
 }
 
 .sellingPriceContainer {
   font-size: 30px;
-    margin: 0;
+  margin: 0;
   border-bottom: 1px solid rgba(77, 77, 77, 0.71);
 }
 
@@ -133,14 +121,9 @@
   color: #332e80;
 }
 
-
 .imageElement--logo-delivery {
   margin-left: -150px;
 }
-
-/* COMPONENTES VTEX */
-
-
 
 /* SLIDER */
 
@@ -149,7 +132,7 @@
 }
 
 .carouselGaleryThumbs {
-display: none;
+  display: none;
 }
 
 .productImagesGallerySwiperContainer {
@@ -159,26 +142,25 @@ display: none;
   display: flex;
 }
 
-.searchResultContainer{
+.searchResultContainer {
   background-color: black;
 }
 
-
-.vtex-category-menu-2-x-section--department{
+.vtex-category-menu-2-x-section--department {
   background-color: transparent;
 }
 
-.productNameContainer--title-main  {
+.productNameContainer--title-main {
   margin: 0 0 25px;
   border-bottom: 1px solid #ddd;
   padding: 0 0 10px;
 }
 
-.currencyContainer{
+.currencyContainer {
   font-size: 30px;
   margin: 0;
 }
 
-.imageElement--image-banner-desktop{
+.imageElement--image-banner-desktop {
   margin-bottom: 40px;
 }

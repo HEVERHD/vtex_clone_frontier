@@ -1,0 +1,41 @@
+.flexRowContent--home__section--portatil {
+    grid-gap: 10px;
+  }
+  
+  .flexRow--title__category-- {
+    text-align: left;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .stretchChildrenWidth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .imageElement--home__slider {
+    padding-top: 5px;
+  }
+  
+  .flexColChild--main-details {
+    margin: 0px 60px;
+  }
+  
+  .flexColChild--main-text {
+    text-align: left;
+    margin-top: -19px;
+  }
+  
+  .flexCol--title-main {
+    margin: 10px 0px 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 10px;
+  }
+  
+  
+  
