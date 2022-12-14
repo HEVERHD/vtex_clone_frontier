@@ -9,12 +9,6 @@
       "breadcrumb"
    
     ]
-  },
-    "breadcrumb": {
-      "props": {
-          "showOnMobile": true
-      }
-
+  }
 }
 
-}

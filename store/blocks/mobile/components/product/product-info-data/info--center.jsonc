@@ -35,12 +35,7 @@
   "vtex.store-components:product-name": {},
 
   ////////////////////////////////////////
-  "rich-text#title-main": {
-    "props": {
-      "blockClass": "title-main",
-      "text": "Portátil HP 245 G8 Ryzen 5-5500U/2.10Ghz, 4GB DDR4 \n 3200Mhz, 1TB 5400rpm, 14 HD, W10 Pro, 1YrN"
-    }
-  },
+
 
   //////////////////////////// ESPESIFICATION /////////////////////////////////////////
 

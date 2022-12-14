@@ -19,6 +19,7 @@
   border: 1px solid #fff;
 }
 .flexRowContent--product-essential {
+  /* padding: 15px; */
   font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: -0.2px;
@@ -54,6 +55,19 @@
   border-bottom: 1px solid #ff6900;
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
+}
+
+.flexRow--info--data{
+
+  padding: 5px 10px;
+}
+
+.flexRow--cantidad-add{
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  justify-content: center;
+
 }
 
 

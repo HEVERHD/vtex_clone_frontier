@@ -36,15 +36,6 @@
     }
   },
 
-  // "flex-layout.row#switcher":{
-  //   "children": [
-  //   "gallery-layout-switcher"
-  //   ],
-  //   "props": {
-  //     "blockClass": "pl-main__grid-filter"
-  //   }
-  // },
-
   ///////////////////////////////////////////////
   "search-content#results__content": {
     "blocks": ["gallery#search", "not-found"]
