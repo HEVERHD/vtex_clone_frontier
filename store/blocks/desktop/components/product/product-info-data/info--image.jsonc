@@ -14,12 +14,12 @@
 
       "flex-layout.col#product__info--image-rating":{
         "children": [
-            "product-images",
+            "product-images#desktop",
             "product-rating-inline",
             "share"
         ]
       },
-      "product-images": {
+      "product-images#desktop": {
         "props": {
           "thumbnailsOrientation": "horizontal",
           "displayMode": "carousel",

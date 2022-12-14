@@ -25,27 +25,27 @@
     "children": [
       "product-price",
       // "product-description",
-      // "rich-text#attribute",
-      "flex-layout.row#cantidad",
+      // "rich-text#attribute-desktop",
+      "flex-layout.row#cantidad-desktop",
 
-      // "rich-text#attribute-final",
-      "modal-trigger#add-to-cart-info"
+      // "rich-text#attribute-final-desktop",
+      "modal-trigger#add-to-cart-info-desktop"
     ]
   },
 
-  "modal-trigger#add-to-cart-info": {
+  "modal-trigger#add-to-cart-info-desktop": {
     "title": "Modal Custom",
-    "children": ["modal-layout#add-to-cart-info"],
+    "children": ["modal-layout#add-to-cart-info-desktop"],
     "props": {
       "customPixelEventName": "addToCart"
     }
   },
 
-  "modal-layout#add-to-cart-info": {
-    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
+  "modal-layout#add-to-cart-info-desktop": {
+    "children": ["modal-header#add-to-cart-info-desktop", "add-to-cart-info"]
   },
 
-  "modal-header#add-to-cart-info": {
+  "modal-header#add-to-cart-info-desktop": {
     "props": {
       "showCloseButton": true,
       "iconCloseSize": 32
@@ -54,26 +54,26 @@
 
   /////////////////// ATRIBUTE ////////////////////////////////
 
-  "rich-text#attribute": {
-    "props": {
-      "text": "**Adicionar Disco Duro**  \n SA400S37/240G Unidad Estado Sólido SSD Kingston A400, 240GB, 2,5, \n SATA [+$ 150,059]",
-      "blockClass": "text-attribu"
-    }
-  },
+  // "rich-text#attribute-desktop": {
+  //   "props": {
+  //     "text": "**Adicionar Disco Duro**  \n SA400S37/240G Unidad Estado Sólido SSD Kingston A400, 240GB, 2,5, \n SATA [+$ 150,059]",
+  //     "blockClass": "text-attribu"
+  //   }
+  // },
 
-  "flex-layout.row#cantidad": {
-    "children": ["product-quantity#pdp", "add-to-cart-button"],
+  "flex-layout.row#cantidad-desktop": {
+    "children": ["product-quantity#pdp-desktop", "add-to-cart-button"],
     "props": {
       "blockClass": "cantidad-add"
     }
   },
-  "product-quantity#pdp": {
+  "product-quantity#pdp-desktop": {
     "props": {
       "quantitySelectorStep": "unitMultiplier"
     }
   },
 
-  "rich-text#attribute-final": {
+  "rich-text#attribute-final-desktop": {
     "title": "Attribute-final",
     "props": {
       "text": "HP 245 g8 con procesador Amd Ryzen 5, memoria de 4gb con tecnología DDR4, almacenamiento de un tera y sistema operativo Windows 10 profesional. Además el Portátil hp 245 g8 cuenta con puerto RJ45 y HDMI.",

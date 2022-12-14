@@ -1,7 +1,4 @@
 {
-  "store.product": {
-    "children": ["responsive-layout.desktop#desktop__product-detail"]
-  },
 
   "responsive-layout.desktop#desktop__product-detail": {
     "title": "Product Detail Desktop",

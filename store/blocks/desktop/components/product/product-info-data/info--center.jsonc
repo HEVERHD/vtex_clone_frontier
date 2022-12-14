@@ -11,19 +11,18 @@
   "flex-layout.col#content-center": {
     "children": [
       "flex-layout.col#name_identifier",
-   
-        // "flex-layout.col#main-text",
-        "flex-layout.col#content-espesification",
-        // "flex-layout.col#content-delivery",
-        "flex-layout.col#content-product-complement"
+
+      // "flex-layout.col#main-text",
+      "flex-layout.col#content-espesification-desktop",
+      // "flex-layout.col#content-delivery-desktop",
+      "flex-layout.col#content-product-complement-desktop"
     ],
     "props": {
-
-        "blockClass": "content-main-center"
+      "blockClass": "content-main-center"
     }
   },
 
-  "flex-layout.col#name_identifier":{
+  "flex-layout.col#name_identifier": {
     "children": [
       "vtex.store-components:product-name",
       "product-identifier.product"
@@ -33,9 +32,6 @@
     }
   },
 
-  "vtex.store-components:product-name":{
- 
-  },
 
   ////////////////////////////////////////
   "rich-text#title-main": {
@@ -45,167 +41,148 @@
     }
   },
 
-
   //////////////////////////// ESPESIFICATION /////////////////////////////////////////
 
-  "flex-layout.col#content-espesification": {
+  "flex-layout.col#content-espesification-desktop": {
     "title": "Espesificaciones",
     "children": [
-        "flex-layout.col#content-espesification-1",
-        "flex-layout.col#content-espesification-2",
-        "flex-layout.col#content-espesification-3"
+      "flex-layout.col#content-espesification-1-desktop",
+      "flex-layout.col#content-espesification-2-desktop",
+      "flex-layout.col#content-espesification-3-desktop"
     ],
     "props": {
-        "blockClass":"espesifi-item"
+      "blockClass": "espesifi-item"
     }
   },
 
- ////////////// 1 ////////////////////////// 
-  "flex-layout.col#content-espesification-1":{
-    "children": [
-        "image#espe1","rich-text#espesification-1"
-    ]
+  ////////////// 1 //////////////////////////
+  "flex-layout.col#content-espesification-1-desktop": {
+    "children": ["image#espe1-desktop", "rich-text#espesification-1-desktop"]
   },
-  "image#espe1": {
+  "image#espe1-desktop": {
     "title": "Logo espesificacion 1",
     "props": {
       "src": "assets/img/product/cpu-icon.png"
     }
   },
-  "rich-text#espesification-1": {
+  "rich-text#espesification-1-desktop": {
     "title": "Espesificacion 1",
     "props": {
-        "text": "**Procesador** \n Ryzen 5",
-        "blockClass":"text-espesi"
+      "text": "**Procesador** \n Ryzen 5",
+      "blockClass": "text-espesi"
     }
   },
 
   ///////////////////2//////////////////////////
-  "flex-layout.col#content-espesification-2":{
-    "children": [
-        "image#espe2","rich-text#espesification-2"
-    ]
+  "flex-layout.col#content-espesification-2-desktop": {
+    "children": ["image#espe2-desktop", "rich-text#espesification-2-desktop"]
   },
-  "image#espe2": {
+  "image#espe2-desktop": {
     "title": "Logo espesificacion 2",
     "props": {
-        "src": "assets/img/product/ram-icon.png"
+      "src": "assets/img/product/ram-icon.png"
     }
   },
-  "rich-text#espesification-2": {
+  "rich-text#espesification-2-desktop": {
     "title": "Espesificacion 2",
     "props": {
-        "text": "**Memoria** \n Ryzen 5",
-        "blockClass":"text-espesi"
+      "text": "**Memoria** \n Ryzen 5",
+      "blockClass": "text-espesi"
     }
   },
 
   //////////////////////////3 ///////////////////////////
 
-  "flex-layout.col#content-espesification-3":{
-    "children": [
-        "image#espe3","rich-text#espesification-3"
-    ]
+  "flex-layout.col#content-espesification-3-desktop": {
+    "children": ["image#espe3-desktop", "rich-text#espesification-3-desktop"]
   },
-  "image#espe3": {
+  "image#espe3-desktop": {
     "title": "Logo espesificacion 3",
     "props": {
-        "src": "assets/img/product/disco-icon.png"
+      "src": "assets/img/product/disco-icon.png"
     }
   },
-  "rich-text#espesification-3": {
+  "rich-text#espesification-3-desktop": {
     "title": "Espesificacion 3",
     "props": {
-        "text": "**Disco Duro** \n Ryzen 5",
-        "blockClass":"text-espesi"
+      "text": "**Disco Duro** \n Ryzen 5",
+      "blockClass": "text-espesi"
     }
   },
 
   ////////////////Delivery/////////////////////
 
-  "flex-layout.col#content-delivery":{
+  "flex-layout.col#content-delivery-desktop": {
     "children": [
-        "flex-layout.row#content-delivery",
-        "flex-layout.row#content-delivery2"
-       
+      "flex-layout.row#content-delivery-desktop",
+      "flex-layout.row#content-delivery2-desktop"
     ],
     "props": {
-        "blockClass":"delivery-main"
+      "blockClass": "delivery-main"
     }
   },
 
-  "flex-layout.row#content-delivery":{
-    "children": [
-        "image#delivery-1","rich-text#delivery-1"
-    ],
+  "flex-layout.row#content-delivery-desktop": {
+    "children": ["image#delivery-1-desktop", "rich-text#delivery-1-desktop"],
     "props": {
-        "blockClass": "delivery-main-1"
+      "blockClass": "delivery-main-1"
     }
   },
 
-
-  "image#delivery-1":{
+  "image#delivery-1-desktop": {
     "props": {
-        "src": "assets/img/product/envio-icon.png",
-        "blockClass":"logo-delivery"
+      "src": "assets/img/product/envio-icon.png",
+      "blockClass": "logo-delivery"
     }
   },
 
-  "rich-text#delivery-1":{
+  "rich-text#delivery-1-desktop": {
     "props": {
-        "text": "**Tiempo de entrega aproximado:** \n 5 días hábiles",
-        "blockClass":"text-delivery"
+      "text": "**Tiempo de entrega aproximado:** \n 5 días hábiles",
+      "blockClass": "text-delivery"
     }
   },
 
   /////////////////////////////////// delivery 2////////////////////////
 
-  "flex-layout.row#content-delivery2":{
-    "children": [
-        "image#delivery-2","rich-text#delivery-2"
-    ]
+  "flex-layout.row#content-delivery2-desktop": {
+    "children": ["image#delivery-2-desktop", "rich-text#delivery-2-desktop"]
   },
 
-
-  "image#delivery-2":{
+  "image#delivery-2-desktop": {
     "props": {
-        "src": "assets/img/product/garantia-icon.png",
-        "blockClass":"logo-delivery"
+      "src": "assets/img/product/garantia-icon.png",
+      "blockClass": "logo-delivery"
     }
   },
 
-  "rich-text#delivery-2":{
+  "rich-text#delivery-2-desktop": {
     "props": {
-        "text": "**Tiempo de entrega aproximado:** \n 5 días hábiles",
-        "blockClass":"text-delivery"
+      "text": "**Tiempo de entrega aproximado:** \n 5 días hábiles",
+      "blockClass": "text-delivery"
     }
   },
 
   ///////////////// Producto complementario/////////////////////////////////
-  "flex-layout.col#content-product-complement":{
-    "children": [
-        "rich-text#complement",
-        "image#hp",
-        "rich-text#btn-espesifi"
-    ]
+  "flex-layout.col#content-product-complement-desktop": {
+    "children": ["rich-text#complement-desktop", "image#hp-desktop", "rich-text#btn-espesifi-desktop"]
   },
-  "rich-text#complement":{
+  "rich-text#complement-desktop": {
     "props": {
-        "text": "Productos complementarios:",
-        "textPosition": "CENTER",
-        "blockClass":"text-complement"
+      "text": "Productos complementarios:",
+      "textPosition": "CENTER",
+      "blockClass": "text-complement"
     }
   },
-        "image#hp":{
-            "props": {
-                "src": "assets/img/product/hp.gif"
-            }
-        },
+  "image#hp-desktop": {
+    "props": {
+      "src": "assets/img/product/hp.gif"
+    }
+  },
 
-        "rich-text#btn-espesifi":{
-            "props": {
-                "text": "Ver especificaciones tecnicas"
-            }
-        }
- 
+  "rich-text#btn-espesifi-desktop": {
+    "props": {
+      "text": "Ver especificaciones tecnicas"
+    }
+  }
 }
