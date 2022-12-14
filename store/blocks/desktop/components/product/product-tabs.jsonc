@@ -1,41 +1,41 @@
 {
-  "flex-layout.row#product__tabs": {
+  "flex-layout.row#product__tabs-desktop": {
     "title": "Informacion Adicional",
     "children": [
-      "tab-layout#product__tabs"
+      "tab-layout#product__tabs-desktop"
     ]
   },
-  "tab-layout#product__tabs":{
+  "tab-layout#product__tabs-desktop":{
     "children": [
-      "tab-list#product__tabs--list",
-      "tab-content#product__tabs--content"
+      "tab-list#product__tabs--list-desktop",
+      "tab-content#product__tabs--content-desktop"
     ]
   },
 
   /////////////////////////////////
-  "tab-list#product__tabs--list":{
+  "tab-list#product__tabs--list-desktop":{
     "children": [
-      "tab-list.item#tabs__list--reviews",
-      "tab-list.item#tabs__list--product",
-      "tab-list.item#tabs__list-questions"
+      "tab-list.item#tabs__list--reviews-desktop",
+      "tab-list.item#tabs__list--product-desktop",
+      "tab-list.item#tabs__list-questions-desktop"
     ]
   },
 
-  "tab-list.item#tabs__list--reviews":{
+  "tab-list.item#tabs__list--reviews-desktop":{
     "props": {
       "tabId": "reviews-and-ratings",
       "label": "revision y calificacion",
       "defaultActiveTab": true
     }
   },
-      "tab-list.item#tabs__list--product":{
+      "tab-list.item#tabs__list--product-desktop":{
         "props": {
           "tabId": "list--product",
           "label": "Espesificacion del producto",
           "defaultActiveTab": false
         }
       },
-      "tab-list.item#tabs__list-questions":{
+      "tab-list.item#tabs__list-questions-desktop":{
         "props": {
           "tabId": "list-questions",
           "label": "Preguntas y respuestas",
@@ -45,15 +45,15 @@
 
 //////////////////////////////
 
-      "tab-content#product__tabs--content":{
+      "tab-content#product__tabs--content-desktop":{
         "children": [
-          "tab-content.item#tabs__list--reviews",
-          "tab-content.item#tabs__list--product",
-          "tab-content.item#tabs__list-questions"
+          "tab-content.item#tabs__list--reviews-desktop",
+          "tab-content.item#tabs__list--product-desktop",
+          "tab-content.item#tabs__list-questions-desktop"
         ]
       },
 
-      "tab-content.item#tabs__list--reviews":{
+      "tab-content.item#tabs__list--reviews-desktop":{
         "props": {
           "tabId": "reviews-and-ratings"
           
@@ -62,7 +62,7 @@
           "product-reviews"
         ]
       },
-      "tab-content.item#tabs__list--product":{
+      "tab-content.item#tabs__list--product-desktop":{
         "props": {
           "tabId": "list--product"
           
@@ -71,7 +71,7 @@
           "product-specifications"
         ]
       },
-      "tab-content.item#tabs__list-questions":{
+      "tab-content.item#tabs__list-questions-desktop":{
         "props": {
           "tabId": "list-questions"
           

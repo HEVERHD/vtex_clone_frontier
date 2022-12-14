@@ -6,7 +6,7 @@
       "blockClass": "info--data"
     },
     "children": [
-      "flex-layout.col#product__info--right-price"
+      "flex-layout.col#product__info--right-price-desktop"
 
       // "flex-layout.col#product__info--right-atrtribute"
       // "vtex.store-components:product-name",
@@ -21,7 +21,7 @@
 
   /////////////// PRECIO /////////////////////
 
-  "flex-layout.col#product__info--right-price": {
+  "flex-layout.col#product__info--right-price-desktop": {
     "children": [
       "product-price",
       // "product-description",

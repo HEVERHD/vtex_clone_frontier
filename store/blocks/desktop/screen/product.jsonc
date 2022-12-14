@@ -17,7 +17,7 @@
       "flex-layout.row#global__product--breadcrumb",
       "flex-layout.row#image_banner-pdp-desktop",
       "flex-layout.row#desktop__product--information",
-      "flex-layout.row#product__tabs",
+      "flex-layout.row#product__tabs-desktop",
       "flex-layout.row#product__related"
     ],
     "props": {
