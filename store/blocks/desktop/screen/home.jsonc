@@ -5,8 +5,6 @@
       //slider
       "flex-layout.row#home__section--one",
 
-      // List contex componente CUSTOM
-
       //parrafo y title frontier
       "flex-layout.row#home__paragraph-desktop",
 
@@ -23,69 +21,6 @@
       // "flex-layout.row#home__paragraph-title-category-vtex-product",
       "flex-layout.row#home__paragraph-title-category-impresion",
       "search-result-layout.customQuery#home"
-      //title categoria MONITORES
-      // "flex-layout.row#home__paragraph-title-category-monitores",
-
-      // //fila categoria monitores
-
-      // "flex-layout.row#home__section--monitores",
-      // //title categoria PORTATIL
-      // "flex-layout.row#home__paragraph-title-category-portatil",
-
-      // //fila categoria portatil
-
-      // "flex-layout.row#home__section--two",
-
-      // //titulo categoria IMPRESION
-
-      // // //fila categoria impesoras
-
-      // "flex-layout.row#home__section--tree",
-
-      //  //titulo categoria ACCESORIOS
-      //  "flex-layout.row#home__paragraph-title-category-acce"
-
-      //fila de categoria ACCESORIOS
-      // "flex-layout.row#home__section--4"
     ]
-  },
-
-  // "flex-layout.row#home__paragraph-title-category-vtex-product": {
-  //   "title": "title category",
-  //   "children": [
-  //     "rich-text#triangule",
-  //     "rich-text#section__one--title-vtex"
-  //   ]
-  // },
-
-  //   "rich-text#section__one--title-vtex": {
-  //     "props": {
-  //       "text": "VTEX PRODUCTS",
-  //       "blockClass": "texto-portatil"
-  //     }
-  //   },
-
-  "whatsapp-button": {
-    "props": {
-      "logo": "/assets/img/logopr/WhatsApp.svg.webp",
-      "phone": "3105651506",
-      "message": "VTEX IO responsive"
-    }
-  },
-
-  "search-result-layout.desktop#home__search--desktop": {
-    "children": ["flex-layout.row#home__result"]
-  },
-  "flex-layout.row#home__result": {
-    "children": ["flex-layout.col#home__result--search"]
-  },
-  "flex-layout.col#home__result--search": {
-    "children": ["search-content#home__results--search"]
-  },
-  "search-content#home__results--search": {
-    "blocks": ["gallery", "not-found"]
-  },
-  "gallery": {
-    "blocks": ["product-summary.shelf"]
   }
 }
