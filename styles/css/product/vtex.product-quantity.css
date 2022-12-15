@@ -1,8 +1,8 @@
 .quantitySelectorContainer{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: center; */
 }
 .quantitySelectorTitle{
     display: none;

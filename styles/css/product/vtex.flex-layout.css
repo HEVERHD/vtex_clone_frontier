@@ -32,6 +32,10 @@
   background: #fff;
 }
 
+.flexRow--product-essential {
+  display: flex;
+}
+
 .flexCol--espesifi-item {
   display: grid;
   grid-auto-columns: 1fr;
@@ -44,11 +48,9 @@
   margin-top: 25px;
 }
 
-
 .flexRowContent--product__shelf {
   justify-content: center;
 }
-
 
 .flexRowContent--product__shelf:hover {
   transition: all 0.5s ease-in-out;
@@ -57,16 +59,25 @@
   transform: scale(1.01);
 }
 
-.flexRow--info--data{
-
-  padding: 5px 10px;
+.flexCol--right-price-desktop {
+  margin-top: 30px;
 }
 
-.flexRow--cantidad-add{
+.flexRow--cantidad-add {
+  margin: 15px -1px 44px;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0 10px;
   display: flex;
   flex-direction: column;
   margin-top: -10px;
   justify-content: center;
 }
 
-
+.flexRowContent--cantidad-add-mobile{
+  margin: 0px -3px 8px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}

@@ -12,7 +12,7 @@
 
   "flex-layout.col#product__info--image-rating-mobile": {
     "children": [
-      // "flex-layout.col#name_identifier-mobile",
+      "flex-layout.col#name_identifier-mobile",
       "product-images",
       "product-rating-inline",
       "share"
