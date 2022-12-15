@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#global__product--breadcrumb-mobile": {
+    "title": "Miga de pan de producto",
+    "props": {
+      "blockClass": "bread"
+    },
+    "children": [
+    
+      "breadcrumb"
+   
+    ]
+  }
+}
+

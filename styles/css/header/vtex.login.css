@@ -1,0 +1,50 @@
+.container{
+    /* margin-right: -20px; */
+
+    width: auto;
+    margin-right: -25px;
+   
+
+  
+}
+
+.buttonLink {
+    margin-right: -45px;
+}
+
+.container :global(.vtex-button__label){
+    /* border-right: 3px solid rgb(255, 0, 0) */
+}
+
+.profileIcon{
+    color: #ff6900;
+    margin-right: 28px;
+    
+ 
+}
+
+.label{
+    margin-right: -40px;
+   color: white;
+   padding: 0 5px;
+    text-transform: none;
+    border-right: 1px solid;
+}
+
+.profile{
+  
+    color:white;
+    font-weight: initial;
+    margin: -38px;
+    border-right: 1px solid white;
+    padding: 0 5px;
+}
+
+.container :global(.vtex-button):focus,
+.container :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.vtex-button{
+    background: #ff6900;
+}

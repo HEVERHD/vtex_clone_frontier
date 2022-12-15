@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#product--information-mobile": {
+    "title": "Informacion  general de PDP",
+    "props": {
+      "blockClass": "product-essential"
+    },
+    "children": [
+      "flex-layout.row#product__info--image-mobile",
+      "flex-layout.row#product__info--center-mobile",
+      "flex-layout.row#product__info--right-mobile"
+    
+    ]
+   
+  }
+}

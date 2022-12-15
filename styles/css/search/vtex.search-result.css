@@ -1,0 +1,98 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 10px 12px 0 12px;
+}
+
+.galleryItem :global(.vtex-button) {
+  border: 1px solid #ff6900;
+  border-radius: 10px!important;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ff6900;
+  color: #fff;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.galleryItem--list {
+  width: 100%;
+  margin-bottom: 25px !important;
+  max-width: 100% !important;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 24px;
+}
+
+.galleryLayoutOptionButton--grid {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-list.svg);
+}
+
+.galleryLayoutOptionButton--grid--selected {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-list-active.svg);
+}
+
+.galleryLayoutOptionButton--list {
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-grid.svg);
+}
+
+.galleryLayoutOptionButton--list--selected {
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 40px;
+  margin: 0 15px;
+  padding: 0;
+  background: url(https://frontier.com.co/scripts/dist/imgs/view-grid-active.svg);
+}
+
+.gallery--list {
+  flex-direction: column;
+}
+
+
+.galleryLayoutSwitcher--pl-main__grid-filter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.galleryItem--normal {
+
+}
+
+.orderByButton--order-personal {
+  justify-content: flex-start;
+  width: auto;
+}
+
+.vtex-search-result-3-x-galleryItem{
+  border: 1px solid #ff6900;
+  border-radius: 10px!important;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ff6900;
+  color: #fff;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+
+}

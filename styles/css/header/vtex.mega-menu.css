@@ -1,0 +1,70 @@
+
+
+
+.triggerButtonIcon::after{
+    content: "botonnnn";
+    margin-left: 5px;
+    color: white;
+}
+
+.vtex-flex-layout-0-x-flexColChild--trigger-mega-menu :global(.vtex-mega-menu-2-x-triggerButtonIcon--menu__trigger) {
+    color: white;
+}
+
+
+
+.menuContainerNav{
+    /* border: 4px solid red; */
+    margin-top: 332px;
+    margin-left: 385px;
+    max-width: 1070px;
+
+}
+
+.styledLinkText{
+    margin-left: 10px;
+    color: #959595;
+    white-space: nowrap;
+
+}
+
+.accordionIconContainer{
+    display: none;
+}
+
+.styledLinkContent{
+   
+    width: 7px;
+    height: 7px;
+    /* background: #fff; */
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.triggerButtonIcon ::before {
+   
+}
+
+.triggerButtonIcon {
+ 
+    color: white;
+}
+
+.triggerButtonIcon--active {
+    color: white;
+}
+
+.triggerButtonIcon {
+    color: white
+}
+ .triggerContainer {
+    color: white;
+ }
+
+ .menuContainerNav--desktop__mega-menu {
+    margin-top: 332px;
+    margin-left: 385px;
+    max-width: 1070px;
+ }
+

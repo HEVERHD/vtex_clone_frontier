@@ -1,7 +1,6 @@
 {
   "footer-layout.desktop": {
     "children": [
-      
       "newsletter-form",
       "flex-layout.row#footer__container",
       "flex-layout.row#footer__container2"
@@ -14,18 +13,43 @@
 
   "newsletter-form": {
     "children": [
-      "rich-text#info-noticias",
-      "newsletter-input-email",
-      "newsletter-submit"
+      "flex-layout.row#main-newsletter"
+    
     ],
     "props": {
       "blockClass": "subscrib"
     }
   },
 
+  "flex-layout.row#main-newsletter":{
+    "children": [
+      "rich-text#info-noticias",
+      "flex-layout.row#email-submit"
+    ],
+    "props": {
+      "blockClass": "main-newsletter",
+      "fullWidth": false,
+      "colJustify": "between",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#email-submit":{
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "email-submit",
+      "colSizing": "auto"
+    }
+  },
+
   "newsletter-submit": {
     "props": {
-      "submitButtonLabel": "Enviar."
+      "submitButtonLabel": "Enviar.",
+      "blockClass": "email-btn"
     }
   },
 
@@ -67,8 +91,8 @@
   "flex-layout.col#footer__container--col-2": {
     "children": [
       "rich-text#informacion",
-      "menu-item#atencioncliente__menu--ayuda",
-      "rich-text#answer2",
+      "menu-item#atencioncliente__menu--sobre-nosotros",
+      "menu-item#atencioncliente__menu--envios",
       "rich-text#answer3",
       "rich-text#answer4",
       "rich-text#answer5"

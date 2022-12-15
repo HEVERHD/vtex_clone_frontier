@@ -2,10 +2,11 @@
   // ============================== MOBILE FOOTER =============================
 
   "footer-layout.mobile": {
+    "title":"Footer mobile",
     "children": [
-      "newsletter-form#mobile",
-      
-      "disclosure-layout-group#group"],
+      "newsletter-form#mobile",      
+      "disclosure-layout-group#group"
+    ],
     "props": {
       "blockClass": "footer-upper-mobile"
     }
@@ -15,7 +16,6 @@
     "children": [
       "rich-text#info-noticias-mobile",
       "flex-layout.row#input-submit"
-   
     ],
     "props": {
       "blockClass": "subscrib-mobile"
@@ -26,15 +26,12 @@
     "children": [
       "newsletter-input-email#mobile",
       "newsletter-submit#mobile"
-    
     ],
     "props": {
      "fullWidth": true
     }
   },
 
-
-  
   "rich-text#info-noticias-mobile": {
     "title": "Recibe las ultimas noticias",
     "props": {
@@ -46,13 +43,13 @@
 
   "newsletter-input-email#mobile": {
     "props": {
-      "submitButtonLabel": "Enviar."
+      "submitButtonLabel": "Enviar"
     }
   },
 
   "newsletter-submit#mobile": {
     "props": {
-      "submitButtonLabel": "Enviar."
+      "submitButtonLabel": "Enviar"
     }
   }
 

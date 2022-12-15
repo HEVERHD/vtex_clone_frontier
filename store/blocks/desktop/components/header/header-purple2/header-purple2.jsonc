@@ -41,8 +41,9 @@
 
       // MENU CATEGORY ////////////////////////////////////////////
       "category-menu#category__menu",
-      "login",
-      "minicart.v2#header__desktop--minicart"
+      "header-spacer",
+      "flex-layout.row#header__login-minicart"
+    
       /////////////////////////////////////////////////////////////////
     ],
     "props": {
@@ -51,6 +52,35 @@
     }
   },
 
+  "flex-layout.row#header__login-minicart":{
+    "title": "Carrito de compras",
+    "children": [
+      "flex-layout.col#header__login",
+      "flex-layout.col#header__minicart"
+    ],
+    "props": {
+    "blockClass": "login-minicart__container"
+   
+    }
+  },
+
+  //////////////////////////////////////////////////////
+  "flex-layout.col#header__login":{
+    "children": [
+      "login"
+    ],
+    "props": {
+      "blockClass":"login__container"
+    }
+  },
+
+  "flex-layout.col#header__minicart":{
+    "children": [
+      "minicart.v2#header__desktop--minicart"
+    ]
+  },
+
+  ///////////////////////////////////////////////
   "category-menu#category__menu": {
     "props": {
       "showAllDepartments": true,

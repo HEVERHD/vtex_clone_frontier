@@ -2,7 +2,7 @@
     "flex-layout.row#product__info--image": {
         "title": "Imagenes  de PDP",
         "props": {
-          "width": "60%",
+          // "width": "100%",
           "rowGap": 0
         },
         // "children": ["product-images", "product-rating-inline"]
@@ -14,14 +14,16 @@
 
       "flex-layout.col#product__info--image-rating":{
         "children": [
-            "product-images",
+            "product-images#desktop",
             "product-rating-inline",
             "share"
         ]
       },
-      "product-images": {
+      "product-images#desktop": {
         "props": {
-          "displayThumbnailsArrows": true
+          "thumbnailsOrientation": "horizontal",
+          "displayMode": "carousel",
+          "displayThumbnailsArrows": false
         }
       }
     

@@ -1,10 +1,18 @@
 {
     "store.home":{
+        "title":"Home - global",
         "blocks": [
             "whatsapp-button",
+            "button-up",
             "responsive-layout.desktop#home__desktop",
             "responsive-layout.mobile#home__mobile"
 
         ]
+    },
+
+    "button-up":{
+        "props": {
+            "icon" :" logo desde el store theme"
+        }
     }
 }
