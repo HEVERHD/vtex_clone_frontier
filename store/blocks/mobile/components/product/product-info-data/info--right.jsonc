@@ -25,10 +25,9 @@
       "modal-trigger#add-to-cart-info"
       // Productos relacionados 
       // "shelf.relatedProducts"
+     
     ]
   },
-
-
 
   "product-description": {
     "props": {
