@@ -3,12 +3,15 @@
     "children": ["flex-layout.row#home__result"]
   },
   "flex-layout.row#home__result": {
+    "title": "resultado - productos",
     "children": ["flex-layout.col#home__result--search"]
   },
   "flex-layout.col#home__result--search": {
+    "title": "resultado - productos",
     "children": ["search-content#home__results--search"]
   },
   "search-content#home__results--search": {
+    "title": "resultado - productos no encontrados",
     "blocks": ["gallery", "not-found"]
   },
   "gallery": {

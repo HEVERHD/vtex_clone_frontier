@@ -53,6 +53,7 @@
   },
 
   "flex-layout.row#header__login-minicart":{
+    "title": "Carrito de compras",
     "children": [
       "flex-layout.col#header__login",
       "flex-layout.col#header__minicart"
@@ -79,7 +80,7 @@
     ]
   },
 
-  /////////////////////////////////////////////////
+  ///////////////////////////////////////////////
   "category-menu#category__menu": {
     "props": {
       "showAllDepartments": true,

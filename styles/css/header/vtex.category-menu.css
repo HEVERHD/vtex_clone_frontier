@@ -1,43 +1,39 @@
-
 .container {
-  
-background: transparent;
-display: flex;
+  background: transparent;
+  display: flex;
 }
-
-
 
 .itemContainer--category {
   background-color: rgb(255, 255, 255);
   top: 148px;
- 
-
 }
 
-
-.vtex-category-menu-2-x-itemContainer :global(.vtex-category-menu-2-x-itemContainer--category){
-    top: 148;
-}
-
-
-.departmentLink{
-    font-size: 1.1em;
-    color: white;
-}
-
-.departmentLink:hover  {
-    color: #ff6900;
-}
-.section--department {
-    background :none
-}
-
-.container {
- background: none;
+.vtex-category-menu-2-x-itemContainer
+  :global(.vtex-category-menu-2-x-itemContainer--category) {
+  top: 148;
 }
 
 .departmentLink {
+  font-size: 1.1em;
+  color: white;
+}
 
-    font-size: 1.1em;
-    color: white;
+.departmentLink:hover {
+  color: #ff6900;
+}
+.section--department {
+  background: none;
+}
+
+.container {
+  background: none;
+}
+
+.departmentLink {
+  font-size: 1.1em;
+  color: white;
+}
+
+.departmentList {
+  margin-right: -100px;
 }
