@@ -46,6 +46,7 @@
   "flex-layout.col#content-espesification-desktop": {
     "title": "Espesificaciones",
     "children": [
+    
       "flex-layout.col#content-espesification-1-desktop",
       "flex-layout.col#content-espesification-2-desktop",
       "flex-layout.col#content-espesification-3-desktop"

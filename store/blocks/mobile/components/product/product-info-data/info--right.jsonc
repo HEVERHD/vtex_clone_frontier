@@ -7,14 +7,6 @@
     },
     "children": [
       "flex-layout.col#product__info--right-price"
-
-      // "flex-layout.col#product__info--right-atrtribute"
-      // "vtex.store-components:product-name",
-      // "shipping-simulator",
-      // "product-separator",
-
-      // "sku-selector",
-      // "rich-text#promo-info"
       //   "product-details" APLICA TODA UNA PAGINA DE DETALLES
     ]
   },
@@ -28,11 +20,12 @@
       "rich-text#attribute",
       "flex-layout.row#cantidad",
 
-      "rich-text#attribute-final",
       "product-description",
 
       "modal-trigger#add-to-cart-info"
+      // Productos relacionados 
       // "shelf.relatedProducts"
+     
     ]
   },
 
@@ -74,12 +67,13 @@
   "flex-layout.row#cantidad": {
     "children": ["product-quantity#pdp", "add-to-cart-button"],
     "props": {
-      "blockClass": "cantidad-add"
+      "blockClass": "cantidad-add-mobile"
     }
   },
   "product-quantity#pdp": {
     "props": {
-      "quantitySelectorStep": "unitMultiplier"
+      "quantitySelectorStep": "unitMultiplier",
+      "warningQuantityThreshold": 0
     }
   },
 
