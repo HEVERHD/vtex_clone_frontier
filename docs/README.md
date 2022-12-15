@@ -8,31 +8,50 @@ https://frontier.com.co/ fue la tienda elegida para realizar el clon de este pro
 
 ## Galería de imágenes 
 
-### Versión Desktop
+ <center> Versión Desktop Home </center>
 
-![Preview](../assets/img/image-readme-desktop.png)
-![Preview](../assets/img/image-readme-desktop2.png)
-![Preview](../assets/img/image-readme-desktop3.png)
-![Preview](../assets/img/image-readme-desktop4.png)
+![Preview](../assets/documentacion/vista-home-desktop.gif)
 
-#### Page List Product
+ <center> Versión Mobile Home </center>
 
-![Preview](../assets/img/image-readme-plp.png)
-![Preview](../assets/img/image-readme-plp2.png)
+![Preview](../assets/documentacion/vista1-mobile.png)
+![Preview](../assets/documentacion/vista2-mobile.png)
+![Preview](../assets/documentacion/vista3-mobile.png)
+
+
+### Page List Product
+ <center> Versión Desktop List Product </center>
+
+
+![Preview](../assets/documentacion/page-produc.gif)
+
+ <center>Versión Mobile List Product </center>
+
+![Preview](../assets/documentacion/vista1-mobile-list-product.png)
 
 #### Page Detail Product
+ <center> Versión Desktop Home </center>
 
-![Preview](../assets/img/image-readme-plp4.png)
-![Preview](../assets/img/image-readme-pdp-mob.png)
+![Preview](../assets/documentacion/page-produc-details.gif)
 
-#### Custom Pages
 
-![Preview](../assets/img/image-readme-pc1.png)
-![Preview](../assets/img/image-readme-pc2.png)
-### Versión Mobile
+ <center> Versión Mobile Home </center>
 
-![Preview](../assets/img/image-readme-mobile1.png)
-![Preview](../assets/img/image-readme-mobile2.png)
+![Preview](../assets/documentacion/vista1-mobile-detailst-product.png)
+
+#### Custom Page
+
+ <center> Versión Desktop Home </center>
+
+![Preview](../assets/documentacion/custom-page-desktop.png)
+
+ <center> Versión Mobile Home </center>
+
+![Preview](../assets/documentacion/custom-page-mobile.png)
+
+
+
+
 
 ## Configuración
 ### Paso 1 - Configuración básica
