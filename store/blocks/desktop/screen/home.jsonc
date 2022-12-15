@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#home__desktop": {
+    "title":"Home - desktop",
     "children": [
       //componente CUSTOM
       //slider

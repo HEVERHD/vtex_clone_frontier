@@ -2,6 +2,7 @@
   // ============================== MOBILE FOOTER =============================
 
   "footer-layout.mobile": {
+    "title":"Footer mobile",
     "children": [
       "newsletter-form#mobile",      
       "disclosure-layout-group#group"

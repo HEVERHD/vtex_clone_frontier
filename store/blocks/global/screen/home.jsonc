@@ -1,5 +1,6 @@
 {
     "store.home":{
+        "title":"Home - global",
         "blocks": [
             "whatsapp-button",
             "button-up",
