@@ -194,4 +194,6 @@ Si el proceso se ejecuta sin ningún error, se mostrará el mensaje: `Aplicació
 Esto permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
 ## Contributors
+
 1. Hevert David Gelis Diaz
+
