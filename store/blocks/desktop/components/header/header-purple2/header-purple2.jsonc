@@ -83,11 +83,9 @@
   ///////////////////////////////////////////////
   "category-menu#category__menu": {
     "props": {
-      "showAllDepartments": true,
-      "showSubcategories": true,
+      "showAllDepartments": false,
       "menuDisposition": "center",
       "departments": [],
-      "sortSubcategories": "name",
       "blockClass": "category__menu"
     }
   },
