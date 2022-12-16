@@ -12,7 +12,7 @@ https://frontier.com.co/ fue la tienda elegida para realizar el clon de este pro
 
 ![Preview](../assets/documentacion/vista-home-desktop.gif)
 
- <center> Versión Mobile Home </center>
+ <center> Versión Desktop Mobile Home </center>
 
 ![Preview](../assets/documentacion/vista1-mobile.png)
 ![Preview](../assets/documentacion/vista2-mobile.png)
@@ -166,6 +166,7 @@ Una vez modificada esa sección del `manifest.json`, se debe rectificar que el r
 ```
 {
   "vtex.mega-menu": "2.x",
+   "vtex.questions-and-answers": "0.x",
   "vtex.wish-list": "1.x"
 }
 ```
@@ -174,13 +175,12 @@ Una vez modificada esa sección del `manifest.json`, se debe rectificar que el r
 
 ```
 {
-   "itgloberspartnercl.whatsapp-button": "0.x",
-   "itgloberspartnercl.bullets-diagramation": "0.x",
-   "itgloberspartnercl.add-to-cart-info": "0.x",
-   "itgloberspartnercl.custom-department-search": "0.x",
-   "itgloberspartnercl.pdf-reader": "0.x",
-   "itgloberspartnercl.quick-order": "0.x",
-   "itgloberspartnercl.special-diagramation": "0.x"
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.button-up": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x"
+
+
 }
 ```
 
@@ -193,5 +193,5 @@ Si el proceso se ejecuta sin ningún error, se mostrará el mensaje: `Aplicació
 
 Esto permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
-## Contributors
-1. Hevert David Gelis Diaz
+## developed by
+1.  ### Hevert David Gelis Diaz  🧑‍💻

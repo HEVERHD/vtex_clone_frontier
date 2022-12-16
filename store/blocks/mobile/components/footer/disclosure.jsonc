@@ -35,12 +35,6 @@
     }
   },
 
-  //   "disclosure-state-indicator": {
-  //     "props": {
-  //       "Show": "icon-angle--down",
-  //       "Hide": "icon-angle--up"
-  //     }
-  //   },
 
   //INFORMACION
   "disclosure-trigger#first": {
