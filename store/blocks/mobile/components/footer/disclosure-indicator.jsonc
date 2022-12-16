@@ -1,5 +1,6 @@
 {
   "disclosure-state-indicator": {
+    "title" :"disclosure footer",
     "props": {
       "Show": "icon#angle-down",
       "Hide": "icon#angle-up",
